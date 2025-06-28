@@ -4,14 +4,14 @@ import { CountdownTimer } from "./CountdownTimer";
 
 export function Hero() {
   return (
-    <section className="relative text-white flex items-center justify-center text-center min-h-[450px] md:min-h-[600px] py-16 md:py-24">
+    <section className="relative text-white flex items-center justify-center text-center min-h-[450px] md:min-h-[600px] py-16 md:py-24 overflow-hidden">
       <div className="absolute inset-0">
         <Image
           src="https://i.imgur.com/okdxZ1l.png"
           alt="Violão de madeira com iluminação suave ao fundo"
           layout="fill"
           objectFit="cover"
-          className="z-0"
+          className="z-0 animate-zoom-in-out"
           priority
           data-ai-hint="guitar concert stage"
         />

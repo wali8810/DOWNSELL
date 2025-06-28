@@ -86,4 +86,20 @@
       box-shadow: 0 0 0 0 rgba(0, 200, 83, 0);
     }
   }
+
+  .animate-zoom-in-out {
+    animation: zoom-in-out 30s ease-in-out infinite;
+  }
+
+  @keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }

@@ -1,10 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
-import { Card, CardContent } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const testimonials = [
   {
@@ -22,50 +18,27 @@ const testimonials = [
 ];
 
 export function Testimonials() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
-  );
-
   return (
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">Veja o que dizem nossos leitores</h2>
           <p className="text-muted-foreground mt-2">Resultados reais de quem já está transformando o som do violão.</p>
         </div>
-        <Carousel 
-          plugins={[plugin.current]}
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
-          className="w-full max-w-xs sm:max-w-xl md:max-w-3xl mx-auto"
-        >
-          <CarouselContent>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-8">
             {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1">
-                  <Card className="overflow-hidden rounded-lg bg-white/5 border border-white/10 shadow-sm transition-transform duration-300 hover:scale-105">
-                    <CardContent className="p-0">
-                      <Image
-                        src={testimonial.src}
-                        alt={testimonial.alt}
-                        width={400}
-                        height={400}
-                        className="aspect-square w-full object-cover"
-                        data-ai-hint="user testimonial social"
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
+              <div key={index} className="bg-black rounded-xl border-2 border-[#B36B17] shadow-[0_0_20px_2px_rgba(179,107,23,0.6)] transform transition-transform hover:scale-105">
+                  <Image
+                    src={testimonial.src}
+                    alt={testimonial.alt}
+                    width={400}
+                    height={400}
+                    className="aspect-square w-full object-cover rounded-lg"
+                    data-ai-hint="user testimonial social"
+                  />
+              </div>
             ))}
-          </CarouselContent>
-          <CarouselPrevious className="hidden sm:flex bg-white/10 text-white hover:bg-white/20 border-white/20" />
-          <CarouselNext className="hidden sm:flex bg-white/10 text-white hover:bg-white/20 border-white/20" />
-        </Carousel>
+        </div>
       </div>
     </section>
   );
