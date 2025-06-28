@@ -9,7 +9,7 @@ const audienceItems = [
 
 export function Audience() {
   return (
-    <section className="py-16 md:py-24 bg-card/10">
+    <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
@@ -17,8 +17,8 @@ export function Audience() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
             {audienceItems.map((item, index) => (
-              <div key={index} className="flex items-start space-x-4 p-4 bg-card/80 rounded-lg border border-border transition-colors hover:border-primary/50 shadow-sm hover:shadow-md">
-                <CheckCircle2 className="h-6 w-6 text-green-500 mt-1 shrink-0" />
+              <div key={index} className="flex items-start space-x-4 p-4 bg-white/5 rounded-lg border border-white/10 transition-colors hover:border-white/50 shadow-sm hover:shadow-md">
+                <CheckCircle2 className="h-6 w-6 text-white mt-1 shrink-0" />
                 <p className="text-foreground/90 text-lg">{item}</p>
               </div>
             ))}

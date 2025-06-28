@@ -34,9 +34,9 @@ export function CountdownTimer() {
   const seconds = timeLeft % 60;
 
   return (
-    <div className="mt-8 text-center">
+    <div className="text-center">
       <p className="text-foreground/80 mb-2">Oferta disponível apenas pelos próximos minutos!</p>
-      <div className="inline-block bg-primary/80 backdrop-blur-sm text-white font-bold rounded-lg px-6 py-3 shadow-lg border border-primary/50">
+      <div className="inline-block bg-black/70 backdrop-blur-sm text-white font-bold rounded-lg px-6 py-3 shadow-lg border border-white/30">
         <span className="text-4xl tracking-widest">
           {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
         </span>

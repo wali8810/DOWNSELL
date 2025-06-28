@@ -7,7 +7,7 @@ export function Guarantee() {
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center bg-card/80 border border-border rounded-lg p-8 md:p-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">Produto com Risco Zero!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide">Produto com Risco Zero!</h2>
           <p className="text-xl md:text-2xl font-semibold mt-2">Sua Satisfação ou Seu Dinheiro de Volta</p>
           
           <div className="flex justify-center my-8">
@@ -26,7 +26,7 @@ export function Guarantee() {
           </p>
           
           <a href="#plans" className="inline-block w-full max-w-md">
-            <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg">
+            <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
               LIBERAR MEU ACESSO AGORA
             </Button>
           </a>

@@ -51,13 +51,13 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
-            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-primary">5 Bônus Exclusivos</span>
+            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-white">5 Bônus Exclusivos</span>
           </h2>
           <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">Comprando hoje, você garante acesso gratuito a estes materiais de apoio que vão acelerar sua jornada no violão.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {bonusData.map((bonus, index) => (
-            <Card key={index} className="bg-card/80 border-border overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col">
+            <Card key={index} className="bg-white/5 border-white/10 overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col">
               <CardHeader className="p-0 relative">
                 <Image
                   src={bonus.image}
@@ -73,7 +73,7 @@ export function Bonuses() {
                 <p className="text-muted-foreground flex-grow">{bonus.description}</p>
                  <div className="mt-4 flex items-center justify-between">
                   <span className="text-muted-foreground line-through">{bonus.value}</span>
-                  <Badge variant="destructive" className="bg-green-600 text-white border-none">GRÁTIS</Badge>
+                  <Badge className="bg-white text-black border-none font-bold">GRÁTIS</Badge>
                 </div>
               </CardContent>
             </Card>
