@@ -4,28 +4,44 @@ import { Badge } from "@/components/ui/badge";
 
 const bonusData = [
   {
-    title: "Bônus 1: Ritmos e Exercícios",
-    description: "Aprofunde seu conhecimento com exercícios rítmicos que vão solidificar sua batida.",
-    image: "https://i.imgur.com/L4zK2x7.png",
-    alt: "Bônus de ritmos e exercícios rítmicos",
+    title: "Bônus 1: O Ritmo e Leitura",
+    description: "Aprofunde seu conhecimento com exercícios práticos de ritmo e leitura para solidificar sua batida.",
+    image: "https://i.imgur.com/BEK0mhM.png",
+    alt: "Bônus sobre ritmo e leitura",
     value: "R$19,90",
-    aiHint: "music stand sheet"
+    aiHint: "music sheet exercise"
   },
   {
-    title: "Bônus 2: Guia de Transições",
+    title: "Bônus 2: Transições Suaves",
     description: "Domine a arte de trocar de acordes sem esforço para que suas músicas fluam perfeitamente.",
-    image: "https://i.imgur.com/qiwkg1e.png",
-    alt: "Bônus sobre guia de transições suaves",
+    image: "https://i.imgur.com/PPugZ2o.png",
+    alt: "Bônus sobre transições de acordes",
     value: "R$27,00",
     aiHint: "guitar chord transition"
   },
   {
-    title: "Bônus 3: Cifras em PDF",
-    description: "Uma coleção de cifras em PDF para você aplicar as batidas aprendidas em músicas populares.",
-    image: "https://i.imgur.com/3S4eXiK.png",
-    alt: "Bônus com lista de músicas para treinar",
+    title: "Bônus 3: Cifras com Batidas Marcadas",
+    description: "Uma coleção de cifras com as batidas marcadas para você aplicar o que aprendeu em músicas populares.",
+    image: "https://i.imgur.com/T7lmnPm.png",
+    alt: "Bônus de cifras com batidas",
     value: "R$15,00",
     aiHint: "sheet music pdf"
+  },
+  {
+    title: "Bônus 4: Coordenação Motora",
+    description: "Desenvolva a agilidade e a precisão dos seus dedos com exercícios focados em coordenação motora.",
+    image: "https://i.imgur.com/JQQDJtj.png",
+    alt: "Bônus de exercícios de coordenação motora",
+    value: "R$22,00",
+    aiHint: "hand exercise guitar"
+  },
+  {
+    title: "Bônus 5: Caderno de Treinos",
+    description: "Organize seus estudos e acompanhe sua evolução com um caderno de treinos exclusivo.",
+    image: "https://i.imgur.com/urXcrKy.png",
+    alt: "Bônus de caderno de treinos",
+    value: "R$12,00",
+    aiHint: "progress journal"
   }
 ];
 
@@ -35,7 +51,7 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
-            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-primary">3 Bônus Exclusivos</span>
+            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-primary">5 Bônus Exclusivos</span>
           </h2>
           <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">Comprando hoje, você garante acesso gratuito a estes materiais de apoio que vão acelerar sua jornada no violão.</p>
         </div>

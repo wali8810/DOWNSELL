@@ -5,14 +5,22 @@ import { Badge } from "@/components/ui/badge";
 
 const basicPlanFeatures = {
   included: ["eBook Principal: As 26 Batidas Mais Poderosas (PDF)"],
-  excluded: ["Mini eBook de Acordes", "Guia de Transições Suaves", "Lista de Músicas para Treinar"]
+  excluded: [
+    "Bônus: O Ritmo e Leitura",
+    "Bônus: Transições Suaves",
+    "Bônus: Cifras com Batidas Marcadas",
+    "Bônus: Coordenação Motora",
+    "Bônus: Caderno de Treinos",
+  ]
 };
 
 const completePlanFeatures = [
   "eBook Principal (PDF)",
-  "Bônus: Mini eBook de Acordes",
-  "Bônus: Guia de Transições",
-  "Bônus: Lista de Músicas",
+  "Bônus: O Ritmo e Leitura",
+  "Bônus: Transições Suaves",
+  "Bônus: Cifras com Batidas Marcadas",
+  "Bônus: Coordenação Motora",
+  "Bônus: Caderno de Treinos",
   "Acesso vitalício a tudo",
 ];
 
