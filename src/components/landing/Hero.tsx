@@ -1,19 +1,21 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { CountdownTimer } from "./CountdownTimer";
 
 export function Hero() {
   return (
-    <section className="relative text-white py-24 md:py-40 flex items-center justify-center text-center">
+    <section className="relative text-white flex items-center justify-center text-center min-h-[400px] md:min-h-[500px] py-16 md:py-24">
       <div className="absolute inset-0">
         <Image
           src="https://placehold.co/1920x1080.png"
-          alt="Pessoa tocando violão ao fundo"
+          alt="Violão de madeira com iluminação suave ao fundo"
           layout="fill"
           objectFit="cover"
-          className="z-0 opacity-15"
-          data-ai-hint="guitar playing background"
+          className="z-0 opacity-25"
+          priority
+          data-ai-hint="guitar background"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20 z-10"></div>
       </div>
 
       <div className="relative z-20 container mx-auto px-4">
@@ -25,6 +27,8 @@ export function Hero() {
           <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80">
             Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
           </p>
+
+          <CountdownTimer />
 
           <div className="mt-10 w-full max-w-xs md:max-w-sm">
             <Image
