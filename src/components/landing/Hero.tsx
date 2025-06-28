@@ -60,7 +60,7 @@ export function Hero() {
              <div className="bg-transparent rounded-lg w-full text-center">
                 <p className="text-lg text-muted-foreground">DE <span className="line-through">R$67,00</span> POR APENAS</p>
                 <div className="flex items-baseline justify-center gap-2">
-                    <span className="text-5xl font-bold text-white">R$16,90</span>
+                    <span className="text-5xl font-bold text-white">R$19,90</span>
                 </div>
             </div>
             
