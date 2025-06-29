@@ -47,7 +47,7 @@ export function Pricing() {
                 />
               </div>
               <p className="text-center font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
-              <p className="text-center text-6xl font-extrabold text-foreground my-4">R$10</p>
+              <p className="text-center text-6xl font-extrabold text-primary my-4">R$10</p>
               
               <ul className="space-y-3 mb-6 text-sm text-muted-foreground">
                 <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span>eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span></li>

@@ -26,7 +26,7 @@ export function Hero() {
           alt="Violão de madeira com iluminação suave ao fundo"
           layout="fill"
           objectFit="cover"
-          className="z-0"
+          className="z-0 animate-zoom-in-out"
           priority
           data-ai-hint="guitar concert stage"
           style={{ transform: `translateY(${offsetY * 0.4}px)` }}
@@ -36,9 +36,9 @@ export function Hero() {
 
       <div className="relative z-20 container mx-auto px-4">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
-           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight">
-            <span className="text-accent font-extrabold text-shadow">Mude</span> sua forma de tocar com<br />
-            as batidas que <span className="text-accent font-extrabold text-shadow">transformam!</span>
+           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight text-shadow">
+            <span className="text-accent font-extrabold">Mude</span> sua forma de tocar com<br />
+            as batidas que <span className="text-accent font-extrabold">transformam!</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/80">
             Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
