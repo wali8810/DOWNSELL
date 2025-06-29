@@ -103,7 +103,7 @@ export function Pricing() {
           </div>
 
           <BackgroundGradient
-            containerClassName="w-full lg:w-1/2"
+            containerClassName="w-full lg:w-1/2 rounded-2xl"
             className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full"
           >
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-20">

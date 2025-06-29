@@ -25,6 +25,8 @@ export function Guarantee() {
             Você tem 7 dias para testar o material. Se por qualquer motivo não ficar satisfeito, é só mandar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.
           </p>
           
+          <p className="text-center uppercase font-bold text-xl mb-4">CLIQUE NO BOTÃO ABAIXO PARA GARANTIR O <span className="text-destructive">MATERIAL COM 89% OFF!</span></p>
+
           <a href="#plans" className="inline-block w-full max-w-md">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
               LIBERAR MEU ACESSO AGORA
