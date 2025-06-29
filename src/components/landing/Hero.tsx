@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "./CountdownTimer";
 import { useState, useEffect } from 'react';
-import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
+import { Highlight } from "@/components/ui/hero-highlight";
 import { motion } from "framer-motion";
 
 export function Hero() {
@@ -21,8 +21,7 @@ export function Hero() {
   }, []);
 
   return (
-    <HeroHighlight containerClassName="min-h-[450px] md:min-h-[600px] overflow-hidden">
-      <section className="relative text-white flex items-center justify-center text-center w-full h-full pt-16 md:pt-24 pb-20 md:pb-28">
+      <section className="relative text-white flex items-center justify-center text-center w-full min-h-[450px] md:min-h-[600px] overflow-hidden pt-16 md:pt-24 pb-20 md:pb-28">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://i.imgur.com/okdxZ1l.png"
@@ -91,6 +90,5 @@ export function Hero() {
           </div>
         </motion.div>
       </section>
-    </HeroHighlight>
   );
 }

@@ -164,7 +164,6 @@ export function Pricing() {
               </div>
 
               <div className="mt-auto">
-                <p className="text-center uppercase font-bold text-sm mb-3">CLIQUE NO BOTÃO ABAIXO PARA GARANTIR O <span className="text-destructive">MATERIAL COM 89% OFF!</span></p>
                  <div className="flex justify-center">
                    <HoverBorderGradient
                       as="button"
