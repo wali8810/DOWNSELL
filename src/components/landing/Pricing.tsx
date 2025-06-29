@@ -49,19 +49,46 @@ export function Pricing() {
               <p className="text-center font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
               <p className="text-center text-6xl font-extrabold text-primary my-4">R$10</p>
               
-              <ul className="space-y-3 mb-6 text-sm text-muted-foreground">
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span>eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span><strong>Acesso vitalício</strong> ao material em PDF</span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span><strong>Garantia incondicional</strong> de 7 dias</span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span>Leitura em <strong>qualquer dispositivo</strong> (celular, tablet, computador)</span></li>
+              <ul className="mb-6 text-sm text-muted-foreground text-center divide-y divide-border">
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span>eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span>
+                </li>
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span><strong>Acesso vitalício</strong> ao material em PDF</span>
+                </li>
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span><strong>Garantia incondicional</strong> de 7 dias</span>
+                </li>
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span>Leitura em <strong>qualquer dispositivo</strong> (celular, tablet, computador)</span>
+                </li>
               </ul>
 
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start text-red-500/70 italic"><X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-0.5" /><del>Bônus 01: O Ritmo e Leitura</del></li>
-                <li className="flex items-start text-red-500/70 italic"><X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-0.5" /><del>Bônus 02: Transições Suaves</del></li>
-                <li className="flex items-start text-red-500/70 italic"><X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-0.5" /><del>Bônus 03: Cifras com Batidas Marcadas</del></li>
-                <li className="flex items-start text-red-500/70 italic"><X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-0.5" /><del>Bônus 04: Coordenação Motora</del></li>
-                <li className="flex items-start text-red-500/70 italic"><X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-0.5" /><del>Bônus 05: Caderno de Treinos</del></li>
+              <ul className="text-sm text-center divide-y divide-border">
+                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
+                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                  <del>Bônus 01: O Ritmo e Leitura</del>
+                </li>
+                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
+                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                  <del>Bônus 02: Transições Suaves</del>
+                </li>
+                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
+                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                  <del>Bônus 03: Cifras com Batidas Marcadas</del>
+                </li>
+                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
+                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                  <del>Bônus 04: Coordenação Motora</del>
+                </li>
+                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
+                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                  <del>Bônus 05: Caderno de Treinos</del>
+                </li>
               </ul>
 
               <div className="mt-auto pt-6">
@@ -80,7 +107,7 @@ export function Pricing() {
             <div className="bg-destructive text-white text-center py-3 rounded-t-md">
               <h3 className="text-2xl font-bold">PLANO COMPLETO:</h3>
             </div>
-            <p className="text-center font-semibold text-foreground mt-2">(MELHOR NEGÓCIO)</p>
+            <p className="text-center font-semibold text-foreground mt-2 text-lg">(MELHOR NEGÓCIO)</p>
             <div className="p-6 pt-2 flex flex-col flex-grow">
               <div className="flex justify-center my-4">
                  <Image
@@ -93,10 +120,19 @@ export function Pricing() {
                 />
               </div>
 
-              <ul className="space-y-3 mb-6 text-sm text-muted-foreground">
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span>Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong> para acelerar seus resultados.</span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span><strong>Acesso vitalício</strong> a todo o material e <strong>futuras atualizações</strong>.</span></li>
-                <li className="flex items-start"><Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-0.5" /><span><strong>Garantia total de 7 dias</strong>. Se não gostar, seu dinheiro de volta.</span></li>
+              <ul className="mb-6 text-sm text-muted-foreground text-center divide-y divide-border">
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span>Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong> para acelerar seus resultados.</span>
+                </li>
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span><strong>Acesso vitalício</strong> a todo o material e <strong>futuras atualizações</strong>.</span>
+                </li>
+                <li className="flex items-center justify-center pt-3">
+                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                  <span><strong>Garantia total de 7 dias</strong>. Se não gostar, seu dinheiro de volta.</span>
+                </li>
               </ul>
               
               <div className="space-y-3 mb-6 text-muted-foreground">

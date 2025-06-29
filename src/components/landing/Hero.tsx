@@ -37,9 +37,7 @@ export function Hero() {
       <div className="relative z-20 container mx-auto px-4">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
            <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight text-shadow">
-            Descubra as <br />
-            <span className="text-accent font-extrabold">26 Batidas Mais Poderosas</span><br />
-            para Violão
+            Domine as <span className="text-accent">26 Batidas Mais Poderosas</span> e Revolucione seu Som no Violão em qualquer Estilo
           </h1>
           <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/80">
             Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
