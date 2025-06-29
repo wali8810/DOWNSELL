@@ -32,7 +32,7 @@ export function Faq() {
             <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
         </div>
-        <Accordion type="single" collapsible className="w-full bg-card/80 border border-border rounded-lg p-2 md:p-4">
+        <Accordion type="single" collapsible className="w-full bg-card border border-border rounded-lg p-2 md:p-4 shadow-lg">
           {faqItems.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : ""}>
               <AccordionTrigger className="text-lg text-left hover:no-underline px-4">{item.question}</AccordionTrigger>

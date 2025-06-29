@@ -36,11 +36,11 @@ export function Hero() {
 
       <div className="relative z-20 container mx-auto px-4">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight">
-            Mude sua forma de tocar com<br />
-            <span className="text-white/80 font-semibold">as batidas que transformam!</span>
+           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight">
+            <span className="text-accent font-extrabold text-shadow">Mude</span> sua forma de tocar com<br />
+            as batidas que <span className="text-accent font-extrabold text-shadow">transformam!</span>
           </h1>
-          <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80">
+          <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/80">
             Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
           </p>
 
@@ -58,7 +58,7 @@ export function Hero() {
           
           <div className="mt-8 flex flex-col items-center space-y-6 w-full max-w-sm">
              <div className="bg-transparent rounded-lg w-full text-center">
-                <p className="text-lg text-muted-foreground">DE <span className="line-through">R$67,00</span> POR APENAS</p>
+                <p className="text-lg text-white/80">DE <span className="line-through">R$67,00</span> POR APENAS</p>
                 <div className="flex items-baseline justify-center gap-2">
                     <span className="text-5xl font-bold text-white">R$19,90</span>
                 </div>
@@ -67,7 +67,7 @@ export function Hero() {
             <CountdownTimer />
 
             <a href="#plans" className="w-full">
-              <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-white font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
                 QUERO APRENDER AGORA!
               </Button>
             </a>

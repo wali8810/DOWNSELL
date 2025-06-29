@@ -8,6 +8,7 @@ import { Testimonials } from '@/components/landing/Testimonials';
 import { Guarantee } from '@/components/landing/Guarantee';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
+import { SalesNotification } from '@/components/landing/SalesNotification';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Faq />
       </main>
       <Footer />
+      <SalesNotification />
     </div>
   );
 }
