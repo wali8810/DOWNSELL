@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Check, X, Star } from "lucide-react";
 import Image from "next/image";
@@ -102,7 +103,11 @@ export function Pricing() {
           <div className="flex flex-col bg-card text-foreground rounded-lg shadow-2xl w-full lg:w-1/2 p-1 border-2 border-primary relative">
              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-10">
                 <Star className="h-4 w-4" fill="currentColor" />
-                Mais Vendido
+                <Star className="h-4 w-4" fill="currentColor" />
+                <Star className="h-4 w-4" fill="currentColor" />
+                <Star className="h-4 w-4" fill="currentColor" />
+                <Star className="h-4 w-4" fill="currentColor" />
+                <span className="ml-1">Mais Vendido</span>
             </div>
             <div className="bg-destructive text-white text-center py-3 rounded-t-md">
               <h3 className="text-2xl font-bold">PLANO COMPLETO:</h3>
@@ -135,11 +140,14 @@ export function Pricing() {
                 </li>
               </ul>
               
-              <div className="space-y-3 mb-6 text-muted-foreground">
+              <div className="space-y-3 mb-6 text-muted-foreground text-left">
                  {bonusData.map((bonus, index) => (
-                    <div key={index}>
-                        <h4 className="font-bold text-primary/90">Bônus 0{index + 1}: {bonus.title}</h4>
-                        <p className="text-muted-foreground text-sm">{bonus.description}</p>
+                    <div key={index} className="flex items-start space-x-2">
+                        <Check className="h-5 w-5 text-primary shrink-0 mt-1" />
+                        <div>
+                            <h4 className="font-bold text-primary/90">Bônus 0{index + 1}: {bonus.title}</h4>
+                            <p className="text-muted-foreground text-sm">{bonus.description}</p>
+                        </div>
                     </div>
                 ))}
               </div>
@@ -151,6 +159,7 @@ export function Pricing() {
               </div>
 
               <div className="mt-auto">
+                <p className="text-center uppercase font-bold text-sm mb-3">CLIQUE NO BOTÃO ABAIXO PARA GARANTIR O <span className="text-destructive">MATERIAL COM 89% OFF!</span></p>
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg md:text-xl h-auto py-4 transform hover:scale-105 transition-transform">
                   SIM! QUERO ESSA SUPER OFERTA!
                 </Button>
