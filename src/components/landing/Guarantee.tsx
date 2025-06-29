@@ -7,7 +7,7 @@ export function Guarantee() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center bg-card border border-border rounded-lg p-8 md:p-12 shadow-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground uppercase tracking-wide">Produto com Risco Zero!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-destructive uppercase tracking-wide">Produto com Risco Zero!</h2>
           <p className="text-xl md:text-2xl font-semibold mt-2 text-primary">Sua Satisfação ou Seu Dinheiro de Volta</p>
           
           <div className="flex justify-center my-8">
