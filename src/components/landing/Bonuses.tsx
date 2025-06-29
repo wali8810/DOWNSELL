@@ -51,9 +51,9 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
-            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-accent">5 Bônus Exclusivos</span>
+            <span role="img" aria-label="gift">🎁</span> E você ainda leva <span className="text-accent underline">5 Bônus Exclusivos</span>
           </h2>
-          <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">Comprando hoje, você garante acesso gratuito a estes materiais de apoio que vão acelerar sua jornada no violão.</p>
+          <p className="text-destructive font-bold mt-2 max-w-2xl mx-auto">(ISSO TERMINA HOJE)</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {bonusData.map((bonus, index) => (
