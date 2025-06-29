@@ -38,7 +38,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto flex flex-col items-center">
            <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight text-shadow">
             <span className="text-accent font-extrabold">Mude</span> sua forma de tocar com<br />
-            as batidas que <span className="text-accent font-extrabold">transformam!</span>
+            as batidas que <span className="text-accent font-extrabold underline">transformam!</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/80">
             Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
