@@ -119,7 +119,7 @@ export function Pricing() {
                   SIM! QUERO ESSA SUPER OFERTA!
                 </Button>
                 <p className="text-center text-muted-foreground mt-4 text-sm">
-                  ATENÇÃO: A Promoção é <strong className="text-blue-600 font-bold">LIMITADA</strong> e <strong className="text-blue-600 font-bold">Acabará em Breve</strong>.
+                  ATENÇÃO: A Promoção é <strong className="text-destructive font-bold">LIMITADA</strong> e <strong className="text-destructive font-bold">Acabará em Breve</strong>.
                 </p>
               </div>
             </div>
