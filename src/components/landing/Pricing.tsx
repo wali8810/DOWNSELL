@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, X, Star } from "lucide-react";
 import Image from "next/image";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const bonusData = [
   {
@@ -100,8 +101,11 @@ export function Pricing() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-card text-foreground rounded-lg shadow-2xl w-full lg:w-1/2 p-1 border-2 border-primary relative">
-             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-10">
+          <BackgroundGradient
+            containerClassName="w-full lg:w-1/2"
+            className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full"
+          >
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-20">
                 <Star className="h-4 w-4" fill="currentColor" />
                 <Star className="h-4 w-4" fill="currentColor" />
                 <Star className="h-4 w-4" fill="currentColor" />
@@ -109,7 +113,7 @@ export function Pricing() {
                 <Star className="h-4 w-4" fill="currentColor" />
                 <span className="ml-1">Mais Vendido</span>
             </div>
-            <div className="bg-destructive text-white text-center py-3 rounded-t-md">
+            <div className="bg-destructive text-white text-center py-3 rounded-t-2xl">
               <h3 className="text-2xl font-bold">PLANO COMPLETO:</h3>
             </div>
             <p className="text-center font-semibold text-foreground mt-2 text-lg">(MELHOR NEGÓCIO)</p>
@@ -168,8 +172,7 @@ export function Pricing() {
                 </p>
               </div>
             </div>
-          </div>
-
+          </BackgroundGradient>
         </div>
       </div>
     </section>
