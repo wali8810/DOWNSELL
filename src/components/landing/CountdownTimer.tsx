@@ -35,7 +35,7 @@ export function CountdownTimer() {
 
   return (
     <div className="text-center mt-4">
-      <p className="text-foreground/80 mb-2">Oferta disponível apenas pelos próximos minutos!</p>
+      <p className="text-white/80 mb-2">Oferta disponível apenas pelos próximos minutos!</p>
       <div className="inline-block bg-black/70 backdrop-blur-sm text-white font-bold rounded-lg px-6 py-3 shadow-lg border border-white/30">
         <span className="text-4xl tracking-widest">
           {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
