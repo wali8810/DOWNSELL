@@ -28,6 +28,28 @@ const bonusData = [
   }
 ];
 
+const basicPlanIncluded = [
+  "eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong>",
+  "<strong>Acesso vitalício</strong> ao material em PDF",
+  "<strong>Garantia incondicional</strong> de 7 dias",
+  "Leitura em <strong>qualquer dispositivo</strong>"
+];
+
+const basicPlanExcluded = [
+  "Bônus 01: Top 50 Gospel",
+  "Bônus 02: Top 50 Rock Internacional",
+  "Bônus 03: Top 50 Sertanejo",
+  "Bônus 04: Top 50 MPB",
+  "Bônus 05: Rock / Pop Nacional"
+];
+
+const completePlanIncluded = [
+    "Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong>",
+    "<strong>Acesso vitalício</strong> a todo o material",
+    "<strong>Garantia total de 7 dias</strong>"
+];
+
+
 export function Pricing() {
   return (
     <section id="plans" className="py-16 md:py-24 bg-secondary">
@@ -52,50 +74,22 @@ export function Pricing() {
               <p className="font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
               <p className="text-6xl font-extrabold text-primary my-4">R$10</p>
               
-              <div className="space-y-4 mb-6">
-                <ul className="inline-block text-left divide-y divide-border">
-                  <li className="flex items-center py-2">
-                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                    <span className="text-sm text-muted-foreground">eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                    <span className="text-sm text-muted-foreground"><strong>Acesso vitalício</strong> ao material em PDF</span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                    <span className="text-sm text-muted-foreground"><strong>Garantia incondicional</strong> de 7 dias</span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                    <span className="text-sm text-muted-foreground">Leitura em <strong>qualquer dispositivo</strong></span>
-                  </li>
-                </ul>
-
-                <ul className="inline-block text-left divide-y divide-border">
-                  <li className="flex items-center py-2">
-                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                    <span className="text-sm text-red-500/70 italic"><del>Bônus 01: Top 50 Gospel</del></span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                    <span className="text-sm text-red-500/70 italic"><del>Bônus 02: Top 50 Rock Internacional</del></span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                    <span className="text-sm text-red-500/70 italic"><del>Bônus 03: Top 50 Sertanejo</del></span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                    <span className="text-sm text-red-500/70 italic"><del>Bônus 04: Top 50 MPB</del></span>
-                  </li>
-                  <li className="flex items-center py-2">
-                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                    <span className="text-sm text-red-500/70 italic"><del>Bônus 05: Rock / Pop Nacional</del></span>
-                  </li>
+              <div className="mb-6 flex justify-center">
+                <ul className="divide-y divide-border">
+                  {basicPlanIncluded.map((item, index) => (
+                    <li key={`include-${index}`} className="flex items-center py-2">
+                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                      <span className="text-sm text-muted-foreground text-left" dangerouslySetInnerHTML={{ __html: item }} />
+                    </li>
+                  ))}
+                  {basicPlanExcluded.map((item, index) => (
+                    <li key={`exclude-${index}`} className="flex items-center py-2">
+                      <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                      <span className="text-sm text-red-500/70 italic"><del>{item}</del></span>
+                    </li>
+                  ))}
                 </ul>
               </div>
-
 
               <div className="mt-auto pt-6">
                 <Button className="w-full bg-primary/80 hover:bg-primary/70 text-primary-foreground font-bold text-lg h-auto py-3">
@@ -133,33 +127,24 @@ export function Pricing() {
                 />
               </div>
               
-              <div className="space-y-4 mb-6">
-                  <ul className="inline-block text-left divide-y divide-border">
-                    <li className="flex items-center py-2">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                      <span className="text-sm text-muted-foreground">Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong></span>
-                    </li>
-                    <li className="flex items-center py-2">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                      <span className="text-sm text-muted-foreground"><strong>Acesso vitalício</strong> a todo o material</span>
-                    </li>
-                    <li className="flex items-center py-2">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                      <span className="text-sm text-muted-foreground"><strong>Garantia total de 7 dias</strong></span>
-                    </li>
-                  </ul>
-                  
-                  <div className="inline-block text-left divide-y divide-border">
+              <div className="mb-6 flex justify-center">
+                  <ul className="divide-y divide-border">
+                    {completePlanIncluded.map((item, index) => (
+                      <li key={`complete-${index}`} className="flex items-center py-2">
+                        <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                        <span className="text-sm text-muted-foreground text-left" dangerouslySetInnerHTML={{ __html: item }} />
+                      </li>
+                    ))}
                      {bonusData.map((bonus, index) => (
-                        <div key={index} className="flex items-start space-x-2 py-2">
+                        <li key={index} className="flex items-start space-x-2 py-2">
                             <Check className="h-5 w-5 text-primary shrink-0 mt-1" />
-                            <div>
+                            <div className="text-left">
                                 <h4 className="font-bold text-primary/90 text-sm">Bônus 0{index + 1}: {bonus.title}</h4>
                                 <p className="text-muted-foreground text-sm">{bonus.description}</p>
                             </div>
-                        </div>
+                        </li>
                     ))}
-                  </div>
+                  </ul>
               </div>
 
               <div className="text-center my-4">
