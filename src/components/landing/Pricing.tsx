@@ -38,7 +38,7 @@ export function Pricing() {
             <div className="bg-muted text-center py-3 rounded-t-md">
               <h3 className="text-2xl font-bold">PLANO BÁSICO:</h3>
             </div>
-            <div className="p-6 flex flex-col flex-grow">
+            <div className="p-6 flex flex-col flex-grow text-center">
                <div className="flex justify-center my-4">
                  <Image
                     src="https://i.imgur.com/40oOK5X.png"
@@ -49,50 +49,53 @@ export function Pricing() {
                     data-ai-hint="ebook cover"
                 />
               </div>
-              <p className="text-center font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
-              <p className="text-center text-6xl font-extrabold text-primary my-4">R$10</p>
+              <p className="font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
+              <p className="text-6xl font-extrabold text-primary my-4">R$10</p>
               
-              <ul className="mb-6 text-sm text-muted-foreground text-center divide-y divide-border">
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span>eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span>
-                </li>
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span><strong>Acesso vitalício</strong> ao material em PDF</span>
-                </li>
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span><strong>Garantia incondicional</strong> de 7 dias</span>
-                </li>
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span>Leitura em <strong>qualquer dispositivo</strong> (celular, tablet, computador)</span>
-                </li>
-              </ul>
+              <div className="space-y-4 mb-6">
+                <ul className="inline-block text-left divide-y divide-border">
+                  <li className="flex items-center py-2">
+                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                    <span className="text-sm text-muted-foreground">eBook Principal: <strong>As 26 Batidas Mais Poderosas</strong></span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                    <span className="text-sm text-muted-foreground"><strong>Acesso vitalício</strong> ao material em PDF</span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                    <span className="text-sm text-muted-foreground"><strong>Garantia incondicional</strong> de 7 dias</span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                    <span className="text-sm text-muted-foreground">Leitura em <strong>qualquer dispositivo</strong></span>
+                  </li>
+                </ul>
 
-              <ul className="text-sm text-center divide-y divide-border">
-                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
-                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 01: Top 50 Gospel</del>
-                </li>
-                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
-                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 02: Top 50 Rock Internacional</del>
-                </li>
-                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
-                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 03: Top 50 Sertanejo</del>
-                </li>
-                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
-                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 04: Top 50 MPB</del>
-                </li>
-                <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
-                  <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 05: Rock / Pop Nacional</del>
-                </li>
-              </ul>
+                <ul className="inline-block text-left divide-y divide-border">
+                  <li className="flex items-center py-2">
+                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <span className="text-sm text-red-500/70 italic"><del>Bônus 01: Top 50 Gospel</del></span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <span className="text-sm text-red-500/70 italic"><del>Bônus 02: Top 50 Rock Internacional</del></span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <span className="text-sm text-red-500/70 italic"><del>Bônus 03: Top 50 Sertanejo</del></span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <span className="text-sm text-red-500/70 italic"><del>Bônus 04: Top 50 MPB</del></span>
+                  </li>
+                  <li className="flex items-center py-2">
+                    <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <span className="text-sm text-red-500/70 italic"><del>Bônus 05: Rock / Pop Nacional</del></span>
+                  </li>
+                </ul>
+              </div>
+
 
               <div className="mt-auto pt-6">
                 <Button className="w-full bg-primary/80 hover:bg-primary/70 text-primary-foreground font-bold text-lg h-auto py-3">
@@ -117,8 +120,8 @@ export function Pricing() {
             <div className="bg-destructive text-white text-center py-3 rounded-t-2xl">
               <h3 className="text-2xl font-bold">PLANO COMPLETO:</h3>
             </div>
-            <p className="text-center font-semibold text-foreground mt-2 text-lg">(MELHOR NEGÓCIO)</p>
-            <div className="p-6 pt-2 flex flex-col flex-grow">
+            <div className="p-6 pt-2 flex flex-col flex-grow text-center">
+              <p className="font-semibold text-foreground mt-2 text-lg">(MELHOR NEGÓCIO)</p>
               <div className="flex justify-center my-4">
                  <Image
                     src="https://i.imgur.com/kk1sR2G.png"
@@ -129,32 +132,34 @@ export function Pricing() {
                     data-ai-hint="ebook cover bonuses"
                 />
               </div>
-
-              <ul className="mb-6 text-sm text-muted-foreground text-center divide-y divide-border">
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span>Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong> para acelerar seus resultados.</span>
-                </li>
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span><strong>Acesso vitalício</strong> a todo o material e <strong>futuras atualizações</strong>.</span>
-                </li>
-                <li className="flex items-center justify-center pt-3">
-                  <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                  <span><strong>Garantia total de 7 dias</strong>. Se não gostar, seu dinheiro de volta.</span>
-                </li>
-              </ul>
               
-              <div className="space-y-3 mb-6 text-muted-foreground text-left">
-                 {bonusData.map((bonus, index) => (
-                    <div key={index} className="flex items-start space-x-2">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-1" />
-                        <div>
-                            <h4 className="font-bold text-primary/90">Bônus 0{index + 1}: {bonus.title}</h4>
-                            <p className="text-muted-foreground text-sm">{bonus.description}</p>
+              <div className="space-y-4 mb-6">
+                  <ul className="inline-block text-left divide-y divide-border">
+                    <li className="flex items-center py-2">
+                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                      <span className="text-sm text-muted-foreground">Receba o <strong>eBook Principal + 5 Bônus Exclusivos</strong></span>
+                    </li>
+                    <li className="flex items-center py-2">
+                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                      <span className="text-sm text-muted-foreground"><strong>Acesso vitalício</strong> a todo o material</span>
+                    </li>
+                    <li className="flex items-center py-2">
+                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
+                      <span className="text-sm text-muted-foreground"><strong>Garantia total de 7 dias</strong></span>
+                    </li>
+                  </ul>
+                  
+                  <div className="inline-block text-left divide-y divide-border">
+                     {bonusData.map((bonus, index) => (
+                        <div key={index} className="flex items-start space-x-2 py-2">
+                            <Check className="h-5 w-5 text-primary shrink-0 mt-1" />
+                            <div>
+                                <h4 className="font-bold text-primary/90 text-sm">Bônus 0{index + 1}: {bonus.title}</h4>
+                                <p className="text-muted-foreground text-sm">{bonus.description}</p>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                  </div>
               </div>
 
               <div className="text-center my-4">
