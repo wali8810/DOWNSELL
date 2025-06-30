@@ -7,24 +7,24 @@ import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 const bonusData = [
   {
-    title: "O Ritmo e Leitura",
-    description: "Aprofunde seu conhecimento com exercícios práticos.",
+    title: "Top 50 Gospel",
+    description: "Uma seleção exclusiva das melhores músicas gospel cifradas, ideal para louvores e momentos de adoração.",
   },
   {
-    title: "Transições Suaves",
-    description: "Domine a arte de trocar de acordes sem esforço.",
+    title: "Top 50 Rock Internacional",
+    description: "Grandes sucessos do rock britânico e americano, com cifras precisas para músicos de todos os níveis.",
   },
   {
-    title: "Cifras com Batidas Marcadas",
-    description: "Aplique o que aprendeu em músicas populares.",
+    title: "Top 50 Sertanejo",
+    description: "Descubra os melhores modões e sertanejo universitário com cifras completas.",
   },
   {
-    title: "Coordenação Motora",
-    description: "Desenvolva a agilidade e a precisão dos seus dedos.",
+    title: "Top 50 MPB",
+    description: "Clássicos e contemporâneos da música brasileira reunidos em um único lugar.",
   },
   {
-    title: "Caderno de Treinos",
-    description: "Organize seus estudos e acompanhe sua evolução.",
+    title: "Rock / Pop Nacional",
+    description: "Clássicos inesquecíveis do rock e pop brasileiro, desde Legião Urbana até Jota Quest.",
   }
 ];
 
@@ -74,23 +74,23 @@ export function Pricing() {
               <ul className="text-sm text-center divide-y divide-border">
                 <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
                   <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 01: O Ritmo e Leitura</del>
+                  <del>Bônus 01: Top 50 Gospel</del>
                 </li>
                 <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
                   <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 02: Transições Suaves</del>
+                  <del>Bônus 02: Top 50 Rock Internacional</del>
                 </li>
                 <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
                   <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 03: Cifras com Batidas Marcadas</del>
+                  <del>Bônus 03: Top 50 Sertanejo</del>
                 </li>
                 <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
                   <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 04: Coordenação Motora</del>
+                  <del>Bônus 04: Top 50 MPB</del>
                 </li>
                 <li className="flex items-center justify-center pt-3 text-red-500/70 italic">
                   <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
-                  <del>Bônus 05: Caderno de Treinos</del>
+                  <del>Bônus 05: Rock / Pop Nacional</del>
                 </li>
               </ul>
 
