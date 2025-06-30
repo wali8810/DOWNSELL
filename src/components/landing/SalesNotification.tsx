@@ -8,7 +8,6 @@ const salesData = [
   { name: 'Mariana Silva', method: 'cartão', time: 10 },
   { name: 'João Pereira', method: 'PIX', time: 5 },
   { name: 'Ana Costa', method: 'cartão', time: 2 },
-  { name: 'Lucas Martins', method: 'boleto', time: 15 },
   { name: 'Beatriz Almeida', method: 'PIX', time: 3 },
 ];
 
