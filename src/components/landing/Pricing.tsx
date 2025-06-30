@@ -71,7 +71,7 @@ export function Pricing() {
                 />
               </div>
               <p className="font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
-              <p className="text-6xl font-extrabold text-primary my-4">R$10</p>
+              <p className="text-6xl font-extrabold text-primary my-4">R$21,90</p>
               
               <div className="mb-6 flex justify-center">
                 <ul className="divide-y divide-border text-left inline-block">
@@ -91,7 +91,7 @@ export function Pricing() {
               </div>
 
               <div className="mt-auto pt-6">
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                <a href="https://pay.kirvano.com/268fafab-5986-464b-9c14-bcdfa52ce9a2" target="_blank" rel="noopener noreferrer" className="block w-full">
                   <Button className="w-full bg-primary/80 hover:bg-primary/70 text-primary-foreground font-bold text-lg h-auto py-3">
                     QUERO ESSA OPÇÃO!
                   </Button>
@@ -101,7 +101,7 @@ export function Pricing() {
           </div>
 
           <div className="relative w-full md:w-1/2 mt-8 md:mt-0">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
               <div className="bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1">
                   <Star className="h-4 w-4" fill="currentColor" />
                   <Star className="h-4 w-4" fill="currentColor" />
@@ -160,7 +160,7 @@ export function Pricing() {
 
                 <div className="mt-auto">
                    <div className="flex justify-center">
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                    <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
                        <HoverBorderGradient
                           as="button"
                           containerClassName="w-full rounded-md"
