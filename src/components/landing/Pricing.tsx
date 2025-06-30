@@ -100,7 +100,7 @@ export function Pricing() {
 
           <BackgroundGradient
             containerClassName="w-full lg:w-1/2 rounded-2xl"
-            className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full pt-8"
+            className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full"
           >
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-20">
                 <Star className="h-4 w-4" fill="currentColor" />
