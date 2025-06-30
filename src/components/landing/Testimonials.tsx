@@ -12,6 +12,10 @@ const testimonials = [
   {
     src: "https://i.imgur.com/e1L0Ua7.jpeg",
     alt: "Depoimento de aluno satisfeito 3"
+  },
+  {
+    src: "https://i.imgur.com/Hx06IEj.png",
+    alt: "Depoimento de aluno satisfeito 4"
   }
 ];
 
