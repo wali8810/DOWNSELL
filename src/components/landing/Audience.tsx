@@ -16,12 +16,20 @@ export function Audience() {
             PARA QUEM É ESTE EBOOK?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-            {audienceItems.map((item, index) => (
-              <div key={index} className="flex items-start space-x-4 p-4 bg-card rounded-lg border border-border transition-all hover:shadow-xl hover:border-primary shadow-lg">
-                <CheckCircle2 className="h-6 w-6 text-primary mt-1 shrink-0" />
-                <p className="text-foreground/90 text-lg">{item}</p>
-              </div>
-            ))}
+            {audienceItems.map((item, index) => {
+              const parts = item.split(':');
+              const title = parts[0] + ':';
+              const description = parts.slice(1).join(':');
+              return (
+                <div key={index} className="flex items-start space-x-4 p-4 bg-card rounded-lg border border-border transition-all hover:shadow-xl hover:border-primary shadow-lg">
+                  <CheckCircle2 className="h-6 w-6 text-primary mt-1 shrink-0" />
+                  <p className="text-foreground/90 text-lg">
+                    <strong className="font-bold">{title}</strong>
+                    {description}
+                  </p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
