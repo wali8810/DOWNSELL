@@ -62,7 +62,7 @@ export function Pricing() {
             <div className="p-6 flex flex-col flex-grow text-center">
                <div className="flex justify-center my-4">
                  <Image
-                    src="https://i.imgur.com/40oOK5X.png"
+                    src="https://i.imgur.com/ICZ20ja.png"
                     alt="Mockup do eBook"
                     width={200}
                     height={200}
@@ -100,8 +100,8 @@ export function Pricing() {
             </div>
           </div>
 
-          <div className="relative w-full md:w-1/2 mt-8 md:mt-0">
-             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="relative w-full md:w-1/2 mt-12 md:mt-0">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
               <div className="bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1">
                   <Star className="h-4 w-4" fill="currentColor" />
                   <Star className="h-4 w-4" fill="currentColor" />
@@ -111,7 +111,7 @@ export function Pricing() {
                   <span className="ml-1">Mais Vendido</span>
               </div>
             </div>
-
+            
             <BackgroundGradient
               containerClassName="w-full rounded-2xl"
               className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full"
