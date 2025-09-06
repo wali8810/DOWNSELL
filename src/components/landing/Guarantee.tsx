@@ -7,11 +7,11 @@ export function Guarantee() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
             <div className="flex flex-col items-center mb-12">
                 <Image 
-                    src="https://imgur.com/kdkxPjJ.png"
+                    src="https://imgur.com/3nS8KCV.png"
                     alt="Selo de Garantia de 30 dias"
                     width={250}
                     height={250}
-                    className="mx-auto"
+                    className="mx-auto mix-blend-multiply"
                     data-ai-hint="satisfaction guarantee seal"
                 />
                 <div className="text-center mt-8">
