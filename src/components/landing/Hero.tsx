@@ -62,13 +62,13 @@ export function Hero() {
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://imgur.com/ICZ20ja.png"
+                src="https://i.imgur.com/s02Un5z.png"
                 alt="Mockup do curso 'Cartões Decorados Lucrativos'"
                 width={500}
                 height={500}
                 priority
-                className="rounded-lg shadow-lg"
-                data-ai-hint="ebook cover crafts"
+                className="rounded-lg"
+                data-ai-hint="ebook cover crafts transparent"
               />
             </div>
             
@@ -82,7 +82,7 @@ export function Hero() {
               </div>
               
               <a href="#plans" className="w-full">
-                <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+                <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
                   COMECE HOJE MESMO!
                 </Button>
               </a>

@@ -330,13 +330,13 @@ function Hero() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-10 w-full max-w-xs md:max-w-sm",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/ICZ20ja.png",
+                                src: "https://i.imgur.com/s02Un5z.png",
                                 alt: "Mockup do curso 'Cartões Decorados Lucrativos'",
                                 width: 500,
                                 height: 500,
                                 priority: true,
-                                className: "rounded-lg shadow-lg",
-                                "data-ai-hint": "ebook cover crafts"
+                                className: "rounded-lg",
+                                "data-ai-hint": "ebook cover crafts transparent"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/Hero.tsx",
                                 lineNumber: 64,
@@ -412,7 +412,7 @@ function Hero() {
                                     className: "w-full",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                         size: "lg",
-                                        className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink",
+                                        className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green",
                                         children: "COMECE HOJE MESMO!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Hero.tsx",
