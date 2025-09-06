@@ -8,6 +8,7 @@ import { Testimonials } from '@/components/landing/Testimonials';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
 import { SalesNotification } from '@/components/landing/SalesNotification';
+import { Guarantee } from '@/components/landing/Guarantee';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Bonuses />
         <Testimonials />
         <Pricing />
+        <Guarantee />
         <Faq />
       </main>
       <Footer />

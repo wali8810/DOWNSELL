@@ -83,9 +83,8 @@ export function Pricing() {
         <div className="flex flex-wrap justify-center gap-8 items-stretch">
           
           {/* Plano Básico */}
-          <div className="w-full max-w-md">
-             <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8">
-              <div className="flex flex-col flex-grow">
+          <div className="w-full max-w-md flex">
+             <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
                 <div className="bg-gray-700 text-white rounded-lg py-2 px-4 mb-4 inline-block self-start">
                   <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                 </div>
@@ -106,7 +105,7 @@ export function Pricing() {
                   {planoBasicoFeatures.notIncluded.map((item, index) => (
                      <li key={`basic-not-${index}`} className="flex items-start text-red-500">
                       <XIcon />
-                      <span className="text-gray-500" dangerouslySetInnerHTML={{ __html: item }} />
+                      <span className="text-gray-500 line-through" dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                 </ul>
@@ -118,64 +117,61 @@ export function Pricing() {
                       </Button>
                    </a>
                 </div>
-              </div>
             </div>
           </div>
 
           {/* Plano Completo */}
-          <div className="w-full max-w-md">
+          <div className="w-full max-w-md flex">
             <div
-              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400"
+              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
             >
-              <div className="p-6 flex flex-col flex-grow text-center relative">
-                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                    <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1">Mais Vendido</Badge>
-                </div>
-                
-                <div className="flex justify-center my-4">
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
-                <div className="bg-red-500 text-white rounded-lg py-2 px-4 mb-4 inline-block self-center">
-                    <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>
-                    <p className="font-bold text-sm">(MELHOR NEGÓCIO)</p>
-                </div>
-                
-                <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
+               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
+                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1">Mais Vendido</Badge>
+              </div>
+              
+              <div className="flex justify-center my-4">
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+                <StarIcon />
+              </div>
+              <div className="bg-red-500 text-white rounded-lg py-2 px-4 mb-4 inline-block self-center">
+                  <h3 className="text-xl font-bold uppercase text-center">Plano Completo:</h3>
+                  <p className="font-bold text-sm text-center">(MELHOR NEGÓCIO)</p>
+              </div>
+              
+              <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
-                <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
-                  {planoCompletoFeatures.map((item, index) => (
-                    <li key={`complete-${index}`} className="flex items-start">
-                      <CheckIcon />
-                      <span dangerouslySetInnerHTML={{ __html: item }} />
-                    </li>
-                  ))}
-                   {planoCompletoBonus.map((item, index) => (
-                    <li key={`complete-bonus-${index}`} className="flex items-start">
-                      {item.icon === 'check' ? <CheckIcon /> : <GiftIcon />}
-                      <span dangerouslySetInnerHTML={{ __html: item.text }} />
-                    </li>
-                  ))}
-                </ul>
+              <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
+                {planoCompletoFeatures.map((item, index) => (
+                  <li key={`complete-${index}`} className="flex items-start">
+                    <CheckIcon />
+                    <span dangerouslySetInnerHTML={{ __html: item }} />
+                  </li>
+                ))}
+                 {planoCompletoBonus.map((item, index) => (
+                  <li key={`complete-bonus-${index}`} className="flex items-start">
+                    {item.icon === 'check' ? <CheckIcon /> : <GiftIcon />}
+                    <span dangerouslySetInnerHTML={{ __html: item.text }} />
+                  </li>
+                ))}
+              </ul>
 
-                <div className="text-center my-4">
-                  <p className="text-gray-500 line-through text-lg">Valor Total: R$147</p>
-                  <p className="uppercase font-bold text-gray-600 text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                  <p className="text-6xl font-extrabold text-red-500">R$14,90</p>
-                </div>
+              <div className="text-center my-4">
+                <p className="text-gray-500 line-through text-lg">Valor Total: R$147</p>
+                <p className="uppercase font-bold text-gray-600 text-sm">HOJE PAGAMENTO ÚNICO...</p>
+                <p className="text-6xl font-extrabold text-red-500">R$14,90</p>
+              </div>
 
-                <div className="mt-auto">
-                   <div className="flex justify-center flex-col items-center gap-4">
-                    <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
-                       <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse">
-                          SIM! QUERO ESSA SUPER OFERTA!
-                        </button>
-                     </a>
-                     <p className="text-sm font-bold text-gray-700">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
-                  </div>
+              <div className="mt-auto">
+                 <div className="flex justify-center flex-col items-center gap-4">
+                  <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
+                     <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse">
+                        SIM! QUERO ESSA SUPER OFERTA!
+                      </button>
+                   </a>
+                   <p className="text-sm font-bold text-gray-700">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
                 </div>
               </div>
             </div>
