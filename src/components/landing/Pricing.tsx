@@ -86,11 +86,15 @@ export function Pricing() {
           <div className="w-full md:w-1/2 lg:w-[45%] flex">
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
                 <div className="text-center">
-                  <div className="bg-gray-700 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
+                   <div className="bg-gray-700 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
-                  <p className="uppercase font-bold text-black text-lg mb-2">Pagamento único</p>
-                  <p className="text-6xl font-bold text-green-500 mb-4">R$10</p>
+                  <div className="text-center my-4">
+                    <div className="inline-block bg-red-500 text-white font-bold py-2 px-6 rounded-full -rotate-6 transform">
+                      <span className="block text-sm line-through">DE R$67,00</span>
+                      <span className="block text-2xl">POR R$19,90</span>
+                    </div>
+                  </div>
                 </div>
                 <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                   {planoBasicoFeatures.included.map((item, index) => (
@@ -126,19 +130,21 @@ export function Pricing() {
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
             >
                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1">Mais Vendido</Badge>
+                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1 text-base">Mais Vendido</Badge>
               </div>
               
-              <div className="flex justify-center my-4">
+              <div className="flex justify-center my-4 pt-4">
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
               </div>
-              <div className="bg-red-500 text-white rounded-lg py-2 px-4 mb-4 inline-block self-center">
-                  <h3 className="text-xl font-bold uppercase text-center">Plano Completo:</h3>
-                  <p className="font-bold text-sm text-center">(MELHOR NEGÓCIO)</p>
+              <div className="text-center mb-4">
+                  <div className="bg-red-500 text-white rounded-full py-2 px-4 mb-2 inline-block">
+                    <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>
+                  </div>
+                  <p className="font-bold text-lg text-black uppercase">(MELHOR NEGÓCIO)</p>
               </div>
               
               <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
