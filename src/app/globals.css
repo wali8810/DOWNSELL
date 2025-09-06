@@ -64,19 +64,19 @@
   .text-shadow {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   }
-  .animate-pulse-pink {
-    animation: pulse 2.5s ease-in-out infinite;
+  .animate-pulse-green {
+    animation: pulse-green 2.5s ease-in-out infinite;
   }
 
-  @keyframes pulse {
+  @keyframes pulse-green {
     0% {
-      box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7);
+      box-shadow: 0 0 0 0 rgba(71, 203, 89, 0.7);
     }
     70% {
-      box-shadow: 0 0 0 10px rgba(255, 107, 107, 0);
+      box-shadow: 0 0 0 10px rgba(71, 203, 89, 0);
     }
     100% {
-      box-shadow: 0 0 0 0 rgba(255, 107, 107, 0);
+      box-shadow: 0 0 0 0 rgba(71, 203, 89, 0);
     }
   }
 

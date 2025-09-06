@@ -6,7 +6,7 @@ const bonusData = [
   {
     title: "Bônus 1: Como vender nas redes sociais",
     description: "Roteiros e exemplos para postar no Instagram, WhatsApp e marketplaces para atrair e fechar sua primeira venda em até 48 horas.",
-    image: "https://picsum.photos/400/250",
+    image: "https://imgur.com/E0QxgBv.png",
     alt: "Bônus sobre vendas nas redes sociais",
     value: "US$10",
     aiHint: "social media marketing"
@@ -14,7 +14,7 @@ const bonusData = [
   {
     title: "Bônus 2: Manual de Vendas Pronto para Usar",
     description: "Guia rápido para oferecer suas criações sem sofrer na tentativa.",
-    image: "https://picsum.photos/400/251",
+    image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
     value: "US$5",
     aiHint: "sales guide book"
@@ -22,7 +22,7 @@ const bonusData = [
   {
     title: "Bônus 3: Guia de Inspiração e Venda Rápida",
     description: "Acesso a uma variedade de ideias para criar novos designs e vender no mesmo dia.",
-    image: "https://picsum.photos/400/252",
+    image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
     value: "US$15",
     aiHint: "inspiration lightbulb ideas"
@@ -30,7 +30,7 @@ const bonusData = [
   {
     title: "Bônus 4: Mini Curso de Publicidade e Vendas",
     description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
-    image: "https://picsum.photos/400/253",
+    image: "https://imgur.com/0jFdKVH.png",
     alt: "Bônus mini curso de publicidade",
     value: "US$30",
     aiHint: "online advertising"

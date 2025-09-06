@@ -790,7 +790,7 @@ const bonusData = [
     {
         title: "Bônus 1: Como vender nas redes sociais",
         description: "Roteiros e exemplos para postar no Instagram, WhatsApp e marketplaces para atrair e fechar sua primeira venda em até 48 horas.",
-        image: "https://picsum.photos/400/250",
+        image: "https://imgur.com/E0QxgBv.png",
         alt: "Bônus sobre vendas nas redes sociais",
         value: "US$10",
         aiHint: "social media marketing"
@@ -798,7 +798,7 @@ const bonusData = [
     {
         title: "Bônus 2: Manual de Vendas Pronto para Usar",
         description: "Guia rápido para oferecer suas criações sem sofrer na tentativa.",
-        image: "https://picsum.photos/400/251",
+        image: "https://imgur.com/hdbzMRu.png",
         alt: "Bônus manual de vendas",
         value: "US$5",
         aiHint: "sales guide book"
@@ -806,7 +806,7 @@ const bonusData = [
     {
         title: "Bônus 3: Guia de Inspiração e Venda Rápida",
         description: "Acesso a uma variedade de ideias para criar novos designs e vender no mesmo dia.",
-        image: "https://picsum.photos/400/252",
+        image: "https://imgur.com/eIcZkRK.png",
         alt: "Bônus guia de inspiração",
         value: "US$15",
         aiHint: "inspiration lightbulb ideas"
@@ -814,7 +814,7 @@ const bonusData = [
     {
         title: "Bônus 4: Mini Curso de Publicidade e Vendas",
         description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
-        image: "https://picsum.photos/400/253",
+        image: "https://imgur.com/0jFdKVH.png",
         alt: "Bônus mini curso de publicidade",
         value: "US$30",
         aiHint: "online advertising"
@@ -1459,7 +1459,7 @@ function Pricing() {
                                                     rel: "noopener noreferrer",
                                                     className: "block w-full",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse",
+                                                        className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse-green",
                                                         children: "SIM! QUERO ESSA SUPER OFERTA!"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/Pricing.tsx",
@@ -1942,7 +1942,7 @@ function Guarantee() {
                     className: "flex flex-col items-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            src: "https://imgur.com/0Qvgg3V.png",
+                            src: "https://imgur.com/1LO2YTS.png",
                             alt: "Selo de Garantia de 30 dias",
                             width: 250,
                             height: 250,
@@ -2076,7 +2076,7 @@ function Guarantee() {
                         className: "inline-block",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
-                            className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink",
+                            className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green",
                             children: "LIBERE SEU ACESSO AO CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",

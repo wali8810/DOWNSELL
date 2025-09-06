@@ -7,7 +7,7 @@ export function Guarantee() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
             <div className="flex flex-col items-center mb-12">
                 <Image 
-                    src="https://imgur.com/0Qvgg3V.png"
+                    src="https://imgur.com/1LO2YTS.png"
                     alt="Selo de Garantia de 30 dias"
                     width={250}
                     height={250}
@@ -33,7 +33,7 @@ export function Guarantee() {
 
             <div className="mb-8">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+                  <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
                     LIBERE SEU ACESSO AO CURSO
                   </Button>
                 </a>

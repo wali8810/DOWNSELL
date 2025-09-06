@@ -583,6 +583,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -629,10 +633,6 @@ body {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -904,10 +904,6 @@ body {
   max-width: 32rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-sm {
   max-width: 24rem;
 }
@@ -998,16 +994,8 @@ body {
 }
 
 @keyframes pulse {
-  0% {
-    box-shadow: 0 0 #ff6b6bb3;
-  }
-
-  70% {
-    box-shadow: 0 0 0 10px #ff6b6b00;
-  }
-
-  100% {
-    box-shadow: 0 0 #ff6b6b00;
+  50% {
+    opacity: .5;
   }
 }
 
@@ -2125,8 +2113,22 @@ body {
   text-shadow: 2px 2px 8px #000000b3;
 }
 
-.animate-pulse-pink {
-  animation: 2.5s ease-in-out infinite pulse;
+.animate-pulse-green {
+  animation: 2.5s ease-in-out infinite pulse-green;
+}
+
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 #47cb59b3;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px #47cb5900;
+  }
+
+  100% {
+    box-shadow: 0 0 #47cb5900;
+  }
 }
 
 .animate-zoom-in-out {
