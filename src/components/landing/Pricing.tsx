@@ -144,7 +144,7 @@ export function Pricing() {
                     <p className="font-bold text-sm">(MELHOR NEGÓCIO)</p>
                 </div>
                 
-                <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" />
+                <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
                 <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                   {planoCompletoFeatures.map((item, index) => (
@@ -164,7 +164,7 @@ export function Pricing() {
                 <div className="text-center my-4">
                   <p className="text-gray-500 line-through text-lg">Valor Total: R$147</p>
                   <p className="uppercase font-bold text-gray-600 text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                  <p className="text-6xl font-extrabold text-red-500">R$19,90</p>
+                  <p className="text-6xl font-extrabold text-red-500">R$19</p>
                 </div>
 
                 <div className="mt-auto">
