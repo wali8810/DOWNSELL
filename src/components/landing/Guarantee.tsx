@@ -11,7 +11,7 @@ export function Guarantee() {
                     alt="Selo de Garantia de 30 dias"
                     width={250}
                     height={250}
-                    className="shadow-xl mx-auto"
+                    className="mx-auto mix-blend-multiply"
                     data-ai-hint="satisfaction guarantee seal"
                 />
                 <div className="text-center mt-8">
