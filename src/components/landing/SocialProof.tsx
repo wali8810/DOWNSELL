@@ -31,7 +31,7 @@ export function SocialProof() {
 
         <div className="mb-12">
             <a href="#plans" className="inline-block">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform duration-300 shadow-lg">
                 GARANTIR AGORA COM DESCONTO
               </Button>
             </a>
