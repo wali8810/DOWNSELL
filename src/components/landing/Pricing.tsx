@@ -80,10 +80,10 @@ export function Pricing() {
             <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA VOCÊ</h2>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-8 items-stretch">
+        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8">
           
           {/* Plano Básico */}
-          <div className="w-full max-w-md flex">
+          <div className="w-full md:w-2/5 lg:w-1/3 flex">
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
                 <div className="bg-gray-700 text-white rounded-lg py-2 px-4 mb-4 inline-block self-start">
                   <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
@@ -121,7 +121,7 @@ export function Pricing() {
           </div>
 
           {/* Plano Completo */}
-          <div className="w-full max-w-md flex">
+          <div className="w-full md:w-3/5 lg:w-2/5 flex">
             <div
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
             >
