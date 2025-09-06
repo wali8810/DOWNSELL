@@ -62,13 +62,13 @@ export function Hero() {
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://i.imgur.com/gB34N49.png"
-                alt="Mockup do curso 'Cartões Decorados Lucrativos'"
+                src="https://i.imgur.com/C8k9wmT.png"
+                alt="Mockup do curso e bônus"
                 width={500}
                 height={500}
                 priority
                 className="rounded-lg"
-                data-ai-hint="ebook cover crafts transparent"
+                data-ai-hint="course bundle mockup"
               />
             </div>
             
