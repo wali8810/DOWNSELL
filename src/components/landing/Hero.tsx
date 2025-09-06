@@ -62,7 +62,7 @@ export function Hero() {
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://i.imgur.com/u132ygt.png"
+                src="https://i.imgur.com/gB34N49.png"
                 alt="Mockup do curso 'Cartões Decorados Lucrativos'"
                 width={500}
                 height={500}
