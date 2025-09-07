@@ -3,10 +3,10 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const forWhomItems = [
-    "Trabalhar de 3 a 4 horas por semana e ter mais liberdade de tempo.",
-    "Sonha em ter um negócio altamente lucrativo independente da região.",
-    "Começar a trabalhar na profissão que mais cresce em 2025.",
-    "Para você que quer ganhar entre 4 a 7 mil por mês."
+    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim conquistar liberdade de tempo.",
+    "Para quem sonha em ter um negócio lucrativo, que não depende da cidade ou região onde mora.",
+    "Para quem busca aproveitar a tendência que mais cresce em 2025: os cartões decorativos.",
+    "Para quem quer transformar papel em dinheiro e alcançar ganhos entre R$4.000,00 a R$7.000,00 por mês."
 ]
 
 const whatYouGetItems = [
@@ -49,7 +49,7 @@ export function ForWhom() {
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
-                        PARA QUEM É O CURSO <span style={{color:"#FFAD00"}}>BALÃO DECORA?</span>
+                        PARA QUEM É O MÉTODO <span style={{color:"#FFAD00"}}>CARTÕES DECORATIVOS?</span>
                     </h2>
                     <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                         {forWhomItems.map((item, index) => (

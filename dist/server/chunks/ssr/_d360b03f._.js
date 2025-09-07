@@ -1527,10 +1527,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 ;
 ;
 const forWhomItems = [
-    "Trabalhar de 3 a 4 horas por semana e ter mais liberdade de tempo.",
-    "Sonha em ter um negócio altamente lucrativo independente da região.",
-    "Começar a trabalhar na profissão que mais cresce em 2025.",
-    "Para você que quer ganhar entre 4 a 7 mil por mês."
+    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim conquistar liberdade de tempo.",
+    "Para quem sonha em ter um negócio lucrativo, que não depende da cidade ou região onde mora.",
+    "Para quem busca aproveitar a tendência que mais cresce em 2025: os cartões decorativos.",
+    "Para quem quer transformar papel em dinheiro e alcançar ganhos entre R$4.000,00 a R$7.000,00 por mês."
 ];
 const whatYouGetItems = [
     {
@@ -1588,16 +1588,16 @@ function ForWhom() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide",
                         children: [
-                            "PARA QUEM É O CURSO ",
+                            "PARA QUEM É O MÉTODO ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
                                     color: "#FFAD00"
                                 },
-                                children: "BALÃO DECORA?"
+                                children: "CARTÕES DECORATIVOS?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 52,
-                                columnNumber: 45
+                                columnNumber: 46
                             }, this)
                         ]
                     }, void 0, true, {
