@@ -1,7 +1,5 @@
 import { Hero } from '@/components/landing/Hero';
-import { Audience } from '@/components/landing/Audience';
-import { Features } from '@/components/landing/Features';
-import { SocialProof } from '@/components/landing/SocialProof';
+import { ForWhom } from '@/components/landing/ForWhom';
 import { Bonuses } from '@/components/landing/Bonuses';
 import { Pricing } from '@/components/landing/Pricing';
 import { Testimonials } from '@/components/landing/Testimonials';
@@ -15,15 +13,10 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <main className="flex-grow">
         <Hero />
-        <Audience />
-        <Features />
-        <SocialProof />
+        <ForWhom />
         <Bonuses />
         <Pricing />
         <Testimonials />
-        <div className="-mt-16">
-          <Guarantee />
-        </div>
         <Faq />
       </main>
       <Footer />

@@ -22,27 +22,20 @@ const bonusData = [
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
   },
-  {
-    bonusNumber: "#04",
-    title: "Mini curso de publicidade e vendas",
-    description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
-    image: "https://imgur.com/0jFdKVH.png",
-    alt: "Bônus mini curso de publicidade",
-  }
 ];
 
 export function Bonuses() {
   return (
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12" id="bonus">
           <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
             BÔNUS PARA <br />
             <u className="text-accent">PRIMEIRA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              4 Bônus exclusivos
+              3 Bônus exclusivos
             </span>{" "}
             para quem adquirir o CURSO NESTA PÁGINA
           </h3>
