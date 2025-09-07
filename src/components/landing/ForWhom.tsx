@@ -48,7 +48,7 @@ export function ForWhom() {
             <section className="relative text-white" style={{backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #F70693 100%)', paddingTop: '30px', paddingBottom: '0px', marginTop: '-7px'}}>
                 <div className="absolute bottom-0 left-0 w-full h-[100px]" style={{transform: 'translateY(1px)'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className="w-full h-full">
-                        <path className="text-white" fill="currentColor" d="M0,6V0h1000v100L0,6z"></path>
+                        <path className="text-white" fill="currentColor" d="M1000,4.3V100H0V4.3C276.4,73.7,621.6,91.8,1000,4.3z"></path>
                     </svg>
                 </div>
                 <div className="container mx-auto px-4">
@@ -59,9 +59,9 @@ export function ForWhom() {
                 </div>
             </section>
 
-            <section className="bg-white pb-0">
+            <section className="bg-white pt-10 pb-0">
                 <div className="container mx-auto px-4 text-center">
-                    <div className="max-w-md mx-auto pt-8">
+                    <div className="max-w-md mx-auto">
                         <h2 className="text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
                         <h2 className="text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
                         <h2 className="text-7xl font-extrabold text-green-600 mt-1">R$14,90</h2>
