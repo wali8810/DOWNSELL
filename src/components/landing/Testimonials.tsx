@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const testimonials = [
   {
@@ -64,6 +65,23 @@ export function Testimonials() {
               </p>
               <p className="mt-4 text-lg text-muted-foreground">
                 Dica: os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido.
+              </p>
+            </div>
+
+            <div className="mt-16 text-center max-w-3xl mx-auto">
+              <div className="mb-12">
+                  <a href="#plans" className="inline-block">
+                    <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform duration-300 shadow-lg">
+                      GARANTIR AGORA COM DESCONTO
+                    </Button>
+                  </a>
+              </div>
+              <h3 className="text-2xl md:text-3xl font-extrabold mb-4">Quanto Tempo Leva Para Receber Meu Acesso?</h3>
+              <p className="text-muted-foreground mb-4 text-lg">
+                Após confirmar seu pedido, <strong>você receberá automaticamente</strong> no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente.
+              </p>
+              <p className="text-muted-foreground text-lg">
+                Todo o material está hospedado em uma <strong>área de membros exclusiva</strong> para alunos, para que você possa acessar com segurança, quando e de onde estiver.
               </p>
             </div>
         </div>
