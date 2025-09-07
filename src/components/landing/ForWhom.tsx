@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -46,44 +45,23 @@ const CheckIcon = () => (
 export function ForWhom() {
     return (
         <>
-            <section className="relative text-white elementor-section elementor-top-section elementor-element elementor-element-38c7831e elementor-section-boxed elementor-section-height-default elementor-section-height-default" style={{backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #FF02B2 100%)', paddingTop: '30px', paddingBottom: '0px', marginTop: '-7px'}}>
-                <div className="elementor-shape elementor-shape-bottom" data-negative="false" style={{transform: 'translateY(1px)'}}>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                        <path className="elementor-shape-fill" d="M0,6V0h1000v100L0,6z" style={{fill: '#FFFFFF'}}></path>
+            <section className="relative text-white" style={{backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #F70693 100%)', paddingTop: '30px', paddingBottom: '0px', marginTop: '-7px'}}>
+                <div className="absolute bottom-0 left-0 w-full h-[100px]" style={{transform: 'translateY(1px)'}}>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className="w-full h-full">
+                        <path className="text-white" fill="currentColor" d="M0,6V0h1000v100L0,6z"></path>
                     </svg>
                 </div>
                 <div className="container mx-auto px-4">
-                    <div className="text-center">
-                        <div className="elementor-widget-wrap elementor-element-populated">
-                            <div className="elementor-element elementor-element-421d592f elementor-widget elementor-widget-heading">
-                                <div className="elementor-widget-container">
-                                    <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-tight text-white mb-4">DO ZERO à PRIMEIRA DECORAÇÃO COM <span style={{color:"#000000",backgroundColor:"#47CB59"}} className="px-2">BALÕES LUCRATIVOS</span></h2>
-                                </div>
-                            </div>
-                            <div className="elementor-element elementor-element-41fc69c5 elementor-widget elementor-widget-text-editor">
-                                <div className="elementor-widget-container">
-                                    <p className="text-lg text-white/90">O passo a passo que 750 Mulheres Usam Para ganhar&nbsp;<b>R$2.700,00 Por semana</b> Trabalhando 3-4 Horas</p>
-                                </div>
-                            </div>
-                            <div className="elementor-element elementor-element-6472a72 elementor-widget elementor-widget-image">
-                                <div className="elementor-widget-container">
-                                    <Image
-                                        src="https://imgur.com/gKj2u2b.png"
-                                        alt="super mockups"
-                                        width={608}
-                                        height={405}
-                                        className="mx-auto"
-                                    />
-                                </div>
-                            </div>
-                        </div>
+                    <div className="text-center py-12">
+                        <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-tight text-white mb-4">DO ZERO à PRIMEIRA DECORAÇÃO COM <span style={{color:"#000000",backgroundColor:"#47CB59"}} className="px-2">BALÕES LUCRATIVOS</span></h2>
+                        <p className="text-lg text-white/90">O passo a passo que 750 Mulheres Usam Para ganhar&nbsp;<b>R$2.700,00 Por semana</b> Trabalhando 3-4 Horas</p>
                     </div>
                 </div>
             </section>
 
-            <section className="bg-white py-10 pb-0">
+            <section className="bg-white pb-0">
                 <div className="container mx-auto px-4 text-center">
-                    <div className="max-w-md mx-auto">
+                    <div className="max-w-md mx-auto pt-8">
                         <h2 className="text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
                         <h2 className="text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
                         <h2 className="text-7xl font-extrabold text-green-600 mt-1">R$14,90</h2>
@@ -145,5 +123,3 @@ export function ForWhom() {
         </>
     );
 }
-
-    

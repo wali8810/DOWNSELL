@@ -1522,9 +1522,7 @@ __turbopack_context__.s({
     "ForWhom": (()=>ForWhom)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/button.tsx [app-rsc] (ecmascript)");
-;
 ;
 ;
 const forWhomItems = [
@@ -1570,29 +1568,28 @@ const CheckIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
             d: "M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"
         }, void 0, false, {
             fileName: "[project]/src/components/landing/ForWhom.tsx",
-            lineNumber: 42,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/ForWhom.tsx",
-        lineNumber: 41,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 function ForWhom() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative text-white elementor-section elementor-top-section elementor-element elementor-element-38c7831e elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+                className: "relative text-white",
                 style: {
-                    backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #FF02B2 100%)',
+                    backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #F70693 100%)',
                     paddingTop: '30px',
                     paddingBottom: '0px',
                     marginTop: '-7px'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "elementor-shape elementor-shape-bottom",
-                        "data-negative": "false",
+                        className: "absolute bottom-0 left-0 w-full h-[100px]",
                         style: {
                             transform: 'translateY(1px)'
                         },
@@ -1600,155 +1597,94 @@ function ForWhom() {
                             xmlns: "http://www.w3.org/2000/svg",
                             viewBox: "0 0 1000 100",
                             preserveAspectRatio: "none",
+                            className: "w-full h-full",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                className: "elementor-shape-fill",
-                                d: "M0,6V0h1000v100L0,6z",
-                                style: {
-                                    fill: '#FFFFFF'
-                                }
+                                className: "text-white",
+                                fill: "currentColor",
+                                d: "M0,6V0h1000v100L0,6z"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 52,
+                                lineNumber: 51,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                            lineNumber: 51,
+                            lineNumber: 50,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container mx-auto px-4",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "elementor-widget-wrap elementor-element-populated",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "elementor-element elementor-element-421d592f elementor-widget elementor-widget-heading",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "elementor-widget-container",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-2xl md:text-3xl font-bold uppercase tracking-tight text-white mb-4",
-                                                children: [
-                                                    "DO ZERO à PRIMEIRA DECORAÇÃO COM ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        style: {
-                                                            color: "#000000",
-                                                            backgroundColor: "#47CB59"
-                                                        },
-                                                        className: "px-2",
-                                                        children: "BALÕES LUCRATIVOS"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                        lineNumber: 60,
-                                                        columnNumber: 158
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 60,
-                                                columnNumber: 37
-                                            }, this)
+                            className: "text-center py-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl md:text-3xl font-bold uppercase tracking-tight text-white mb-4",
+                                    children: [
+                                        "DO ZERO à PRIMEIRA DECORAÇÃO COM ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: "#000000",
+                                                backgroundColor: "#47CB59"
+                                            },
+                                            className: "px-2",
+                                            children: "BALÕES LUCRATIVOS"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                            lineNumber: 59,
-                                            columnNumber: 33
+                                            lineNumber: 56,
+                                            columnNumber: 146
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 58,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "elementor-element elementor-element-41fc69c5 elementor-widget elementor-widget-text-editor",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "elementor-widget-container",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-lg text-white/90",
-                                                children: [
-                                                    "O passo a passo que 750 Mulheres Usam Para ganhar ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                        children: "R$2.700,00 Por semana"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                        lineNumber: 65,
-                                                        columnNumber: 129
-                                                    }, this),
-                                                    " Trabalhando 3-4 Horas"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 65,
-                                                columnNumber: 37
-                                            }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/landing/ForWhom.tsx",
+                                    lineNumber: 56,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-white/90",
+                                    children: [
+                                        "O passo a passo que 750 Mulheres Usam Para ganhar ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                            children: "R$2.700,00 Por semana"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                            lineNumber: 64,
-                                            columnNumber: 33
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 63,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "elementor-element elementor-element-6472a72 elementor-widget elementor-widget-image",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "elementor-widget-container",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "https://imgur.com/gKj2u2b.png",
-                                                alt: "super mockups",
-                                                width: 608,
-                                                height: 405,
-                                                className: "mx-auto"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 70,
-                                                columnNumber: 37
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                            lineNumber: 69,
-                                            columnNumber: 33
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 57,
-                                columnNumber: 25
-                            }, this)
-                        }, void 0, false, {
+                                            lineNumber: 57,
+                                            columnNumber: 117
+                                        }, this),
+                                        " Trabalhando 3-4 Horas"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/landing/ForWhom.tsx",
+                                    lineNumber: 57,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                            lineNumber: 56,
+                            lineNumber: 55,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 55,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                lineNumber: 49,
+                lineNumber: 48,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-white py-10 pb-0",
+                className: "bg-white pb-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 text-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-md mx-auto",
+                        className: "max-w-md mx-auto pt-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl font-bold text-red-500",
@@ -1756,12 +1692,12 @@ function ForWhom() {
                                     children: "DE R$59,90"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 65,
                                     columnNumber: 73
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 87,
+                                lineNumber: 65,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1769,7 +1705,7 @@ function ForWhom() {
                                 children: "POR APENAS"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 88,
+                                lineNumber: 66,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1777,7 +1713,7 @@ function ForWhom() {
                                 children: "R$14,90"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 89,
+                                lineNumber: 67,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1785,7 +1721,7 @@ function ForWhom() {
                                 children: "RISCO ZERO!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 90,
+                                lineNumber: 68,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1797,35 +1733,35 @@ function ForWhom() {
                                     children: "QUERO APROVEITAR"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 70,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 91,
+                                lineNumber: 69,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "mt-8 border-t-2 border-black font-bold w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 96,
+                                lineNumber: 74,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 86,
+                        lineNumber: 64,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                    lineNumber: 85,
+                    lineNumber: 63,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                lineNumber: 84,
+                lineNumber: 62,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1846,13 +1782,13 @@ function ForWhom() {
                                         children: "CARTÕES DECORATIVOS?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 83,
                                         columnNumber: 50
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 104,
+                                lineNumber: 82,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1862,32 +1798,32 @@ function ForWhom() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(CheckIcon, {}, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 88,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 89,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 87,
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 107,
+                                lineNumber: 85,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "space-y-4 my-8"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 116,
+                                lineNumber: 94,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1895,7 +1831,7 @@ function ForWhom() {
                                 children: "VEJA O QUE VOCÊ VAI RECEBER:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 118,
+                                lineNumber: 96,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1908,7 +1844,7 @@ function ForWhom() {
                                                 children: item.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 125,
+                                                lineNumber: 103,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1918,7 +1854,7 @@ function ForWhom() {
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                        lineNumber: 126,
+                                                        lineNumber: 104,
                                                         columnNumber: 43
                                                     }, this),
                                                     ": ",
@@ -1926,18 +1862,18 @@ function ForWhom() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 104,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 102,
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 122,
+                                lineNumber: 100,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1950,17 +1886,17 @@ function ForWhom() {
                                         children: "QUERO APROVEITAR"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 111,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 110,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 131,
+                                lineNumber: 109,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1971,37 +1907,37 @@ function ForWhom() {
                                         children: "você NÃO precisa de:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 117,
                                         columnNumber: 77
                                     }, this),
                                     " experiência, materiais caros ou passar horas trabalhando"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 139,
+                                lineNumber: 117,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "border-t-2 border-black font-bold w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 141,
+                                lineNumber: 119,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 103,
+                        lineNumber: 81,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                    lineNumber: 102,
+                    lineNumber: 80,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                lineNumber: 101,
+                lineNumber: 79,
                 columnNumber: 13
             }, this)
         ]
