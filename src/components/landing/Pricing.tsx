@@ -131,7 +131,7 @@ export function Pricing() {
                   <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1 text-base">Mais Vendido</Badge>
               </div>
               
-              <div className="flex justify-center my-4 pt-4">
+              <div className="flex justify-center my-4">
                 <StarIcon />
                 <StarIcon />
                 <StarIcon />
@@ -170,7 +170,7 @@ export function Pricing() {
 
               <div className="mt-auto">
                  <div className="flex justify-center flex-col items-center gap-4">
-                  <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target-="_blank" rel="noopener noreferrer" className="block w-full">
                      <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse-green">
                         SIM! QUERO ESSA SUPER OFERTA!
                       </button>
