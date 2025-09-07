@@ -101,6 +101,7 @@ export function Pricing() {
                       </li>
                     ))}
                   </ul>
+                  <div className="border-b border-gray-200 my-3"></div>
                   <ul className="text-left space-y-3 my-4 text-red-500">
                     {planoBasicoFeatures.notIncluded.map((item, index) => (
                        <li key={`basic-not-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
