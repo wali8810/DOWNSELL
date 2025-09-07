@@ -1607,23 +1607,23 @@ function ForWhom() {
                                     lineHeight: '1'
                                 },
                                 children: [
-                                    "Do zero à primeira",
+                                    "Do zero ao seu primeiro",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 57,
-                                        columnNumber: 39
+                                        columnNumber: 44
                                     }, this),
-                                    "decoração com ",
+                                    "cartão decorativo ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
                                             color: '#fff',
                                             backgroundColor: '#47CB59'
                                         },
-                                        children: "balões lucrativos"
+                                        children: "lucrativo"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 58,
-                                        columnNumber: 35
+                                        columnNumber: 39
                                     }, this)
                                 ]
                             }, void 0, true, {
