@@ -54,10 +54,11 @@ export function Testimonials() {
             </div>
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
-              <div className="text-lg text-foreground/90 leading-relaxed">
-                  <p className="mb-4">Imagine que você faça apenas 10 pequenos eventos no mês decorando festas por <strong style={{color: '#ff8f00'}}>R$500,00</strong> cada decoração!</p>
-                  <p className="mb-4">Isso traz um rendimento mensal de <strong style={{color: '#4fc700'}}>R$5.000,00</strong> visto que os <strong>custos da produção são mínimos</strong>!</p>
-                  <p>Dica: Você também pode decorar chá de revelação ou chá de bebê, que está em alta no Brasil.</p>
+              <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
+                  <p>Imagina você faturar até <strong style={{color: '#4fc700'}}>R$5.000,00 por mês</strong> apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado.</p>
+                  <p>Diferente de artesanatos demorados, os cartões decorativos são rápidos de fazer, estão super em alta no Brasil e qualquer pessoa pode aprender — mesmo sem experiência.</p>
+                  <p>Você recebe modelos prontos e vídeos passo a passo, para criar cartões lindos e começar a vender ainda hoje.</p>
+                  <p><strong>Dica:</strong> os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido.</p>
               </div>
             </div>
 
