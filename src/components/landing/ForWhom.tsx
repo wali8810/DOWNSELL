@@ -138,7 +138,7 @@ export function ForWhom() {
                         
                         <p className="text-gray-600 mb-8">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
 
-                        <hr className="border-t-2 border-black font-bold my-8" />
+                        <hr className="border-t-2 border-black font-bold my-8 w-full" />
                     </div>
                 </div>
             </section>
