@@ -19,8 +19,8 @@ export default function Home() {
         <Features />
         <SocialProof />
         <Bonuses />
-        <Testimonials />
         <Pricing />
+        <Testimonials />
         <Guarantee />
         <Faq />
       </main>
