@@ -33,11 +33,11 @@ export function Faq() {
           </h2>
           <p className="text-muted-foreground mt-2">Esclareça todas as suas dúvidas</p>
         </div>
-        <Accordion type="single" collapsible className="w-full bg-black text-yellow-400 border border-yellow-400/50 rounded-lg p-2 md:p-4 shadow-lg">
+        <Accordion type="single" collapsible className="w-full bg-black text-yellow-400">
           {faqItems.map((item, index) => (
-            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : "border-b-yellow-400/30"}>
-              <AccordionTrigger className="text-lg text-left hover:no-underline px-4">{item.question}</AccordionTrigger>
-              <AccordionContent className="text-white/80 text-base px-4">
+            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : "border-b border-yellow-400/30"}>
+              <AccordionTrigger className="text-lg text-left hover:no-underline py-6">{item.question}</AccordionTrigger>
+              <AccordionContent className="text-white/80 text-base pb-6">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>

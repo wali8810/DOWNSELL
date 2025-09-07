@@ -1330,6 +1330,10 @@ body {
   border-color: #facc1580;
 }
 
+.border-yellow-400\/30 {
+  border-color: #facc154d;
+}
+
 .border-l-transparent {
   border-left-color: #0000;
 }
@@ -1622,6 +1626,10 @@ body {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
