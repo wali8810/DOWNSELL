@@ -4,19 +4,19 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 
 const planoCompletoFeatures = [
-  "<b>Curso Completo: Balão Decora</b>",
+  "<b>Curso Completo: Cartão Decorativo</b>",
   "<b>Certificado Incluso</b>",
   "<b>Acesso vitalício</b>",
   "<b>30 Dias de Garantia</b>",
 ];
 
 const planoCompletoBonus = [
-    { text: "<b>Bônus 01:</b> <i>23 NOVOS Modelos de Balões que Estão em Alta em 2025</i>", icon: "check" },
-    { text: "<b>Bônus 02:</b> <i>Lista de Fornecedores que Estão Vendendo 37% Abaixo do Valor de Mercado</i>", icon: "check" },
-    { text: "<b>Bônus 03:</b> <i>100 Artes Prontas de Balões Decorativos para Festas</i>", icon: "check" },
-    { text: "<b>Bônus Extra:</b> <i>Técnica de Escritas em Balões Decorados</i>", icon: "gift" },
-    { text: "<b>Grupo de Alunos:</b> <i>Grupo de Alunos Para Suporte e Trocas de Dicas e Experiências</i>", icon: "gift" },
-    { text: "<b>Suporte VIP:</b> Ganhe um <i>Acompanhamento Individual via WhatsApp por 90 Dias</i>", icon: "gift" }
+    { text: "<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>", icon: "check" },
+    { text: "<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>", icon: "check" },
+    { text: "<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>", icon: "check" },
+    { text: "<b>Bônus 4: Mini curso de publicidade e vendas</b><br/><i>Aprenda como promover facilmente seus produtos usando anúncios e técnicas de marketing online.</i>", icon: "gift" },
+    { text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
+    { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
 ]
 
 const planoBasicoFeatures = {
