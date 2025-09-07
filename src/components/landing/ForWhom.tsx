@@ -53,12 +53,11 @@ export function ForWhom() {
               }}>
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
-                <h2 className="text-4xl md:text-5xl font-bold uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
+                <h2 className="text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1' }}>
                     Do zero à primeira<br />
-                    decoração com balões<br />
-                    <span className="bg-[#47CB59] text-black px-4 rounded-md">lucrativos</span>
+                    decoração com <span style={{color: '#000', backgroundColor: '#47CB59'}}>balões lucrativos</span>
                 </h2>
-                <p className="mt-4 text-lg md:text-xl font-semibold" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.3)' }}>
+                <p className="mt-4 text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
                     O passo a passo que 750 mulheres usam para ganhar <b>R$2.700,00 por semana</b> trabalhando 3-4 horas
                 </p>
                 <div className="mt-8 flex justify-center">
