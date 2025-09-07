@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
@@ -128,7 +129,7 @@ export function Pricing() {
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative animate-pulse-yellow"
             >
                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg">Mais Vendido</Badge>
+                  <Badge className="bg-yellow-400 hover:bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg whitespace-nowrap">Mais Vendido</Badge>
               </div>
               
               <div className="text-center mb-4 mt-6">
