@@ -38,7 +38,7 @@ export function Testimonials() {
         <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {testimonials.map((testimonial, index) => (
-                    <div key={index} className="bg-card p-0 rounded-lg shadow-md border border-border overflow-hidden">
+                    <div key={index}>
                         <Image
                         src={testimonial.src}
                         alt={testimonial.alt}
