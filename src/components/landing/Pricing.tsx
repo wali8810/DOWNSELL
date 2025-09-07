@@ -94,18 +94,18 @@ export function Pricing() {
                 </div>
                 <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                   {planoBasicoFeatures.included.map((item, index) => (
-                    <li key={`basic-inc-${index}`} className="flex items-start">
+                     <li key={`basic-inc-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                       <CheckIcon />
                       <span dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                 </ul>
                 <hr className="border-gray-200 my-4" />
-                <ul className="text-left space-y-3 my-4 text-gray-400 flex-grow">
+                <ul className="text-left space-y-3 my-4 text-red-500 flex-grow">
                   {planoBasicoFeatures.notIncluded.map((item, index) => (
-                     <li key={`basic-not-${index}`} className="flex items-start text-red-500">
+                     <li key={`basic-not-${index}`} className="flex items-start">
                       <XIcon />
-                      <span className="text-red-500 line-through" dangerouslySetInnerHTML={{ __html: item }} />
+                      <span className="line-through" dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                 </ul>
