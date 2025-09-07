@@ -103,7 +103,7 @@ export function Pricing() {
                   </ul>
                   <ul className="text-left space-y-3 my-4 text-red-500">
                     {planoBasicoFeatures.notIncluded.map((item, index) => (
-                       <li key={`basic-not-${index}`} className="flex items-start">
+                       <li key={`basic-not-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                         <XIcon />
                         <span className="line-through" dangerouslySetInnerHTML={{ __html: item }} />
                       </li>
