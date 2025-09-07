@@ -1189,7 +1189,7 @@ function Testimonials() {
                                         className: "inline-block",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "lg",
-                                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg",
+                                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl",
                                             children: "GARANTIR AGORA COM DESCONTO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -2093,7 +2093,7 @@ function Guarantee() {
                         className: "inline-block",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
-                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg",
+                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl",
                             children: "LIBERE SEU ACESSO AO CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
