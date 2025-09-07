@@ -26,7 +26,7 @@ const bonusData = [
 
 export function Bonuses() {
   return (
-    <section className="py-16 md:py-24 bg-secondary">
+    <section className="pt-8 md:pt-12 pb-16 md:pb-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonus">
           <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
