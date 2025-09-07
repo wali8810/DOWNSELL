@@ -41,7 +41,7 @@ export function Bonuses() {
     <section className="bg-white py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonus">
-          <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
+          <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
             BÔNUS PARA <br />
             <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
           </h2>
@@ -51,7 +51,7 @@ export function Bonuses() {
             </span>{" "}
             para quem adquirir o CURSO NESTA PÁGINA
           </h3>
-          <h4 className="text-2xl font-bold uppercase text-destructive font-montserrat">
+          <h4 className="text-xl md:text-2xl font-bold uppercase text-destructive font-montserrat">
             <span style={{ color: "#FF0845" }}>
               (<u>ISSO TERMINA HOJE!</u>)
             </span>
@@ -66,17 +66,17 @@ export function Bonuses() {
             >
               <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
                 <div className="md:w-1/2 text-left space-y-2">
-                  <h3 className="text-3xl font-bold font-montserrat text-black">
+                  <h3 className="text-2xl md:text-3xl font-bold font-montserrat text-black">
                     BÔNUS {bonus.bonusNumber}:
                   </h3>
-                  <h4 className="text-2xl font-semibold font-montserrat text-orange-500">
+                  <h4 className="text-xl md:text-2xl font-semibold font-montserrat text-orange-500">
                     {bonus.title.toUpperCase()}
                   </h4>
-                  <p className="text-lg text-foreground/80 mt-2">{bonus.description}</p>
-                   <p className="font-montserrat text-lg">
+                  <p className="text-base md:text-lg text-foreground/80 mt-2">{bonus.description}</p>
+                   <p className="font-montserrat text-base md:text-lg">
                     <span className="text-red-500 line-through font-bold">De: {bonus.price}</span>
                   </p>
-                  <p className="font-montserrat text-lg font-bold">
+                  <p className="font-montserrat text-base md:text-lg font-bold">
                     <span className="text-green-500">Por: GRÁTIS</span>
                   </p>
                 </div>
@@ -86,7 +86,7 @@ export function Bonuses() {
                     alt={bonus.alt}
                     width={350}
                     height={450}
-                    className="w-auto h-auto"
+                    className="w-auto h-auto max-w-full"
                   />
                 </div>
               </div>

@@ -1,3 +1,4 @@
+
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqItems = [
@@ -36,7 +37,7 @@ export function Faq() {
         <Accordion type="single" collapsible className="w-full bg-black text-yellow-400">
           {faqItems.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index} className="border-b border-white/30">
-              <AccordionTrigger className="text-lg text-left hover:no-underline py-6">{item.question}</AccordionTrigger>
+              <AccordionTrigger className="text-md md:text-lg text-left hover:no-underline py-6">{item.question}</AccordionTrigger>
               <AccordionContent className="text-white/80 text-base pb-6">
                 {item.answer}
               </AccordionContent>

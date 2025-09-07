@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -33,7 +34,7 @@ export function Guarantee() {
 
             <div className="mb-8">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4">
+                  <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg">
                     LIBERE SEU ACESSO AO CURSO
                   </Button>
                 </a>
@@ -44,7 +45,7 @@ export function Guarantee() {
                 alt="Compra segura, satisfação garantida"
                 width={500}
                 height={100}
-                className="mx-auto"
+                className="mx-auto max-w-full h-auto"
                 data-ai-hint="secure purchase logos"
             />
         </div>

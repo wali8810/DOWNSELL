@@ -74,7 +74,7 @@ function Bonuses() {
                     id: "bonus",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat",
+                            className: "text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat",
                             children: [
                                 "BÔNUS PARA ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -120,7 +120,7 @@ function Bonuses() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                            className: "text-2xl font-bold uppercase text-destructive font-montserrat",
+                            className: "text-xl md:text-2xl font-bold uppercase text-destructive font-montserrat",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
                                     color: "#FF0845"
@@ -163,7 +163,7 @@ function Bonuses() {
                                         className: "md:w-1/2 text-left space-y-2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-3xl font-bold font-montserrat text-black",
+                                                className: "text-2xl md:text-3xl font-bold font-montserrat text-black",
                                                 children: [
                                                     "BÔNUS ",
                                                     bonus.bonusNumber,
@@ -175,7 +175,7 @@ function Bonuses() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                className: "text-2xl font-semibold font-montserrat text-orange-500",
+                                                className: "text-xl md:text-2xl font-semibold font-montserrat text-orange-500",
                                                 children: bonus.title.toUpperCase()
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Bonuses.tsx",
@@ -183,7 +183,7 @@ function Bonuses() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-lg text-foreground/80 mt-2",
+                                                className: "text-base md:text-lg text-foreground/80 mt-2",
                                                 children: bonus.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Bonuses.tsx",
@@ -191,7 +191,7 @@ function Bonuses() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "font-montserrat text-lg",
+                                                className: "font-montserrat text-base md:text-lg",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-red-500 line-through font-bold",
                                                     children: [
@@ -209,7 +209,7 @@ function Bonuses() {
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "font-montserrat text-lg font-bold",
+                                                className: "font-montserrat text-base md:text-lg font-bold",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-green-500",
                                                     children: "Por: GRÁTIS"
@@ -236,7 +236,7 @@ function Bonuses() {
                                             alt: bonus.alt,
                                             width: 350,
                                             height: 450,
-                                            className: "w-auto h-auto"
+                                            className: "w-auto h-auto max-w-full"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Bonuses.tsx",
                                             lineNumber: 84,
@@ -555,7 +555,7 @@ function Pricing() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full md:w-1/2 flex",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full",
+                                className: "bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-6 md:p-8 w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "text-center mb-6",
@@ -584,7 +584,7 @@ function Pricing() {
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-6xl font-extrabold text-green-500",
+                                                className: "text-5xl md:text-6xl font-extrabold text-green-500",
                                                 children: "R$10"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
@@ -601,7 +601,7 @@ function Pricing() {
                                         className: "flex-grow",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "text-left space-y-3 my-4 text-gray-600",
+                                                className: "text-left space-y-3 my-4 text-gray-600 text-sm md:text-base",
                                                 children: planoBasicoFeatures.included.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         className: "flex items-start pb-3 border-b border-gray-200 last:border-b-0",
                                                         children: [
@@ -638,7 +638,7 @@ function Pricing() {
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                className: "text-left space-y-3 my-4 text-red-500",
+                                                className: "text-left space-y-3 my-4 text-red-500 text-sm md:text-base",
                                                 children: planoBasicoFeatures.notIncluded.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         className: "flex items-start pb-3 border-b border-gray-200 last:border-b-0",
                                                         children: [
@@ -713,7 +713,7 @@ function Pricing() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full md:w-1/2 flex",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative animate-pulse-yellow",
+                                className: "bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-6 md:p-8 w-full relative animate-pulse-yellow",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-4 left-1/2 -translate-x-1/2",
@@ -809,7 +809,7 @@ function Pricing() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "text-left space-y-3 my-4 text-gray-600 flex-grow",
+                                        className: "text-left space-y-3 my-4 text-gray-600 flex-grow text-sm md:text-base",
                                         children: [
                                             planoCompletoFeatures.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     className: "flex items-start pb-3 border-b border-gray-200 last:border-b-0",
@@ -887,7 +887,7 @@ function Pricing() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-6xl font-extrabold text-green-500",
+                                                className: "text-5xl md:text-6xl font-extrabold text-green-500",
                                                 children: "R$14,90"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
@@ -910,7 +910,7 @@ function Pricing() {
                                                     rel: "noopener noreferrer",
                                                     className: "block w-full",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse-green",
+                                                        className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green",
                                                         children: "SIM! QUERO ESSA SUPER OFERTA!"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/Pricing.tsx",
@@ -923,7 +923,7 @@ function Pricing() {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm font-bold text-gray-700",
+                                                    className: "text-sm font-bold text-gray-700 text-center",
                                                     children: [
                                                         "ATENÇÃO: ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -936,14 +936,14 @@ function Pricing() {
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/Pricing.tsx",
                                                                     lineNumber: 179,
-                                                                    columnNumber: 119
+                                                                    columnNumber: 131
                                                                 }, this),
                                                                 " e Acabará em Breve."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/Pricing.tsx",
                                                             lineNumber: 179,
-                                                            columnNumber: 76
+                                                            columnNumber: 88
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
@@ -1046,7 +1046,7 @@ function Testimonials() {
                             children: "Milhares de mulheres já treinam conosco. Veja o que elas dizem:"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1058,19 +1058,19 @@ function Testimonials() {
                                     children: "transformando sua paixão em lucro."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 38,
                                     columnNumber: 73
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 37,
+                            lineNumber: 38,
                             columnNumber: 12
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1090,17 +1090,17 @@ function Testimonials() {
                                         unoptimized: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 25
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 43,
                                     columnNumber: 21
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 40,
+                            lineNumber: 41,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1118,14 +1118,14 @@ function Testimonials() {
                                                 children: "R$5.000,00 por mês"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 59,
                                                 columnNumber: 47
                                             }, this),
                                             " apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 59,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1135,21 +1135,21 @@ function Testimonials() {
                                                 children: "mesmo sem experiência"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 60,
                                                 columnNumber: 167
                                             }, this),
                                             "."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 60,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Você recebe modelos prontos e vídeos passo a passo, para criar cartões lindos e começar a vender ainda hoje."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 61,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1158,25 +1158,25 @@ function Testimonials() {
                                                 children: "Dica:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 62,
                                                 columnNumber: 22
                                             }, this),
                                             " os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 62,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                lineNumber: 57,
+                                lineNumber: 58,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1189,34 +1189,34 @@ function Testimonials() {
                                         className: "inline-block",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "lg",
-                                            className: "cta-button shadow-lg text-center h-auto py-4",
+                                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg",
                                             children: "GARANTIR AGORA COM DESCONTO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 69,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 68,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl md:text-3xl font-bold mb-4",
                                     style: {
                                         fontFamily: '"Montserrat", Sans-serif',
-                                        lineHeight: '34px',
+                                        lineHeight: '1.2',
                                         letterSpacing: '-0.9px'
                                     },
                                     children: "Quanto Tempo Leva Para Receber Meu Acesso?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 74,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1232,14 +1232,14 @@ function Testimonials() {
                                                     children: "você receberá automaticamente"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 84,
                                                     columnNumber: 49
                                                 }, this),
                                                 " no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 84,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1249,43 +1249,43 @@ function Testimonials() {
                                                     children: "área de membros exclusiva"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 85,
                                                     columnNumber: 60
                                                 }, this),
                                                 " para alunos, para que você possa acessar com segurança, quando e de onde estiver."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 85,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 65,
+                            lineNumber: 66,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/landing/Testimonials.tsx",
-            lineNumber: 34,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/Testimonials.tsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
@@ -1404,14 +1404,14 @@ function Faq() {
                                     children: "❓"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this),
                                 " Perguntas Frequentes"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 31,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1419,13 +1419,13 @@ function Faq() {
                             children: "Esclareça todas as suas dúvidas"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 34,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Faq.tsx",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
@@ -1437,11 +1437,11 @@ function Faq() {
                             className: "border-b border-white/30",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
-                                    className: "text-lg text-left hover:no-underline py-6",
+                                    className: "text-md md:text-lg text-left hover:no-underline py-6",
                                     children: item.question
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1449,29 +1449,29 @@ function Faq() {
                                     children: item.answer
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Faq.tsx",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/landing/Faq.tsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/Faq.tsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
@@ -1580,7 +1580,7 @@ function ForWhom() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative w-full pb-10 overflow-hidden text-white pt-20",
+                className: "relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 w-full h-full",
@@ -1602,7 +1602,7 @@ function ForWhom() {
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif',
                                     letterSpacing: '-0.9px',
-                                    lineHeight: '1'
+                                    lineHeight: '1.1'
                                 },
                                 children: [
                                     "Do zero ao seu primeiro",
@@ -1967,7 +1967,7 @@ function Guarantee() {
                             "data-ai-hint": "satisfaction guarantee seal"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                            lineNumber: 9,
+                            lineNumber: 10,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1978,7 +1978,7 @@ function Guarantee() {
                                     children: "PRODUTO COM RISCO ZERO!"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 19,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1987,14 +1987,14 @@ function Guarantee() {
                                         "O CURSO TEM GARANTIA ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                            lineNumber: 19,
+                                            lineNumber: 20,
                                             columnNumber: 94
                                         }, this),
                                         "INCONDICIONAL DE 30 DIAS"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                    lineNumber: 19,
+                                    lineNumber: 20,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2008,14 +2008,14 @@ function Guarantee() {
                                                     children: "Código de Defesa do Consumidor"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                                    lineNumber: 21,
+                                                    lineNumber: 22,
                                                     columnNumber: 71
                                                 }, this),
                                                 " – LEI Nº 8.078, de 11 de setembro de 1990."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                            lineNumber: 21,
+                                            lineNumber: 22,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2026,46 +2026,46 @@ function Guarantee() {
                                                     children: "dentro do prazo de 30 dias"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                                    lineNumber: 22,
+                                                    lineNumber: 23,
                                                     columnNumber: 173
                                                 }, this),
                                                 " e solicitar o reembolso total do valor investido."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                            lineNumber: 22,
+                                            lineNumber: 23,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Você receberá de volta cada centavo que pagou."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                            lineNumber: 23,
+                                            lineNumber: 24,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 21,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                     className: "border-border my-12"
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                    lineNumber: 28,
+                    lineNumber: 29,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2077,13 +2077,13 @@ function Guarantee() {
                             children: "O CURSO COM 89% OFF!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                            lineNumber: 31,
+                            lineNumber: 32,
                             columnNumber: 54
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2093,21 +2093,21 @@ function Guarantee() {
                         className: "inline-block",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
-                            className: "cta-button shadow-lg text-center h-auto py-4",
+                            className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg",
                             children: "LIBERE SEU ACESSO AO CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 19
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Guarantee.tsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2115,22 +2115,22 @@ function Guarantee() {
                     alt: "Compra segura, satisfação garantida",
                     width: 500,
                     height: 100,
-                    className: "mx-auto",
+                    className: "mx-auto max-w-full h-auto",
                     "data-ai-hint": "secure purchase logos"
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Guarantee.tsx",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 13
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/landing/Guarantee.tsx",
-            lineNumber: 7,
+            lineNumber: 8,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/Guarantee.tsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }

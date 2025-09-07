@@ -85,16 +85,16 @@ export function Pricing() {
           
           {/* Plano Básico */}
           <div className="w-full md:w-1/2 flex">
-             <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
+             <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-6 md:p-8 w-full">
                 <div className="text-center mb-6">
                    <div className="bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
                    <p className="font-bold text-lg uppercase text-black">Pagamento Único</p>
-                  <p className="text-6xl font-extrabold text-green-500">R$10</p>
+                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$10</p>
                 </div>
                 <div className="flex-grow">
-                  <ul className="text-left space-y-3 my-4 text-gray-600">
+                  <ul className="text-left space-y-3 my-4 text-gray-600 text-sm md:text-base">
                     {planoBasicoFeatures.included.map((item, index) => (
                        <li key={`basic-inc-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                         <CheckIcon />
@@ -103,7 +103,7 @@ export function Pricing() {
                     ))}
                   </ul>
                   <div className="border-t border-gray-200 my-4"></div>
-                  <ul className="text-left space-y-3 my-4 text-red-500">
+                  <ul className="text-left space-y-3 my-4 text-red-500 text-sm md:text-base">
                     {planoBasicoFeatures.notIncluded.map((item, index) => (
                        <li key={`basic-not-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                         <XIcon />
@@ -126,7 +126,7 @@ export function Pricing() {
           {/* Plano Completo */}
           <div className="w-full md:w-1/2 flex">
             <div
-              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative animate-pulse-yellow"
+              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-6 md:p-8 w-full relative animate-pulse-yellow"
             >
                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                   <Badge className="bg-yellow-400 hover:bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg whitespace-nowrap">Mais Vendido</Badge>
@@ -148,7 +148,7 @@ export function Pricing() {
               
               <Image src="https://imgur.com/mva0uTH.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
-              <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
+              <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow text-sm md:text-base">
                 {planoCompletoFeatures.map((item, index) => (
                   <li key={`complete-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                     <CheckIcon />
@@ -166,17 +166,17 @@ export function Pricing() {
               <div className="text-center my-4">
                 <p className="text-red-500 line-through text-lg">Valor Total: R$147</p>
                 <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                <p className="text-6xl font-extrabold text-green-500">R$14,90</p>
+                <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$14,90</p>
               </div>
 
               <div className="mt-auto">
                  <div className="flex justify-center flex-col items-center gap-4">
                   <a href="https://pay.kirvano.com/cf061551-9c71-486b-b0f1-47c8002b42ff" rel="noopener noreferrer" className="block w-full">
-                     <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse-green">
+                     <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green">
                         SIM! QUERO ESSA SUPER OFERTA!
                       </button>
                    </a>
-                   <p className="text-sm font-bold text-gray-700">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
+                   <p className="text-sm font-bold text-gray-700 text-center">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
                 </div>
               </div>
             </div>

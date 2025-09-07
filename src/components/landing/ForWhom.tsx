@@ -46,7 +46,7 @@ const CheckIcon = () => (
 export function ForWhom() {
     return (
         <>
-            <section className="relative w-full pb-10 overflow-hidden text-white pt-20">
+            <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20">
               <div className="absolute inset-0 w-full h-full" style={{
                   backgroundImage: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2560 720' preserveAspectRatio='none'><defs><linearGradient id='heroGrad' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23FF7A00'/><stop offset='45%' stop-color='%23FF8A20'/><stop offset='100%' stop-color='%23F70693'/></linearGradient></defs><path d='M0,0 H2560 V512 L0,600 Z' fill='url(%23heroGrad)'/><path d='M0,600 L2560,512 V720 H0 Z' fill='%23FFFFFF'/></svg>\")",
                   backgroundSize: 'cover',
@@ -54,7 +54,7 @@ export function ForWhom() {
               }}>
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
-                <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1' }}>
+                <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
                     Do zero ao seu primeiro<br/>
                      <span style={{color: '#fff', backgroundColor: '#47CB59'}}>cartão decorativo lucrativo</span>
                 </h2>

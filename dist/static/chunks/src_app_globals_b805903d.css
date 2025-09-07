@@ -3242,9 +3242,18 @@ body {
     padding: 1rem;
   }
 
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:pb-28 {
@@ -3261,6 +3270,10 @@ body {
 
   .md\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-left {
@@ -3305,6 +3318,16 @@ body {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:opacity-0 {

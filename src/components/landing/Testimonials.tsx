@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -65,14 +66,14 @@ export function Testimonials() {
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="mb-12">
                   <a href="#plans" className="inline-block">
-                    <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4">
+                    <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-lg">
                       GARANTIR AGORA COM DESCONTO
                     </Button>
                   </a>
               </div>
                <h3 
                 className="text-2xl md:text-3xl font-bold mb-4" 
-                style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '34px', letterSpacing: '-0.9px' }}
+                style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '1.2', letterSpacing: '-0.9px' }}
               >
                 Quanto Tempo Leva Para Receber Meu Acesso?
               </h3>
