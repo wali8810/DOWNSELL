@@ -27,12 +27,12 @@ const planoBasicoFeatures = {
     "30 Dias de Garantia"
   ],
   notIncluded: [
-    '<b>Bônus 01:</b> <i>23 NOVOS Modelos de Balões que Estão em Alta em 2024</i>',
-    '<b>Bônus 02:</b> <i>Lista de Fornecedores que Estão Vendendo 37% Abaixo do Valor de Mercado</i>',
-    '<b>Bônus 03:</b> <i>100 Artes Prontas de Balões Decorativos para Festas</i>',
-    '<b>Bônus Extra:</b> <i>Técnica de Escritas em Balões Decorados</i>',
-    '<b>Grupo de Alunos:</b> <i>Grupo de Alunos Para Suporte e Trocas de Dicas e Experiências</i>',
-    '<b>Suporte VIP:</b> <i>Ganhe um Acompanhamento Individual via WhatsApp por 90 Dias</i>',
+    '<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>',
+    '<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>',
+    '<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>',
+    '<b>Bônus 4: Mini curso de publicidade e vendas</b><br/><i>Aprenda como promover facilmente seus produtos usando anúncios e técnicas de marketing online.</i>',
+    '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
+    '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
   ]
 }
 
