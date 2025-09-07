@@ -21,7 +21,9 @@ export default function Home() {
         <Bonuses />
         <Pricing />
         <Testimonials />
-        <Guarantee />
+        <div className="-mt-16">
+          <Guarantee />
+        </div>
         <Faq />
       </main>
       <Footer />
