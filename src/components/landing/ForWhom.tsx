@@ -59,7 +59,7 @@ export function ForWhom() {
                      <span style={{color: '#fff', backgroundColor: '#47CB59'}}>cartão decorativo lucrativo</span>
                 </h2>
                 <p className="mt-4 text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
-                    O passo a passo que 750 mulheres usam para ganhar <b>R$2.700,00 por semana</b> trabalhando 3-4 horas
+                    O passo a passo que mais de 1.200 pessoas usam para ganhar até R$3.000,00 por mês criando em casa
                 </p>
                 <div className="mt-8 flex justify-center">
                     <Image
@@ -138,5 +138,3 @@ export function ForWhom() {
         </>
     );
 }
-
-    
