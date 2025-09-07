@@ -149,13 +149,13 @@ export function Pricing() {
 
               <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                 {planoCompletoFeatures.map((item, index) => (
-                  <li key={`complete-${index}`} className="flex items-start">
+                  <li key={`complete-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                     <CheckIcon />
                     <span dangerouslySetInnerHTML={{ __html: item }} />
                   </li>
                 ))}
                  {planoCompletoBonus.map((item, index) => (
-                  <li key={`complete-bonus-${index}`} className="flex items-start">
+                  <li key={`complete-bonus-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
                     {item.icon === 'check' ? <CheckIcon /> : <GiftIcon />}
                     <span dangerouslySetInnerHTML={{ __html: item.text }} />
                   </li>
