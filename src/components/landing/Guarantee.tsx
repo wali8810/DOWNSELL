@@ -33,7 +33,7 @@ export function Guarantee() {
 
             <div className="mb-8">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg text-center">
+                  <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg text-center h-auto py-4">
                     LIBERE SEU ACESSO AO CURSO
                   </Button>
                 </a>

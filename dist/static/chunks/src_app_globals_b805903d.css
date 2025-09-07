@@ -2174,15 +2174,17 @@ body {
   text-align: center;
   background-color: #47cb59;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
   width: auto;
   padding: 15px 30px;
   font-family: Montserrat, sans-serif;
   font-size: 22px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1;
   text-decoration: none;
   transition: all .3s;
-  display: inline-block;
+  display: inline-flex;
   box-shadow: 0 0 14px #00ff0c80;
   color: #fff !important;
 }
