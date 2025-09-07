@@ -1851,6 +1851,10 @@ body {
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 
+.text-foreground\/80 {
+  color: hsl(var(--foreground) / .8);
+}
+
 .underline {
   text-decoration-line: underline;
 }

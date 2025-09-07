@@ -3,48 +3,32 @@ import Image from "next/image";
 const bonusData = [
   {
     bonusNumber: "#01",
-    title: (
-      <>
-        <b>
-          <span style={{ color: "#FF8F00" }}>23 NOVOS Modelos</span>
-        </b>{" "}
-        de Balões que Estão em Alta em 2025
-      </>
-    ),
-    originalPrice: "R$37,00",
+    title: "Como vender nas redes sociais",
+    description: "Roteiros e exemplos para postar no Instagram, WhatsApp e marketplaces para atrair e fechar sua primeira venda em até 48 horas.",
     image: "https://imgur.com/E0QxgBv.png",
     alt: "Bônus sobre vendas nas redes sociais",
   },
   {
     bonusNumber: "#02",
-    title: (
-      <>
-        Lista de Fornecedores que Estão{" "}
-        <b>
-          <span style={{ color: "#FF8F00" }}>Vendendo 37% Abaixo</span>
-        </b>
-        <br />
-        do Valor de Mercado
-      </>
-    ),
-    originalPrice: "R$57,00",
+    title: "Manual de Vendas Pronto para Usar",
+    description: "Guia rápido para oferecer suas criações sem sofrer na tentativa.",
     image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
   },
   {
     bonusNumber: "#03",
-    title: (
-      <>
-        <b>
-          <span style={{ color: "#FF8F00" }}>100 Artes Prontas</span>
-        </b>{" "}
-        de Balões Decorativos para Festas
-      </>
-    ),
-    originalPrice: "R$27,00",
+    title: "Guia rápido para encontrar inspiração e vender no mesmo dia",
+    description: "Acesso a uma variedade de ideias para criar novos designs.",
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
   },
+  {
+    bonusNumber: "#04",
+    title: "Mini curso de publicidade e vendas",
+    description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
+    image: "https://imgur.com/0jFdKVH.png",
+    alt: "Bônus mini curso de publicidade",
+  }
 ];
 
 export function Bonuses() {
@@ -83,12 +67,7 @@ export function Bonuses() {
                   <h4 className="text-2xl font-bold font-montserrat text-black">
                     {bonus.title}
                   </h4>
-                  <p className="text-xl text-red-500 font-montserrat">
-                    De: <s>{bonus.originalPrice}</s>
-                  </p>
-                  <p className="text-2xl font-bold text-green-500 font-montserrat">
-                    Por: <b>GRÁTIS</b>
-                  </p>
+                  <p className="text-lg text-foreground/80 mt-2">{bonus.description}</p>
                 </div>
                 <div className="md:w-1/2 flex items-center justify-center">
                   <Image
@@ -102,35 +81,6 @@ export function Bonuses() {
               </div>
             </div>
           ))}
-           <div
-              className="p-4 border-2 border-dashed border-gray-300 rounded-2xl"
-            >
-              <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
-                <div className="md:w-1/2 text-left space-y-2">
-                  <h3 className="text-2xl font-bold font-montserrat text-black">
-                    BÔNUS #04:
-                  </h3>
-                  <h4 className="text-2xl font-bold font-montserrat text-black">
-                     <b><span style={{ color: "#FF8F00" }}>Técnica de Escritas</span></b> em Balões Decorados
-                  </h4>
-                  <p className="text-xl text-red-500 font-montserrat">
-                    De: <s>R$47,00</s>
-                  </p>
-                  <p className="text-2xl font-bold text-green-500 font-montserrat">
-                    Por: <b>GRÁTIS</b>
-                  </p>
-                </div>
-                <div className="md:w-1/2 flex items-center justify-center">
-                  <Image
-                    src="https://imgur.com/0jFdKVH.png"
-                    alt="Bônus mini curso de publicidade"
-                    width={350}
-                    height={450}
-                    className="w-auto h-auto"
-                  />
-                </div>
-              </div>
-            </div>
         </div>
       </div>
     </section>
