@@ -46,9 +46,9 @@ export function ForWhom() {
     return (
         <>
             <section className="relative text-white" style={{backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #F70693 100%)', paddingTop: '30px', paddingBottom: '0px', marginTop: '-7px'}}>
-                <div className="absolute bottom-0 left-0 w-full h-[100px]" style={{transform: 'translateY(1px)'}}>
+                <div className="absolute bottom-0 left-0 w-full h-[100px] -mb-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className="w-full h-full">
-                        <path className="text-white" fill="currentColor" d="M1000,4.3V100H0V4.3C276.4,73.7,621.6,91.8,1000,4.3z"></path>
+                        <path className="text-white" fill="currentColor" d="M0,6V0h1000v100L0,6z"></path>
                     </svg>
                 </div>
                 <div className="container mx-auto px-4">
@@ -76,7 +76,7 @@ export function ForWhom() {
                 </div>
             </section>
 
-            <section className="pt-2 pb-0 bg-white text-black">
+            <section className="py-12 bg-white text-black">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
@@ -102,7 +102,7 @@ export function ForWhom() {
                                 <p key={index} className="flex items-start text-lg">
                                     <span className="text-2xl mr-3 w-8 text-center">{item.icon}</span>
                                     <span><span className="underline font-bold">{item.title}</span>: {item.description}</span>
-                                </p>
+                                 </p>
                             ))}
                         </div>
 
