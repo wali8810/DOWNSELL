@@ -51,6 +51,21 @@ export function Testimonials() {
                     </div>
                 ))}
             </div>
+
+            <div className="mt-16 text-center max-w-3xl mx-auto">
+              <p className="text-lg text-foreground/90 leading-relaxed">
+                Imagina você faturar até R$5.000,00 por mês apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado.
+              </p>
+              <p className="mt-4 text-lg text-foreground/90 leading-relaxed">
+                Diferente de artesanatos demorados, os cartões decorativos são rápidos de fazer, estão super em alta no Brasil e qualquer pessoa pode aprender — mesmo sem experiência.
+              </p>
+              <p className="mt-4 text-lg text-foreground/90 leading-relaxed">
+                Você recebe modelos prontos e vídeos passo a passo, para criar cartões lindos e começar a vender ainda hoje.
+              </p>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Dica: os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido.
+              </p>
+            </div>
         </div>
       </div>
     </section>
