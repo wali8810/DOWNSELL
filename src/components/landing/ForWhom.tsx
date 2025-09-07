@@ -93,12 +93,12 @@ export function ForWhom() {
                                 QUERO APROVEITAR
                             </Button>
                         </a>
-                        <hr className="mt-8 border-t-2 border-black font-bold" />
+                        <hr className="mt-8 border-t-2 border-black font-bold w-full" />
                     </div>
                 </div>
             </section>
 
-            <section className="py-16 md:py-24 bg-white text-black">
+            <section className="pt-2 pb-16 md:pb-24 bg-white text-black">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">

@@ -1612,6 +1612,11 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1678,6 +1683,10 @@ body {
 
 .pb-0 {
   padding-bottom: 0;
+}
+
+.pt-2 {
+  padding-top: .5rem;
 }
 
 .text-left {

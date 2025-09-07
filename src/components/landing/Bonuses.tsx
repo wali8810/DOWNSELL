@@ -34,12 +34,12 @@ const bonusData = [
 
 export function Bonuses() {
   return (
-    <section className="bg-white pt-8 pb-8">
+    <section className="bg-white py-0">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonus">
           <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
             BÔNUS PARA <br />
-            <u className="text-accent no-underline" style={{textDecorationColor: 'hsl(var(--accent))'}}>PRIMEIRA VISITA</u>...
+            <u className="text-accent no-underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
