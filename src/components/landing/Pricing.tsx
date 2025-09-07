@@ -114,7 +114,7 @@ export function Pricing() {
                 </div>
 
                 <div className="mt-auto">
-                   <a href="https://pay.kirvano.com/268fafab-5986-464b-9c14-bcdfa52ce9a2" target="_blank" rel="noopener noreferrer" className="block w-full">
+                   <a href="https://pay.kirvano.com/674c2e55-9ad9-430b-9b45-70cdd72a63a5" target="_blank" rel="noopener noreferrer" className="block w-full">
                       <Button size="lg" className="w-full text-lg py-6 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg">
                         QUERO ESSA OPÇÃO!
                       </Button>
@@ -171,7 +171,7 @@ export function Pricing() {
 
               <div className="mt-auto">
                  <div className="flex justify-center flex-col items-center gap-4">
-                  <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target-="_blank" rel="noopener noreferrer" className="block w-full">
+                  <a href="https://pay.kirvano.com/674c2e55-9ad9-430b-9b45-70cdd72a63a5" target-="_blank" rel="noopener noreferrer" className="block w-full">
                      <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse-green">
                         SIM! QUERO ESSA SUPER OFERTA!
                       </button>
