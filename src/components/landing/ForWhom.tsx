@@ -13,7 +13,7 @@ const whatYouGetItems = [
     {
         icon: "🎯",
         title: "ZERO AO AVANÇADO",
-        description: "Você receberá o guia para criar decorações com cartões decorativos e ser a profissional mais bem paga da sua cidade"
+        description: "Você vai receber o guia para criar lindas decorações com cartões e se tornar a profissional mais bem paga da sua cidade."
     },
     {
         icon: "💰",
