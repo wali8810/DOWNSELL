@@ -952,7 +952,7 @@ const whatYouGetItems = [
     },
     {
         icon: "🧠",
-        title: "BAIXO CUSTO",
+        title: "GUIA DE MATERIAIS",
         description: "Como começar seu negócio com materiais de baixo custo que geram alta taxa de lucro"
     }
 ];
