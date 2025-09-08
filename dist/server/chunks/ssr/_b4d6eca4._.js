@@ -1031,7 +1031,7 @@ function ForWhom() {
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif'
                                 },
-                                children: "O passo a passo que mais de 1.200 pessoas usam para ganhar até R$3.000,00 por mês criando em casa"
+                                children: "O passo a passo que mais de 1.200 pessoas usam para ganhar até R$5.000,00 por mês criando em casa"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 61,
