@@ -34,7 +34,7 @@ export function Testimonials() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">Milhares de mulheres já treinam conosco. Veja o que elas dizem:</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">+7.000 ALUNAS POR TODO O BRASIL. VEJA O QUE ELAS DIZEM:</h2>
            <p className="text-lg mt-4 text-muted-foreground">Elas estão <span className="text-accent underline">transformando sua paixão em lucro.</span></p>
         </div>
         <div className="max-w-4xl mx-auto">
