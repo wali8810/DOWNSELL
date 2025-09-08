@@ -937,7 +937,7 @@ const whatYouGetItems = [
     },
     {
         icon: "💰",
-        title: "guia de precificação",
+        title: "GUIA DE PRECIFICAÇÃO",
         description: "Dicas valiosas para fugir de gastos que aparentam ser “vantajosos” e acabam com o lucro"
     },
     {
