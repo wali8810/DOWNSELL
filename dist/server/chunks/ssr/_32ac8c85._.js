@@ -113,7 +113,7 @@ function RootLayout({ children }) {
                             style: {
                                 display: 'none'
                             },
-                            src: "https://www.facebook.com/tr?id=1296443748634668&ev=PageView&noscript=1"
+                            src: "https://www.facebook.com/tr?id=797399392968384&ev=PageView&noscript=1"
                         }, void 0, false, {
                             fileName: "[project]/src/app/layout.tsx",
                             lineNumber: 26,
@@ -154,7 +154,7 @@ function RootLayout({ children }) {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1296443748634668');
+            fbq('init', '797399392968384');
             fbq('track', 'PageView');
           `
                     }, void 0, false, {
