@@ -933,7 +933,7 @@ const whatYouGetItems = [
     {
         icon: "🎯",
         title: "ZERO AO AVANÇADO",
-        description: "Você receberá o guia para criar decorações com balões e ser a profissional mais bem paga da sua cidade"
+        description: "Você receberá o guia para criar decorações com cartões decorativos e ser a profissional mais bem paga da sua cidade"
     },
     {
         icon: "💰",
@@ -996,7 +996,7 @@ function ForWhom() {
                         className: "relative container mx-auto px-4 text-center z-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white",
+                                className: "text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white",
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif',
                                     letterSpacing: '-0.9px',
@@ -1161,7 +1161,7 @@ function ForWhom() {
                         className: "max-w-4xl mx-auto text-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide",
+                                className: "text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide",
                                 children: [
                                     "PARA QUEM É O MÉTODO ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1226,7 +1226,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-left space-y-6 mb-8 max-w-2xl mx-auto",
                                 children: whatYouGetItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "flex items-start text-lg md:text-xl",
+                                        className: "flex items-start text-base md:text-lg",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-2xl mr-3 w-8 text-center",
@@ -1271,7 +1271,7 @@ function ForWhom() {
                                     href: "#plans",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                         size: "lg",
-                                        className: "bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg",
+                                        className: "bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg",
                                         children: "QUERO APROVEITAR"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1289,7 +1289,7 @@ function ForWhom() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-gray-600 mb-8 text-base md:text-lg",
+                                className: "text-gray-600 mb-8 text-sm md:text-base",
                                 children: [
                                     "Seguindo o curso, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {

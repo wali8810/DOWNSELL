@@ -13,7 +13,7 @@ const whatYouGetItems = [
     {
         icon: "🎯",
         title: "ZERO AO AVANÇADO",
-        description: "Você receberá o guia para criar decorações com balões e ser a profissional mais bem paga da sua cidade"
+        description: "Você receberá o guia para criar decorações com cartões decorativos e ser a profissional mais bem paga da sua cidade"
     },
     {
         icon: "💰",
@@ -54,7 +54,7 @@ export function ForWhom() {
               }}>
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
-                <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
+                <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
                     Do zero ao seu primeiro<br/>
                      <span style={{color: '#fff', backgroundColor: '#47CB59'}}>cartão decorativo lucrativo</span>
                 </h2>
@@ -94,7 +94,7 @@ export function ForWhom() {
             <section className="py-12 bg-white text-black">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
-                        <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
+                        <h2 className="text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
                             PARA QUEM É O MÉTODO <span style={{color:"#FFAD00"}}>CARTÕES DECORATIVOS?</span>
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
@@ -114,7 +114,7 @@ export function ForWhom() {
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">
                             {whatYouGetItems.map((item, index) => (
-                                <p key={index} className="flex items-start text-lg md:text-xl">
+                                <p key={index} className="flex items-start text-base md:text-lg">
                                     <span className="text-2xl mr-3 w-8 text-center">{item.icon}</span>
                                     <span><span className="underline font-bold">{item.title}</span>: {item.description}</span>
                                  </p>
@@ -123,13 +123,13 @@ export function ForWhom() {
 
                         <div className="mb-8">
                             <a href="#plans">
-                                <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
+                                <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
                                     QUERO APROVEITAR
                                 </Button>
                             </a>
                         </div>
                         
-                        <p className="text-gray-600 mb-8 text-base md:text-lg">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
+                        <p className="text-gray-600 mb-8 text-sm md:text-base">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
 
                         <hr className="border-t-2 border-black font-bold w-full" />
                     </div>
