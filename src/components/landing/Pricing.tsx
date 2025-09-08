@@ -7,7 +7,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
-  "<b>Curso Completo: Cartão Decorativo</b>",
+  "<b>Curso Completo: Cartões Decorativos</b>",
   "<b>Certificado Incluso</b>",
   "<b>Acesso vitalício</b>",
   "<b>30 Dias de Garantia</b>",
@@ -23,7 +23,7 @@ const planoCompletoBonus = [
 
 const planoBasicoFeatures = {
   included: [
-    "Curso Completo: Balão Decora",
+    "Curso Completo: Cartões Decorativos",
     "Certificado Incluso",
     "1 Ano de Acesso",
     "30 Dias de Garantia"
@@ -193,5 +193,3 @@ export function Pricing() {
     </section>
   );
 }
-
-    
