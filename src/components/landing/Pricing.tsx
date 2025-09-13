@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
-  "<b>Curso Completo: Cartões Decorativos</b>",
+  "<b>Curso Completo: Estampa Mágica</b>",
   "<b>Certificado Incluso</b>",
   "<b>Acesso vitalício</b>",
   "<b>30 Dias de Garantia</b>",
@@ -23,7 +23,7 @@ const planoCompletoBonus = [
 
 const planoBasicoFeatures = {
   included: [
-    "Curso Completo: Cartões Decorativos",
+    "Curso Completo: Estampa Mágica",
     "Certificado Incluso",
     "1 Ano de Acesso",
     "30 Dias de Garantia"

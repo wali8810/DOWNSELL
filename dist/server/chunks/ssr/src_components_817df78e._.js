@@ -122,7 +122,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 ;
 const planoCompletoFeatures = [
-    "<b>Curso Completo: Cartões Decorativos</b>",
+    "<b>Curso Completo: Estampa Mágica</b>",
     "<b>Certificado Incluso</b>",
     "<b>Acesso vitalício</b>",
     "<b>30 Dias de Garantia</b>"
@@ -155,7 +155,7 @@ const planoCompletoBonus = [
 ];
 const planoBasicoFeatures = {
     included: [
-        "Curso Completo: Cartões Decorativos",
+        "Curso Completo: Estampa Mágica",
         "Certificado Incluso",
         "1 Ano de Acesso",
         "30 Dias de Garantia"
