@@ -8,11 +8,11 @@ export function Guarantee() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
             <div className="flex flex-col items-center">
                 <Image 
-                    src="https://imgur.com/Iy8hfnH"
+                    src="https://i.imgur.com/Iy8hfnH.png"
                     alt="Selo de Garantia de 30 dias"
                     width={250}
                     height={250}
-                    className="mx-auto mix-blend-multiply"
+                    className="mx-auto"
                     data-ai-hint="satisfaction guarantee seal"
                 />
                 <div className="text-center mt-8">
@@ -41,12 +41,12 @@ export function Guarantee() {
             </div>
 
             <Image 
-                src="https://imgur.com/VdsGY9a.png"
-                alt="Compra segura, satisfacción garantizada"
+                src="https://i.imgur.com/vx1HmTp.png"
+                alt="Compra segura, métodos de pago"
                 width={500}
                 height={100}
                 className="mx-auto max-w-full h-auto"
-                data-ai-hint="secure purchase logos"
+                data-ai-hint="secure purchase logos payment methods"
             />
         </div>
     </section>
