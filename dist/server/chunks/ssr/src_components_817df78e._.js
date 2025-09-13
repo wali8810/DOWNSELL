@@ -1317,7 +1317,7 @@ function SalesNotification() {
                             lineNumber: 62,
                             columnNumber: 11
                         }, this),
-                        " comprou há ",
+                        " acaba de comprar hace ",
                         timeAgo,
                         " minutos"
                     ]
