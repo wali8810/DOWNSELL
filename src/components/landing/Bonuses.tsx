@@ -36,7 +36,7 @@ export function Bonuses() {
   return (
     <section className="bg-white py-12">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12" id="bonus">
+        <div className="text-center mb-12" id="bonuses-section">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
             BONO POR <br />
             <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMERA VISITA</u>...
