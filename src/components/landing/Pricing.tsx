@@ -79,7 +79,7 @@ export function Pricing() {
     <section id="plans" className="py-16 md:py-24 bg-[#00110F]">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA VOCÊ</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ELIGE LA MEJOR OFERTA PARA TI</h2>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
