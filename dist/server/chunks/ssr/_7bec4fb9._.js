@@ -777,6 +777,38 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$a
 ;
 const faqItems = [
     {
+        question: "¿Qué es el ebook 'Personalizando con Plancha'?",
+        answer: "Es una guía práctica que enseña a personalizar telas usando una plancha y una impresora común, sin necesidad de experiencia o máquinas costosas."
+    },
+    {
+        question: "¿Necesito tener experiencia?",
+        answer: "No. El método fue creado para principiantes. Cualquier persona puede aplicarlo."
+    },
+    {
+        question: "¿Cuánto tiempo necesito dedicar por día?",
+        answer: "De 30 a 60 minutos por día son suficientes para empezar a practicar y crear tus primeras piezas."
+    },
+    {
+        question: "¿Por cuánto tiempo tengo acceso al ebook?",
+        answer: "Acceso vitalicio. Puedes acceder cuando quieras, leer online o descargar el material."
+    },
+    {
+        question: "¿Hay alguna garantía?",
+        answer: "Sí. Tienes 7 días de garantía para probar todo. Si no estás satisfecho, te devolvemos el 100% de tu inversión."
+    },
+    {
+        question: "¿Cómo funciona el soporte?",
+        answer: "Tendrás acceso a nuestro Soporte VIP individual, con atención directa y personalizada."
+    },
+    {
+        question: "¿Qué sucede después de comprar?",
+        answer: "Recibes un correo electrónico automático de Kiwify con acceso inmediato al ebook. Es simple y rápido."
+    },
+    {
+        question: "¿Necesito invertir en máquinas costosas?",
+        answer: "No. Solo necesitarás: ✔ Una plancha ✔ Una impresora común ✔ Papel específico (te enseño cuál usar en el ebook)."
+    },
+    {
         question: "¿En cuántos dispositivos puedo usar los archivos?",
         answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
     },
@@ -787,14 +819,6 @@ const faqItems = [
     {
         question: "¿Necesito algún programa especial para abrir los archivos?",
         answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
-    },
-    {
-        question: "¿Hay alguna garantía?",
-        answer: "Ofrecemos a nuestros clientes una garantía de satisfacción de 30 días. Si durante este período no estás satisfecho con nuestro producto, envíanos un correo electrónico para solicitar un reembolso completo, sin preguntas. Queremos asegurarnos de que nuestros clientes estén completamente satisfechos con su compra."
-    },
-    {
-        question: "¿Necesito acceso a Internet para usar los archivos?",
-        answer: "Solo necesitas una conexión a internet para descargar los archivos."
     }
 ];
 function Faq() {
@@ -815,14 +839,14 @@ function Faq() {
                                     children: "❓"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 " Preguntas Frecuentes"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 32,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -830,13 +854,13 @@ function Faq() {
                             children: "Aclara todas tus dudas"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 35,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Faq.tsx",
-                    lineNumber: 31,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
@@ -852,37 +876,37 @@ function Faq() {
                                     children: item.question
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 64,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                    className: "text-white/80 text-base pb-6",
+                                    className: "text-white/80 text-base pb-6 whitespace-pre-line",
                                     children: item.answer
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Faq.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
-                            lineNumber: 39,
+                            lineNumber: 63,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Faq.tsx",
-                    lineNumber: 37,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/landing/Faq.tsx",
-            lineNumber: 30,
+            lineNumber: 54,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/Faq.tsx",
-        lineNumber: 29,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 }

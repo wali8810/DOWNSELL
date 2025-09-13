@@ -3,6 +3,38 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
+    question: "¿Qué es el ebook 'Personalizando con Plancha'?",
+    answer: "Es una guía práctica que enseña a personalizar telas usando una plancha y una impresora común, sin necesidad de experiencia o máquinas costosas."
+  },
+  {
+    question: "¿Necesito tener experiencia?",
+    answer: "No. El método fue creado para principiantes. Cualquier persona puede aplicarlo."
+  },
+  {
+    question: "¿Cuánto tiempo necesito dedicar por día?",
+    answer: "De 30 a 60 minutos por día son suficientes para empezar a practicar y crear tus primeras piezas."
+  },
+  {
+    question: "¿Por cuánto tiempo tengo acceso al ebook?",
+    answer: "Acceso vitalicio. Puedes acceder cuando quieras, leer online o descargar el material."
+  },
+  {
+    question: "¿Hay alguna garantía?",
+    answer: "Sí. Tienes 7 días de garantía para probar todo. Si no estás satisfecho, te devolvemos el 100% de tu inversión."
+  },
+  {
+    question: "¿Cómo funciona el soporte?",
+    answer: "Tendrás acceso a nuestro Soporte VIP individual, con atención directa y personalizada."
+  },
+  {
+    question: "¿Qué sucede después de comprar?",
+    answer: "Recibes un correo electrónico automático de Kiwify con acceso inmediato al ebook. Es simple y rápido."
+  },
+  {
+    question: "¿Necesito invertir en máquinas costosas?",
+    answer: "No. Solo necesitarás: ✔ Una plancha ✔ Una impresora común ✔ Papel específico (te enseño cuál usar en el ebook)."
+  },
+  {
     question: "¿En cuántos dispositivos puedo usar los archivos?",
     answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
   },
@@ -13,14 +45,6 @@ const faqItems = [
   {
     question: "¿Necesito algún programa especial para abrir los archivos?",
     answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
-  },
-  {
-    question: "¿Hay alguna garantía?",
-    answer: "Ofrecemos a nuestros clientes una garantía de satisfacción de 30 días. Si durante este período no estás satisfecho con nuestro producto, envíanos un correo electrónico para solicitar un reembolso completo, sin preguntas. Queremos asegurarnos de que nuestros clientes estén completamente satisfechos con su compra."
-  },
-  {
-    question: "¿Necesito acceso a Internet para usar los archivos?",
-    answer: "Solo necesitas una conexión a internet para descargar los archivos."
   }
 ];
 
@@ -38,7 +62,7 @@ export function Faq() {
           {faqItems.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index} className="border-b border-white/30">
               <AccordionTrigger className="text-md md:text-lg text-left hover:no-underline py-6">{item.question}</AccordionTrigger>
-              <AccordionContent className="text-white/80 text-base pb-6">
+              <AccordionContent className="text-white/80 text-base pb-6 whitespace-pre-line">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>
