@@ -74,7 +74,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/EKCxH9x.png"
+                        src="https://i.imgur.com/I8fDFCF.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -149,7 +149,7 @@ export function ForWhom() {
                             >
                                 <CarouselContent>
                                 {carouselImages.map((src, index) => (
-                                    <CarouselItem key={index} className="basis-1/2">
+                                    <CarouselItem key={index} className="md:basis-1/2">
                                     <div className="p-1">
                                         <div className="aspect-square">
                                             <Image

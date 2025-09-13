@@ -148,7 +148,7 @@ export function Pricing() {
                 <p className="font-bold text-lg text-black uppercase">(MEJOR OFERTA)</p>
               </div>
               
-              <Image src="https://imgur.com/EKCxH9x.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
+              <Image src="https://i.imgur.com/I8fDFCF.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
               <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow text-sm md:text-base">
                 {planoCompletoFeatures.map((item, index) => (
