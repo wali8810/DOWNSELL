@@ -136,9 +136,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 const planoCompletoFeatures = [
     "<b>Curso Completo: Estampa Mágica</b>",
-    "<b>Certificado Incluso</b>",
-    "<b>Acesso vitalício</b>",
-    "<b>30 Dias de Garantia</b>"
+    "<b>Certificado Incluido</b>",
+    "<b>Acceso vitalicio</b>",
+    "<b>30 Días de Garantía</b>"
 ];
 const planoCompletoBonus = [
     {
@@ -158,28 +158,28 @@ const planoCompletoBonus = [
         icon: "check"
     },
     {
-        text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>",
+        text: "<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>",
         icon: "gift"
     },
     {
-        text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>",
+        text: "<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>",
         icon: "gift"
     }
 ];
 const planoBasicoFeatures = {
     included: [
         "Curso Completo: Estampa Mágica",
-        "Certificado Incluso",
-        "1 Ano de Acesso",
-        "30 Dias de Garantia"
+        "Certificado Incluido",
+        "1 Año de Acceso",
+        "30 Días de Garantía"
     ],
     notIncluded: [
         '<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>',
         '<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>',
         '<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>',
         '<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>',
-        '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
-        '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>'
+        '<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>',
+        '<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>'
     ]
 };
 const StarIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -411,7 +411,7 @@ function Pricing() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                 size: "lg",
                                                 className: "w-full text-lg py-6 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg",
-                                                children: "QUERO ESSA OPÇÃO!"
+                                                children: "¡QUIERO ESTA OPCIÓN!"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 120,
@@ -600,7 +600,7 @@ function Pricing() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-red-500 line-through text-lg",
-                                                children: "Valor Total: R$147"
+                                                children: "Valor Total: $59.900"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 169,
@@ -608,7 +608,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "uppercase font-bold text-black text-sm",
-                                                children: "HOJE PAGAMENTO ÚNICO..."
+                                                children: "HOY PAGO ÚNICO..."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 170,
@@ -657,7 +657,7 @@ function Pricing() {
                                                     className: "block w-full",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                         className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green",
-                                                        children: "SIM! QUERO ESSA SUPER OFERTA!"
+                                                        children: "¡SÍ! ¡QUIERO ESTA SÚPER OFERTA!"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/Pricing.tsx",
                                                         lineNumber: 183,
@@ -671,25 +671,25 @@ function Pricing() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm font-bold text-gray-700 text-center",
                                                     children: [
-                                                        "ATENÇÃO: ",
+                                                        "ATENCIÓN: ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "font-normal",
                                                             children: [
-                                                                "A Promoção é ",
+                                                                "La Promoción es ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
                                                                     className: "font-bold",
                                                                     children: "LIMITADA"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/Pricing.tsx",
                                                                     lineNumber: 187,
-                                                                    columnNumber: 131
+                                                                    columnNumber: 135
                                                                 }, this),
-                                                                " e Acabará em Breve."
+                                                                " y Terminará Pronto."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/Pricing.tsx",
                                                             lineNumber: 187,
-                                                            columnNumber: 88
+                                                            columnNumber: 89
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {

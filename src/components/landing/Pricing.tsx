@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
   "<b>Curso Completo: Estampa Mágica</b>",
-  "<b>Certificado Incluso</b>",
-  "<b>Acesso vitalício</b>",
-  "<b>30 Dias de Garantia</b>",
+  "<b>Certificado Incluido</b>",
+  "<b>Acceso vitalicio</b>",
+  "<b>30 Días de Garantía</b>",
 ];
 
 const planoCompletoBonus = [
@@ -17,24 +17,24 @@ const planoCompletoBonus = [
     { text: "<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>", icon: "check" },
     { text: "<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>", icon: "check" },
     { text: "<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>", icon: "check" },
-    { text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
-    { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
+    { text: "<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>", icon: "gift" },
+    { text: "<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>", icon: "gift" }
 ]
 
 const planoBasicoFeatures = {
   included: [
     "Curso Completo: Estampa Mágica",
-    "Certificado Incluso",
-    "1 Ano de Acesso",
-    "30 Dias de Garantia"
+    "Certificado Incluido",
+    "1 Año de Acceso",
+    "30 Días de Garantía"
   ],
   notIncluded: [
     '<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>',
     '<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>',
     '<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>',
     '<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>',
-    '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
-    '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
+    '<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>',
+    '<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>',
   ]
 }
 
@@ -118,7 +118,7 @@ export function Pricing() {
                 <div className="mt-auto">
                    <a href="https://pay.kirvano.com/674c2e55-9ad9-430b-9b45-70cdd72a63a5" rel="noopener noreferrer" className="block w-full">
                       <Button size="lg" className="w-full text-lg py-6 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg">
-                        QUERO ESSA OPÇÃO!
+                        ¡QUIERO ESTA OPCIÓN!
                       </Button>
                    </a>
                 </div>
@@ -166,8 +166,8 @@ export function Pricing() {
               </ul>
 
               <div className="text-center my-4">
-                <p className="text-red-500 line-through text-lg">Valor Total: R$147</p>
-                <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
+                <p className="text-red-500 line-through text-lg">Valor Total: $59.900</p>
+                <p className="uppercase font-bold text-black text-sm">HOY PAGO ÚNICO...</p>
                 <motion.p 
                     whileInView={{ rotate: [0, -1.5, 1.5, -1.5, 1.5, 0] }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
@@ -181,10 +181,10 @@ export function Pricing() {
                  <div className="flex justify-center flex-col items-center gap-4">
                   <a href="https://pay.kirvano.com/cf061551-9c71-486b-b0f1-47c8002b42ff" rel="noopener noreferrer" className="block w-full">
                      <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green">
-                        SIM! QUERO ESSA SUPER OFERTA!
+                        ¡SÍ! ¡QUIERO ESTA SÚPER OFERTA!
                       </button>
                    </a>
-                   <p className="text-sm font-bold text-gray-700 text-center">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
+                   <p className="text-sm font-bold text-gray-700 text-center">ATENCIÓN: <span className="font-normal">La Promoción es <u className="font-bold">LIMITADA</u> y Terminará Pronto.</span></p>
                 </div>
               </div>
             </div>
