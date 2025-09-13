@@ -59,7 +59,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/b4b5pi7.png"
+                        src="https://imgur.com/I8fDFCF.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
