@@ -13,9 +13,10 @@ const planoCompletoFeatures = [
 ];
 
 const planoCompletoBonus = [
-    { text: "<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>", icon: "check" },
-    { text: "<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>", icon: "check" },
-    { text: "<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>", icon: "check" },
+    { text: "<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>", icon: "check" },
+    { text: "<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>", icon: "check" },
+    { text: "<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>", icon: "check" },
+    { text: "<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>", icon: "check" },
     { text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
     { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
 ]
@@ -28,9 +29,10 @@ const planoBasicoFeatures = {
     "30 Dias de Garantia"
   ],
   notIncluded: [
-    '<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>',
-    '<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>',
-    '<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>',
+    '<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>',
+    '<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>',
+    '<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>',
+    '<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>',
     '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
     '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
   ]
