@@ -4,30 +4,46 @@ import { Button } from "@/components/ui/button";
 
 const testimonials = [
   {
-    src: "https://imgur.com/j1TOXF9.png",
-    alt: "Testimonio de alumna satisfecha 1",
-    width: 300,
-    height: 400,
+    image: "https://picsum.photos/seed/female1/100/100",
+    text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
+    name: "Ana G.",
   },
   {
-    src: "https://imgur.com/q2zw7x9.png",
-    alt: "Testimonio de alumna satisfecha 2",
-    width: 300,
-    height: 400,
+    image: "https://picsum.photos/seed/female2/100/100",
+    text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
+    name: "Maria C.",
+  },
+    {
+    image: "https://picsum.photos/seed/female3/100/100",
+    text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
+    name: "Lucía M.",
   },
   {
-    src: "https://imgur.com/eyRUvyM.png",
-    alt: "Testimonio de alumna satisfecha 3",
-    width: 300,
-    height: 400,
+    image: "https://picsum.photos/seed/female4/100/100",
+    text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
+    name: "Sofía P.",
   },
-  {
-    src: "https://imgur.com/or4Na3a.png",
-    alt: "Testimonio de alumna satisfecha 4",
-    width: 300,
-    height: 400,
-  }
 ];
+
+const TestimonialCard = ({ image, text, name }: { image: string, text: string, name: string }) => (
+    <div className="relative mt-12">
+        <div className="absolute -top-12 left-1/2 -translate-x-1/2">
+            <Image 
+                src={image}
+                alt={`Testimonio de ${name}`}
+                width={100}
+                height={100}
+                className="rounded-full border-4 border-white"
+                data-ai-hint="woman avatar"
+            />
+        </div>
+        <div className="bg-[#5c2c2c] text-white rounded-xl p-6 pt-16 text-center shadow-lg">
+            <p className="text-lg italic mb-4">"{text}"</p>
+            <p className="font-bold text-yellow-400">{name}</p>
+        </div>
+    </div>
+)
+
 
 export function Testimonials() {
   return (
@@ -38,19 +54,14 @@ export function Testimonials() {
            <p className="text-lg mt-4 text-muted-foreground">Ellas están <span className="text-accent underline">transformando su pasión en ganancias.</span></p>
         </div>
         <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
                 {testimonials.map((testimonial, index) => (
-                    <div key={index} className="border border-border rounded-lg p-2">
-                        <Image
-                        src={testimonial.src}
-                        alt={testimonial.alt}
-                        width={testimonial.width}
-                        height={testimonial.height}
-                        className="w-full h-auto object-cover rounded"
-                        data-ai-hint="user testimonial social"
-                        unoptimized
-                        />
-                    </div>
+                    <TestimonialCard 
+                        key={index}
+                        image={testimonial.image}
+                        text={testimonial.text}
+                        name={testimonial.name}
+                    />
                 ))}
             </div>
 

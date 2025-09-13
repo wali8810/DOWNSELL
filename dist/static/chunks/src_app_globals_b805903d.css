@@ -1124,6 +1124,14 @@ body {
   gap: 2rem;
 }
 
+.gap-x-8 {
+  column-gap: 2rem;
+}
+
+.gap-y-16 {
+  row-gap: 4rem;
+}
+
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(.25rem * var(--tw-space-x-reverse));
@@ -1234,6 +1242,10 @@ body {
   border-radius: calc(var(--radius)  - 4px);
 }
 
+.rounded-xl {
+  border-radius: .75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1336,6 +1348,11 @@ body {
 .border-yellow-400 {
   --tw-border-opacity: 1;
   border-color: rgb(250 204 21 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .border-l-transparent {
@@ -1447,6 +1464,11 @@ body {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#5c2c2c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 44 44 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[radial-gradient\(circle_farthest-side_at_0_100\%\,\#ffb700\,transparent\)\,radial-gradient\(circle_farthest-side_at_100\%_0\,\#ff7b00\,transparent\)\,radial-gradient\(circle_farthest-side_at_100\%_100\%\,\#ff5733\,transparent\)\,radial-gradient\(circle_farthest-side_at_0_0\,\#ffc300\,\#141316\)\] {
@@ -1758,6 +1780,10 @@ body {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tabular-nums {
