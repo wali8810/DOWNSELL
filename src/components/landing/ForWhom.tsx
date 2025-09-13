@@ -1,7 +1,12 @@
-
 'use client';
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
 
 const forWhomItems = [
     "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
@@ -43,6 +48,7 @@ const carouselImages = [
     "https://imgur.com/kouuIKY.png",
     "https://imgur.com/RNfHvRD.png",
     "https://imgur.com/OrZF0j3.png",
+    "https://imgur.com/yEr86vr.png"
 ]
 
 const CheckIcon = () => (
@@ -68,7 +74,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/I8fDFCF.png"
+                        src="https://imgur.com/EKCxH9x.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -128,19 +134,37 @@ export function ForWhom() {
 
                         <div className="my-8">
                             <p className="font-bold underline text-lg mb-4">Productos que puedes empezar a hacer hoy:</p>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
+                            <Carousel
+                                opts={{
+                                align: "start",
+                                loop: true,
+                                }}
+                                plugins={[
+                                Autoplay({
+                                    delay: 2000,
+                                    stopOnInteraction: false,
+                                }),
+                                ]}
+                                className="w-full max-w-3xl mx-auto"
+                            >
+                                <CarouselContent>
                                 {carouselImages.map((src, index) => (
-                                    <div key={index} className="aspect-square">
-                                        <Image
-                                            src={src}
-                                            alt={`Example image ${index + 1}`}
-                                            width={300}
-                                            height={300}
-                                            className="w-full h-full object-cover rounded-lg"
-                                        />
+                                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+                                    <div className="p-1">
+                                        <div className="aspect-square">
+                                            <Image
+                                                src={src}
+                                                alt={`Example image ${index + 1}`}
+                                                width={400}
+                                                height={400}
+                                                className="w-full h-full object-cover rounded-lg"
+                                            />
+                                        </div>
                                     </div>
+                                    </CarouselItem>
                                 ))}
-                            </div>
+                                </CarouselContent>
+                            </Carousel>
                         </div>
 
                         <div className="mb-8">

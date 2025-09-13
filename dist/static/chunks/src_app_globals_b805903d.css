@@ -3072,6 +3072,10 @@ body {
     max-width: 420px;
   }
 
+  .md\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3185,6 +3189,12 @@ body {
     --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+
+@media (width >= 1024px) {
+  .lg\:basis-1\/4 {
+    flex-basis: 25%;
   }
 }
 
