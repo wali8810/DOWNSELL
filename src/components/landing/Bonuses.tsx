@@ -4,27 +4,31 @@ import Image from "next/image";
 const bonusData = [
   {
     bonusNumber: "#01",
-    title: "Como vender nas redes sociais",
-    description: "Roteiros e exemplos para postar no Instagram, WhatsApp e marketplaces para atrair e fechar sua primeira venda em até 48 horas.",
-    image: "https://imgur.com/E0QxgBv.png",
-    alt: "Bônus sobre vendas nas redes sociais",
-    price: "R$47,00",
+    title: "Kit de Estampas Listas: 100 diseños probados para usar ¡ahora mismo!",
+    image: "https://imgur.com/ggAJSGi.png",
+    alt: "Bônus de Kit de Estampas",
+    price: "$47.000",
   },
   {
     bonusNumber: "#02",
-    title: "Manual de Vendas Pronto para Usar",
-    description: "Um Passo a passo simples para você montar e vender seus cartões em até 24 horas",
+    title: "Mini Guía de Precios Inteligentes",
     image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
-    price: "R$37,00",
+    price: "$37.000",
   },
   {
     bonusNumber: "#03",
-    title: "Guia rápido para encontrar inspiração e vender no mesmo dia",
-    description: "+100 modelos de cartões prontos para usar e se inspirar",
+    title: "Checklist de Impresión Perfecta",
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
-    price: "R$57,00",
+    price: "$57.000",
+  },
+    {
+    bonusNumber: "#04",
+    title: "Guía Rápida de Aplicación con Plancha",
+    image: "https://imgur.com/I8fDFCF.png",
+    alt: "Bônus aplicação com prancha",
+    price: "$27.000",
   },
 ];
 
@@ -34,37 +38,44 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonus">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
-            BÔNUS PARA <br />
-            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
+            BONO POR <br />
+            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMERA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              3 Bônus exclusivos
+              4 bonos exclusivos
             </span>{" "}
-            para quem adquirir o CURSO NESTA PÁGINA
+            para quienes compren el CURSO EN ESTA PÁGINA
           </h3>
           <h4 className="text-xl md:text-2xl font-bold uppercase text-destructive font-montserrat">
             <span style={{ color: "#FF0845" }}>
-              (<u>ISSO TERMINA HOJE!</u>)
+              (<u>¡TERMINA HOY!</u>)
             </span>
           </h4>
         </div>
 
-        <div className="space-y-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {bonusData.map((bonus, index) => (
             <div
               key={index}
-              className="p-4 border-2 border-dashed border-gray-300 rounded-2xl"
+              className="p-4 border-2 border-dashed border-gray-300 rounded-2xl flex flex-col items-center text-center"
             >
-              <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
-                <div className="md:w-1/2 text-left space-y-2">
-                  <h3 className="text-2xl md:text-3xl font-bold font-montserrat text-black">
-                    BÔNUS {bonus.bonusNumber}:
+                <div className="w-full flex items-center justify-center mb-4">
+                  <Image
+                    src={bonus.image}
+                    alt={bonus.alt}
+                    width={300}
+                    height={300}
+                    className="w-auto h-auto max-w-full rounded-lg"
+                  />
+                </div>
+                <div className="w-full text-center space-y-2">
+                  <h3 className="text-xl md:text-2xl font-bold font-montserrat text-black">
+                    BONO {bonus.bonusNumber}:
                   </h3>
-                  <h4 className="text-xl md:text-2xl font-semibold font-montserrat text-orange-500">
+                  <h4 className="text-lg md:text-xl font-semibold font-montserrat text-orange-500 min-h-[3em]">
                     {bonus.title.toUpperCase()}
                   </h4>
-                  <p className="text-base md:text-lg text-foreground/80 mt-2">{bonus.description}</p>
                    <p className="font-montserrat text-base md:text-lg">
                     <span className="text-red-500 line-through font-bold">De: {bonus.price}</span>
                   </p>
@@ -72,16 +83,6 @@ export function Bonuses() {
                     <span className="text-green-500">Por: GRÁTIS</span>
                   </p>
                 </div>
-                <div className="md:w-1/2 flex items-center justify-center">
-                  <Image
-                    src={bonus.image}
-                    alt={bonus.alt}
-                    width={350}
-                    height={450}
-                    className="w-auto h-auto max-w-full"
-                  />
-                </div>
-              </div>
             </div>
           ))}
         </div>

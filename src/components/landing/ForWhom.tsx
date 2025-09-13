@@ -2,14 +2,6 @@
 'use client';
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
-import React from "react";
-
 
 const forWhomItems = [
     "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
@@ -51,7 +43,6 @@ const carouselImages = [
     "https://imgur.com/kouuIKY.png",
     "https://imgur.com/RNfHvRD.png",
     "https://imgur.com/OrZF0j3.png",
-    "https://imgur.com/cYg0F4P.png",
 ]
 
 const CheckIcon = () => (
@@ -61,9 +52,6 @@ const CheckIcon = () => (
 )
 
 export function ForWhom() {
-    const plugin = React.useRef(
-        Autoplay({ delay: 2000, stopOnInteraction: true })
-    )
 
     return (
         <>
@@ -139,30 +127,21 @@ export function ForWhom() {
                         </div>
 
                         <div className="my-8">
-                            <Carousel
-                                plugins={[plugin.current]}
-                                className="w-full max-w-xs mx-auto"
-                                onMouseEnter={plugin.current.stop}
-                                onMouseLeave={plugin.current.reset}
-                                >
-                                <CarouselContent>
-                                    {carouselImages.map((src, index) => (
-                                    <CarouselItem key={index}>
-                                        <div className="p-1">
-                                            <Image
-                                                src={src}
-                                                alt={`Example image ${index + 1}`}
-                                                width={200}
-                                                height={200}
-                                                className="w-full h-auto object-cover rounded-lg"
-                                            />
-                                        </div>
-                                    </CarouselItem>
-                                    ))}
-                                </CarouselContent>
-                            </Carousel>
+                            <p className="font-bold underline text-lg mb-4">Productos que puedes empezar a hacer hoy:</p>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-lg mx-auto">
+                                {carouselImages.map((src, index) => (
+                                    <div key={index} className="aspect-square">
+                                        <Image
+                                            src={src}
+                                            alt={`Example image ${index + 1}`}
+                                            width={200}
+                                            height={200}
+                                            className="w-full h-full object-cover rounded-lg"
+                                        />
+                                    </div>
+                                ))}
+                            </div>
                         </div>
-
 
                         <div className="mb-8">
                             <a href="#plans">
