@@ -141,7 +141,7 @@ export function ForWhom() {
                                 }}
                                 plugins={[
                                 Autoplay({
-                                    delay: 2000,
+                                    delay: 4000,
                                     stopOnInteraction: false,
                                 }),
                                 ]}
@@ -149,7 +149,7 @@ export function ForWhom() {
                             >
                                 <CarouselContent>
                                 {carouselImages.map((src, index) => (
-                                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+                                    <CarouselItem key={index} className="basis-1/2">
                                     <div className="p-1">
                                         <div className="aspect-square">
                                             <Image
