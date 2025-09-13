@@ -1,6 +1,15 @@
 
+'use client';
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
+import React from "react";
+
 
 const forWhomItems = [
     "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
@@ -37,6 +46,14 @@ const whatYouGetItems = [
     }
 ]
 
+const carouselImages = [
+    "https://imgur.com/UKAI3ZD.png",
+    "https://imgur.com/kouuIKY.png",
+    "https://imgur.com/RNfHvRD.png",
+    "https://imgur.com/OrZF0j3.png",
+    "https://imgur.com/cYg0F4P.png",
+]
+
 const CheckIcon = () => (
     <svg aria-hidden="true" className="h-6 w-6 text-green-500 mr-3 shrink-0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
       <path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"></path>
@@ -44,6 +61,10 @@ const CheckIcon = () => (
 )
 
 export function ForWhom() {
+    const plugin = React.useRef(
+        Autoplay({ delay: 2000, stopOnInteraction: true })
+    )
+
     return (
         <>
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20">
@@ -116,6 +137,32 @@ export function ForWhom() {
                                  </p>
                             ))}
                         </div>
+
+                        <div className="my-8">
+                            <Carousel
+                                plugins={[plugin.current]}
+                                className="w-full max-w-xs mx-auto"
+                                onMouseEnter={plugin.current.stop}
+                                onMouseLeave={plugin.current.reset}
+                                >
+                                <CarouselContent>
+                                    {carouselImages.map((src, index) => (
+                                    <CarouselItem key={index}>
+                                        <div className="p-1">
+                                            <Image
+                                                src={src}
+                                                alt={`Example image ${index + 1}`}
+                                                width={200}
+                                                height={200}
+                                                className="w-full h-auto object-cover rounded-lg"
+                                            />
+                                        </div>
+                                    </CarouselItem>
+                                    ))}
+                                </CarouselContent>
+                            </Carousel>
+                        </div>
+
 
                         <div className="mb-8">
                             <a href="#plans">
