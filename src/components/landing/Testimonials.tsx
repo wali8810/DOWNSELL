@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 
 const testimonials = [
   {
-    image: "https://picsum.photos/seed/female1/100/100",
+    image: "https://imgur.com/6QpQwXi",
     text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
     name: "Ana G.",
   },
   {
-    image: "https://picsum.photos/seed/female2/100/100",
+    image: "https://imgur.com/qxUkZGZ",
     text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
     name: "Maria C.",
   },
     {
-    image: "https://picsum.photos/seed/female3/100/100",
+    image: "https://imgur.com/RrstbbC",
     text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
     name: "Lucía M.",
   },
   {
-    image: "https://picsum.photos/seed/female4/100/100",
+    image: "https://imgur.com/9KwVXA0",
     text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
     name: "Sofía P.",
   },
@@ -33,7 +33,7 @@ const TestimonialCard = ({ image, text, name }: { image: string, text: string, n
                 alt={`Testimonio de ${name}`}
                 width={100}
                 height={100}
-                className="rounded-full border-4 border-white"
+                className="rounded-full border-4 border-white object-cover"
                 data-ai-hint="woman avatar"
             />
         </div>
@@ -67,10 +67,10 @@ export function Testimonials() {
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
-                  <p>Imagina que puedes ganar hasta <strong style={{color: '#4fc700'}}>$1.400 por mes</strong> solo creando tarjetas decorativas en casa. Con mi método, no necesitas invertir casi nada en materiales, y en la primera semana puedes alcanzar ese resultado.</p>
-                  <p>A diferencia de las artesanías que llevan mucho tiempo, las tarjetas decorativas son rápidas de hacer, están muy de moda en toda América Latina y cualquiera puede aprender, <strong>incluso sin experiencia</strong>.</p>
-                  <p>Recibes plantillas listas y videos paso a paso para crear tarjetas hermosas y comenzar a vender hoy mismo.</p>
-                  <p><strong>Consejo:</strong> las tarjetas para baby shower y revelación de género están entre las más buscadas y se venden muy rápido.</p>
+                  <p>Imagina ganar hasta <strong style={{color: '#4fc700'}}>$1.400 al mes</strong> creando tarjetas decorativas desde tu casa. Con mi método Estampa Mágica, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales.</p>
+                  <p>A diferencia de otras manualidades que consumen mucho tiempo, las tarjetas decorativas son rápidas de hacer, están en tendencia en toda América Latina y cualquiera puede aprender, incluso sin experiencia previa.</p>
+                  <p>Con el método, recibirás plantillas listas y videos paso a paso para crear tarjetas hermosas y empezar a vender hoy mismo.</p>
+                  <p><strong>Un consejo estratégico:</strong> las tarjetas para baby shower y revelación de género son de las más buscadas y se venden muy rápido, así que son un excelente punto de partida para generar ingresos inmediatos.</p>
               </div>
             </div>
 

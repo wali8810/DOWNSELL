@@ -387,22 +387,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 ;
 const testimonials = [
     {
-        image: "https://picsum.photos/seed/female1/100/100",
+        image: "https://imgur.com/6QpQwXi",
         text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
         name: "Ana G."
     },
     {
-        image: "https://picsum.photos/seed/female2/100/100",
+        image: "https://imgur.com/qxUkZGZ",
         text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
         name: "Maria C."
     },
     {
-        image: "https://picsum.photos/seed/female3/100/100",
+        image: "https://imgur.com/RrstbbC",
         text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
         name: "Lucía M."
     },
     {
-        image: "https://picsum.photos/seed/female4/100/100",
+        image: "https://imgur.com/9KwVXA0",
         text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
         name: "Sofía P."
     }
@@ -417,7 +417,7 @@ const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__
                     alt: `Testimonio de ${name}`,
                     width: 100,
                     height: 100,
-                    className: "rounded-full border-4 border-white",
+                    className: "rounded-full border-4 border-white object-cover",
                     "data-ai-hint": "woman avatar"
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -531,18 +531,18 @@ function Testimonials() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "Imagina que puedes ganar hasta ",
+                                            "Imagina ganar hasta ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 style: {
                                                     color: '#4fc700'
                                                 },
-                                                children: "$1.400 por mes"
+                                                children: "$1.400 al mes"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                 lineNumber: 70,
-                                                columnNumber: 53
+                                                columnNumber: 42
                                             }, this),
-                                            " solo creando tarjetas decorativas en casa. Con mi método, no necesitas invertir casi nada en materiales, y en la primera semana puedes alcanzar ese resultado."
+                                            " creando tarjetas decorativas desde tu casa. Con mi método Estampa Mágica, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -550,24 +550,14 @@ function Testimonials() {
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: [
-                                            "A diferencia de las artesanías que llevan mucho tiempo, las tarjetas decorativas son rápidas de hacer, están muy de moda en toda América Latina y cualquiera puede aprender, ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "incluso sin experiencia"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 71,
-                                                columnNumber: 195
-                                            }, this),
-                                            "."
-                                        ]
-                                    }, void 0, true, {
+                                        children: "A diferencia de otras manualidades que consumen mucho tiempo, las tarjetas decorativas son rápidas de hacer, están en tendencia en toda América Latina y cualquiera puede aprender, incluso sin experiencia previa."
+                                    }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
                                         lineNumber: 71,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Recibes plantillas listas y videos paso a paso para crear tarjetas hermosas y comenzar a vender hoy mismo."
+                                        children: "Con el método, recibirás plantillas listas y videos paso a paso para crear tarjetas hermosas y empezar a vender hoy mismo."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
                                         lineNumber: 72,
@@ -576,13 +566,13 @@ function Testimonials() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Consejo:"
+                                                children: "Un consejo estratégico:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                 lineNumber: 73,
                                                 columnNumber: 22
                                             }, this),
-                                            " las tarjetas para baby shower y revelación de género están entre las más buscadas y se venden muy rápido."
+                                            " las tarjetas para baby shower y revelación de género son de las más buscadas y se venden muy rápido, así que son un excelente punto de partida para generar ingresos inmediatos."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
