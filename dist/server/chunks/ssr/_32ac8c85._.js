@@ -56,7 +56,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$t
 ;
 const metadata = {
     title: 'Curso de Cartões Decorados',
-    description: 'Ganhe de US$ 1.200 a US$ 1.800 por mês criando cartões decorados que se vendem sozinhos.'
+    description: 'Ganhe de R$1.200 a R$1.800 por mês criando cartões decorados que se vendem sozinhos.'
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -177,8 +177,8 @@ function RootLayout({ children }) {
             var min_time = 4;
             var max_time = 20;
 
-            var names_masc = ['José', 'Juan', 'Luis', 'Carlos', 'Pedro', 'Lucas', 'Miguel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manuel', 'Mateo', 'André', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guillermo', 'Leandro', 'Thiago', 'Anderson', 'Ricardo', 'Jorge', 'Alejandro', 'Roberto', 'Edson', 'Diego', 'Víctor', 'Sergio', 'Claudio', 'Matheus', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'David', 'Javier', 'Francisco', 'Antonio', 'Jesús', 'Martín', 'Santiago', 'Sebastián', 'Nicolás', 'Gabriel', 'Pablo', 'Emiliano', 'Cristian', 'Esteban'];
-            var names_fem = ['María', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Victoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliana', 'Sofía', 'Isabella', 'Valentina', 'Emma', 'Valeria', 'Daniela', 'Carolina', 'Alejandra', 'Andrea', 'Paula', 'Laura', 'Natalia'];
+            var names_masc = ['José', 'João', 'Luiz', 'Carlos', 'Pedro', 'Lucas', 'Miguel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manuel', 'Mateus', 'André', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Thiago', 'Anderson', 'Ricardo', 'Jorge', 'Alexandre', 'Roberto', 'Edson', 'Diego', 'Victor', 'Sergio', 'Claudio', 'Matheus', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'David', 'Javier', 'Francisco', 'Antonio', 'Jesus', 'Martim', 'Santiago', 'Sebastião', 'Nicolas', 'Gabriel', 'Pablo', 'Emiliano', 'Cristian', 'Estevão'];
+            var names_fem = ['Maria', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Victoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliana', 'Sofia', 'Isabella', 'Valentina', 'Emma', 'Valeria', 'Daniela', 'Carolina', 'Alejandra', 'Andrea', 'Paula', 'Laura', 'Natalia'];
             var option = {
                 position: position,
                 cssAnimationStyle: animation,

@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
   title: 'Curso de Cartões Decorados',
-  description: 'Ganhe de US$ 1.200 a US$ 1.800 por mês criando cartões decorados que se vendem sozinhos.',
+  description: 'Ganhe de R$1.200 a R$1.800 por mês criando cartões decorados que se vendem sozinhos.',
 };
 
 export default function RootLayout({
@@ -68,8 +68,8 @@ export default function RootLayout({
             var min_time = 4;
             var max_time = 20;
 
-            var names_masc = ['José', 'Juan', 'Luis', 'Carlos', 'Pedro', 'Lucas', 'Miguel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manuel', 'Mateo', 'André', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guillermo', 'Leandro', 'Thiago', 'Anderson', 'Ricardo', 'Jorge', 'Alejandro', 'Roberto', 'Edson', 'Diego', 'Víctor', 'Sergio', 'Claudio', 'Matheus', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'David', 'Javier', 'Francisco', 'Antonio', 'Jesús', 'Martín', 'Santiago', 'Sebastián', 'Nicolás', 'Gabriel', 'Pablo', 'Emiliano', 'Cristian', 'Esteban'];
-            var names_fem = ['María', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Victoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliana', 'Sofía', 'Isabella', 'Valentina', 'Emma', 'Valeria', 'Daniela', 'Carolina', 'Alejandra', 'Andrea', 'Paula', 'Laura', 'Natalia'];
+            var names_masc = ['José', 'João', 'Luiz', 'Carlos', 'Pedro', 'Lucas', 'Miguel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manuel', 'Mateus', 'André', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Thiago', 'Anderson', 'Ricardo', 'Jorge', 'Alexandre', 'Roberto', 'Edson', 'Diego', 'Victor', 'Sergio', 'Claudio', 'Matheus', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'David', 'Javier', 'Francisco', 'Antonio', 'Jesus', 'Martim', 'Santiago', 'Sebastião', 'Nicolas', 'Gabriel', 'Pablo', 'Emiliano', 'Cristian', 'Estevão'];
+            var names_fem = ['Maria', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Victoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliana', 'Sofia', 'Isabella', 'Valentina', 'Emma', 'Valeria', 'Daniela', 'Carolina', 'Alejandra', 'Andrea', 'Paula', 'Laura', 'Natalia'];
             var option = {
                 position: position,
                 cssAnimationStyle: animation,

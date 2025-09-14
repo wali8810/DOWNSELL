@@ -937,10 +937,6 @@ body {
   flex-grow: 0;
 }
 
-.basis-1\/2 {
-  flex-basis: 50%;
-}
-
 .basis-full {
   flex-basis: 100%;
 }

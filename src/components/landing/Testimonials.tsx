@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button";
 const testimonials = [
   {
     image: "https://i.imgur.com/6QpQwXi.png",
-    text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
+    text: "Fiz 12 panos no fim de semana. Vendi 10 em 3 horas! Estou em choque!",
     name: "Ana G.",
   },
   {
     image: "https://i.imgur.com/qxUkZGZ.png",
-    text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
+    text: "Nunca pensei que alguém pagaria por algo que fiz com um ferro de passar roupa!",
     name: "Maria C.",
   },
     {
     image: "https://i.imgur.com/RrstbbC.png",
-    text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
-    name: "Lucía M.",
+    text: "Comecei sem saber nada e já estou vendendo minhas criações. O curso é incrível!",
+    name: "Lúcia M.",
   },
   {
     image: "https://i.imgur.com/9KwVXA0.png",
-    text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
-    name: "Sofía P.",
+    text: "O grupo de alunas é fantástico! Todas se ajudam e dão muitas dicas.",
+    name: "Sofia P.",
   },
 ];
 
@@ -30,7 +30,7 @@ const TestimonialCard = ({ image, text, name }: { image: string, text: string, n
         <div className="absolute -top-12 left-1/2 -translate-x-1/2">
             <Image 
                 src={image}
-                alt={`Testimonio de ${name}`}
+                alt={`Depoimento de ${name}`}
                 width={100}
                 height={100}
                 className="rounded-full border-4 border-white object-cover"
@@ -51,8 +51,8 @@ export function Testimonials() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">TESTIMONIOS REALES:</h2>
-           <p className="text-lg mt-4 text-muted-foreground">Ellas están <span className="text-accent underline">transformando su pasión en ganancias.</span></p>
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">DEPOIMENTOS REAIS:</h2>
+           <p className="text-lg mt-4 text-muted-foreground">Elas estão <span className="text-accent underline">transformando sua paixão em lucro.</span></p>
         </div>
         <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
@@ -68,10 +68,10 @@ export function Testimonials() {
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
-                  <p>Imagina ganar hasta <strong style={{color: '#4fc700'}}>$1.400 al mes</strong> creando tarjetas decorativas desde tu casa. Con mi método Magic Print, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales.</p>
-                  <p>A diferencia de otras manualidades que consumen mucho tiempo, las tarjetas decorativas son rápidas de hacer, están en tendencia en toda América Latina y cualquiera puede aprender, incluso sin experiencia previa.</p>
-                  <p>Con el método, recibirás plantillas listas y videos paso a paso para crear tarjetas hermosas y empezar a vender hoy mismo.</p>
-                  <p><strong>Un consejo estratégico:</strong> las tarjetas para baby shower y revelación de género son de las más buscadas y se venden muy rápido, así que son un excelente punto de partida para generar ingresos inmediatos.</p>
+                  <p>Imagine ganhar até <strong style={{color: '#4fc700'}}>R$1.400 por mês</strong> criando cartões decorativos da sua casa. Com meu método Magic Print, você não precisa investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais.</p>
+                  <p>Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a América Latina e qualquer pessoa pode aprender, mesmo sem experiência prévia.</p>
+                  <p>Com o método, você receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo.</p>
+                  <p><strong>Uma dica estratégica:</strong> os cartões para chá de bebê e revelação de gênero são dos mais procurados e vendem muito rápido, então são um excelente ponto de partida para gerar renda imediata.</p>
               </div>
             </div>
 
@@ -79,7 +79,7 @@ export function Testimonials() {
               <div className="mb-12">
                   <a href="#plans" className="inline-block">
                     <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal">
-                      GARANTIZAR AHORA CON DESCONTO
+                      GARANTIR AGORA COM DESCONTO
                     </Button>
                   </a>
               </div>
@@ -87,14 +87,14 @@ export function Testimonials() {
                 className="text-2xl md:text-3xl font-bold mb-4" 
                 style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '1.2', letterSpacing: '-0.9px' }}
               >
-                ¿Cuánto Tiempo Tarda en Llegar Mi Acceso?
+                Quanto Tempo Leva Para Receber Meu Acesso?
               </h3>
               <div 
                 className="text-muted-foreground text-lg" 
                 style={{ fontFamily: '"Montserrat", Sans-serif' }}
               >
-                  <p>Después de confirmar tu pedido, <strong>recibirás automáticamente</strong> en tu correo electrónico los datos de acceso para iniciar sesión y podrás comenzar tus estudios de inmediato.</p>
-                  <p>Todo el material está alojado en un <strong>área de miembros exclusiva</strong> para alumnos, para que puedas acceder de forma segura, cuando y desde donde estés.</p>
+                  <p>Após confirmar seu pedido, <strong>você receberá automaticamente</strong> no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente.</p>
+                  <p>Todo o material está hospedado em uma <strong>área de membros exclusiva</strong> para alunos, para que você possa acessar com segurança, quando e de onde estiver.</p>
               </div>
             </div>
         </div>

@@ -9,37 +9,37 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 
 const forWhomItems = [
-    "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
-    "Para quienes sueñan con tener un negocio rentable, que no dependa de la ciudad o región donde viven.",
-    "Para quienes quieren aprovechar la tendencia que más crece en 2025: los productos personalizados con plancha.",
-    "Para quienes quieren transformar papel en dinero y obtener ganancias entre $800 y $1.400 por mes (aproximadamente, según tu inversión y tiempo)."
+    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim ter liberdade de tempo.",
+    "Para quem sonha em ter um negócio lucrativo, que não dependa da cidade ou região onde mora.",
+    "Para quem quer aproveitar a tendência que mais cresce em 2025: os produtos personalizados com ferro de passar.",
+    "Para quem quer transformar papel em dinheiro e obter lucros entre R$800 e R$1.400 por mês (aproximadamente, dependendo do seu investimento e tempo)."
 ]
 
 const whatYouGetItems = [
     {
         icon: "🎯",
-        title: "DE PRINCIPIANTE A AVANÇADO",
-        description: "Recibirás la guía para crear productos personalizados increíbles y convertirte en la profesional mejor paga de tu zona."
+        title: "DE INICIANTE A AVANÇADO",
+        description: "Você receberá o guia para criar produtos personalizados incríveis e se tornar a profissional mais bem paga da sua região."
     },
     {
         icon: "💰",
-        title: "GUÍA DE PRECIO",
-        description: "Consejos valiosos para evitar gastos que parecen “ventajosos” pero que reducen tu ganancia."
+        title: "GUIA DE PREÇOS",
+        description: "Dicas valiosas para evitar gastos que parecem “vantajosos”, mas que reduzem seu lucro."
     },
     {
         icon: "💎",
-        title: "SOPORTE INDIVIDUAL",
-        description: "Mi contacto personal para aclarar dudas y brindarte consejos personalizados."
+        title: "SUPORTE INDIVIDUAL",
+        description: "Meu contato pessoal para tirar dúvidas e dar dicas personalizadas."
     },
     {
         icon: "🚀",
-        title: "GRUPO DE ALUMNAS",
-        description: "Grupo exclusivo para intercambio de tips y experiencias con otras emprendedoras."
+        title: "GRUPO DE ALUNAS",
+        description: "Grupo exclusivo para troca de dicas e experiências com outras empreendedoras."
     },
     {
         icon: "🧠",
-        title: "GUÍA DE MATERIALES",
-        description: "Cómo comenzar tu negocio usando materiales económicos que generan alta rentabilidad."
+        title: "GUIA DE MATERIAIS",
+        description: "Como começar seu negócio usando materiais econômicos que geram alta lucratividade."
     }
 ]
 
@@ -70,7 +70,7 @@ export function ForWhom() {
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                Cómo crear <span className="bg-green-500 px-2">productos personalizados que se vendan en 48 horas</span> usando solo una impresora normal y una plancha
+                Como criar <span className="bg-green-500 px-2">produtos personalizados que vendem em 48 horas</span> usando apenas uma impressora comum e um ferro de passar
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
@@ -89,13 +89,13 @@ export function ForWhom() {
             <section className="bg-white pt-10 pb-0">
                 <div className="container mx-auto px-4 text-center">
                     <div className="max-w-md mx-auto">
-                        <h2 className="text-3xl md:text-4xl font-bold text-red-500"><s>DE $59.900</s></h2>
-                        <h2 className="text-xl md:text-2xl font-bold uppercase mt-2 text-black">POR SOLO</h2>
-                        <h2 className="text-6xl md:text-7xl font-extrabold text-green-600 mt-1">$18.000</h2>
-                        <h2 className="text-2xl md:text-3xl font-bold text-black mt-4">¡RIESGO CERO!</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
+                        <h2 className="text-xl md:text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
+                        <h2 className="text-6xl md:text-7xl font-extrabold text-green-600 mt-1">R$18,00</h2>
+                        <h2 className="text-2xl md:text-3xl font-bold text-black mt-4">RISCO ZERO!</h2>
                         <a href="#plans" className="mt-6 inline-block">
                             <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 rounded-lg shadow-lg animate-pulse-green">
-                                QUIERO APROVECHAR
+                                QUERO APROVEITAR
                             </Button>
                         </a>
                         <hr className="mt-8 border-t-2 border-black font-bold w-full" />
@@ -107,7 +107,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
-                            ¿PARA QUIÉN ES EL MÉTODO MAGIC PRINT?
+                            PARA QUEM É O MÉTODO MAGIC PRINT?
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                             {forWhomItems.map((item, index) => (
@@ -121,7 +121,7 @@ export function ForWhom() {
                         <div className="space-y-4 my-8"></div>
 
                         <h2 className="text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8">
-                            MIRA LO QUE RECIBIRÁS:
+                            VEJA O QUE VOCÊ VAI RECEBER:
                         </h2>
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">
@@ -134,7 +134,7 @@ export function ForWhom() {
                         </div>
 
                         <div className="my-8">
-                            <p className="font-bold underline text-lg mb-4">Productos que puedes empezar a hacer hoy:</p>
+                            <p className="font-bold underline text-lg mb-4">Produtos que você pode começar a fazer hoje:</p>
                             <Carousel
                                 opts={{
                                 align: "start",
@@ -155,7 +155,7 @@ export function ForWhom() {
                                         <div className="aspect-square">
                                             <Image
                                                 src={src}
-                                                alt={`Example image ${index + 1}`}
+                                                alt={`Imagem de exemplo ${index + 1}`}
                                                 width={400}
                                                 height={400}
                                                 className="w-full h-full object-cover rounded-lg"
@@ -172,12 +172,12 @@ export function ForWhom() {
                         <div className="mb-8">
                             <a href="#plans">
                                 <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
-                                    ¡QUIERO APROVECHAR!
+                                    QUERO APROVEITAR!
                                 </Button>
                             </a>
                         </div>
                         
-                        <p className="text-gray-600 mb-8 text-sm md:text-base">Siguiendo este curso, <b>NO necesitas:</b> experiencia previa, materiales caros ni pasar horas trabajando.</p>
+                        <p className="text-gray-600 mb-8 text-sm md:text-base">Seguindo este curso, <b>VOCÊ NÃO PRECISA de:</b> experiência prévia, materiais caros nem passar horas trabalhando.</p>
 
                         <hr className="border-t-2 border-black font-bold w-full" />
                     </div>

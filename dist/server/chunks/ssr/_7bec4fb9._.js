@@ -32,31 +32,31 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const bonusData = [
     {
         bonusNumber: "#01",
-        title: "Kit de Estampas Listas: 100 diseños probados para usar ¡ahora mismo!",
+        title: "Kit de Estampas Prontas: 100 designs testados para usar agora mesmo!",
         image: "https://imgur.com/ggAJSGi.png",
         alt: "Bônus de Kit de Estampas",
-        price: "$47.000"
+        price: "R$47,00"
     },
     {
         bonusNumber: "#02",
-        title: "Mini Guía de Precios Inteligentes",
+        title: "Mini Guia de Preços Inteligentes",
         image: "https://imgur.com/hdbzMRu.png",
         alt: "Bônus manual de vendas",
-        price: "$37.000"
+        price: "R$37,00"
     },
     {
         bonusNumber: "#03",
-        title: "Checklist de Impresión Perfecta",
+        title: "Checklist de Impressão Perfeita",
         image: "https://imgur.com/Q5sChOg.png",
         alt: "Bônus guia de inspiração",
-        price: "$57.000"
+        price: "R$57,00"
     },
     {
         bonusNumber: "#04",
-        title: "Guía Rápida de Aplicación con Plancha",
+        title: "Guia Rápido de Aplicação com Ferro de Passar",
         image: "https://imgur.com/P07oK5g.png",
         alt: "Bônus aplicação com prancha",
-        price: "$27.000"
+        price: "R$27,00"
     }
 ];
 function Bonuses() {
@@ -72,18 +72,18 @@ function Bonuses() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat",
                             children: [
-                                "BONO POR ",
+                                "BÔNUS POR ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
                                     lineNumber: 41,
-                                    columnNumber: 22
+                                    columnNumber: 23
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
                                     className: "text-black underline",
                                     style: {
                                         textDecorationColor: 'black'
                                     },
-                                    children: "PRIMERA VISITA"
+                                    children: "PRIMEIRA VISITA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
                                     lineNumber: 42,
@@ -101,14 +101,14 @@ function Bonuses() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "bg-yellow-400 text-black px-2 py-1",
-                                    children: "4 bonos exclusivos"
+                                    children: "4 bônus exclusivos"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
                                     lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 " ",
-                                "para quienes compren el CURSO EN ESTA PÁGINA"
+                                "para quem comprar o CURSO NESTA PÁGINA"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Bonuses.tsx",
@@ -124,7 +124,7 @@ function Bonuses() {
                                 children: [
                                     "(",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
-                                        children: "¡TERMINA HOY!"
+                                        children: "ACABA HOJE!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Bonuses.tsx",
                                         lineNumber: 52,
@@ -178,7 +178,7 @@ function Bonuses() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-xl md:text-2xl font-bold font-montserrat text-black",
                                             children: [
-                                                "BONO ",
+                                                "BÔNUS ",
                                                 bonus.bonusNumber,
                                                 ":"
                                             ]
@@ -389,23 +389,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 const testimonials = [
     {
         image: "https://i.imgur.com/6QpQwXi.png",
-        text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
+        text: "Fiz 12 panos no fim de semana. Vendi 10 em 3 horas! Estou em choque!",
         name: "Ana G."
     },
     {
         image: "https://i.imgur.com/qxUkZGZ.png",
-        text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
+        text: "Nunca pensei que alguém pagaria por algo que fiz com um ferro de passar roupa!",
         name: "Maria C."
     },
     {
         image: "https://i.imgur.com/RrstbbC.png",
-        text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
-        name: "Lucía M."
+        text: "Comecei sem saber nada e já estou vendendo minhas criações. O curso é incrível!",
+        name: "Lúcia M."
     },
     {
         image: "https://i.imgur.com/9KwVXA0.png",
-        text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
-        name: "Sofía P."
+        text: "O grupo de alunas é fantástico! Todas se ajudam e dão muitas dicas.",
+        name: "Sofia P."
     }
 ];
 const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -415,7 +415,7 @@ const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__
                 className: "absolute -top-12 left-1/2 -translate-x-1/2",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     src: image,
-                    alt: `Testimonio de ${name}`,
+                    alt: `Depoimento de ${name}`,
                     width: 100,
                     height: 100,
                     className: "rounded-full border-4 border-white object-cover",
@@ -477,7 +477,7 @@ function Testimonials() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground",
-                            children: "TESTIMONIOS REALES:"
+                            children: "DEPOIMENTOS REAIS:"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
                             lineNumber: 54,
@@ -486,14 +486,14 @@ function Testimonials() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg mt-4 text-muted-foreground",
                             children: [
-                                "Ellas están ",
+                                "Elas estão ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-accent underline",
-                                    children: "transformando su pasión en ganancias."
+                                    children: "transformando sua paixão em lucro."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
                                     lineNumber: 55,
-                                    columnNumber: 74
+                                    columnNumber: 73
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -533,18 +533,18 @@ function Testimonials() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "Imagina ganar hasta ",
+                                            "Imagine ganhar até ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 style: {
                                                     color: '#4fc700'
                                                 },
-                                                children: "$1.400 al mes"
+                                                children: "R$1.400 por mês"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                 lineNumber: 71,
-                                                columnNumber: 42
+                                                columnNumber: 41
                                             }, this),
-                                            " creando tarjetas decorativas desde tu casa. Con mi método Magic Print, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales."
+                                            " criando cartões decorativos da sua casa. Com meu método Magic Print, você não precisa investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -552,14 +552,14 @@ function Testimonials() {
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "A diferencia de otras manualidades que consumen mucho tiempo, las tarjetas decorativas son rápidas de hacer, están en tendencia en toda América Latina y cualquiera puede aprender, incluso sin experiencia previa."
+                                        children: "Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a América Latina e qualquer pessoa pode aprender, mesmo sem experiência prévia."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
                                         lineNumber: 72,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Con el método, recibirás plantillas listas y videos paso a paso para crear tarjetas hermosas y empezar a vender hoy mismo."
+                                        children: "Com o método, você receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
                                         lineNumber: 73,
@@ -568,13 +568,13 @@ function Testimonials() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Un consejo estratégico:"
+                                                children: "Uma dica estratégica:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                 lineNumber: 74,
                                                 columnNumber: 22
                                             }, this),
-                                            " las tarjetas para baby shower y revelación de género son de las más buscadas y se venden muy rápido, así que son un excelente punto de partida para generar ingresos inmediatos."
+                                            " os cartões para chá de bebê e revelação de gênero são dos mais procurados e vendem muito rápido, então são um excelente ponto de partida para gerar renda imediata."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -603,7 +603,7 @@ function Testimonials() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "lg",
                                             className: "cta-button shadow-lg text-center h-auto whitespace-normal",
-                                            children: "GARANTIZAR AHORA CON DESCONTO"
+                                            children: "GARANTIR AGORA COM DESCONTO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
                                             lineNumber: 81,
@@ -626,7 +626,7 @@ function Testimonials() {
                                         lineHeight: '1.2',
                                         letterSpacing: '-0.9px'
                                     },
-                                    children: "¿Cuánto Tiempo Tarda en Llegar Mi Acceso?"
+                                    children: "Quanto Tempo Leva Para Receber Meu Acesso?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
                                     lineNumber: 86,
@@ -640,15 +640,15 @@ function Testimonials() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
-                                                "Después de confirmar tu pedido, ",
+                                                "Após confirmar seu pedido, ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "recibirás automáticamente"
+                                                    children: "você receberá automaticamente"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                     lineNumber: 96,
-                                                    columnNumber: 54
+                                                    columnNumber: 49
                                                 }, this),
-                                                " en tu correo electrónico los datos de acceso para iniciar sesión y podrás comenzar tus estudios de inmediato."
+                                                " no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -657,15 +657,15 @@ function Testimonials() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
-                                                "Todo el material está alojado en un ",
+                                                "Todo o material está hospedado em uma ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "área de miembros exclusiva"
+                                                    children: "área de membros exclusiva"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                     lineNumber: 97,
-                                                    columnNumber: 58
+                                                    columnNumber: 60
                                                 }, this),
-                                                " para alumnos, para que puedas acceder de forma segura, cuando y desde donde estés."
+                                                " para alunos, para que você possa acessar com segurança, quando e de onde estiver."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
@@ -779,48 +779,48 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$a
 ;
 const faqItems = [
     {
-        question: "¿Qué es el ebook 'Personalizando con Plancha'?",
-        answer: "Es una guía práctica que enseña a personalizar telas usando una plancha y una impresora común, sin necesidad de experiencia o máquinas costosas."
+        question: "O que é o ebook 'Personalizando com Ferro de Passar'?",
+        answer: "É um guia prático que ensina a personalizar tecidos usando um ferro e uma impressora comum, sem necessidade de experiência ou máquinas caras."
     },
     {
-        question: "¿Necesito tener experiencia?",
-        answer: "No. El método fue creado para principiantes. Cualquier persona puede aplicarlo."
+        question: "Preciso ter experiência?",
+        answer: "Não. O método foi criado para iniciantes. Qualquer pessoa pode aplicá-lo."
     },
     {
-        question: "¿Cuánto tiempo necesito dedicar por día?",
-        answer: "De 30 a 60 minutos por día son suficientes para empezar a practicar y crear tus primeras piezas."
+        question: "Quanto tempo preciso dedicar por dia?",
+        answer: "De 30 a 60 minutos por dia são suficientes para começar a praticar e criar suas primeiras peças."
     },
     {
-        question: "¿Por cuánto tiempo tengo acceso al ebook?",
-        answer: "Acceso vitalicio. Puedes acceder cuando quieras, leer online o descargar el material."
+        question: "Por quanto tempo tenho acesso ao ebook?",
+        answer: "Acesso vitalício. Você pode acessar quando quiser, ler online ou baixar o material."
     },
     {
-        question: "¿Hay alguna garantía?",
-        answer: "Sí. Tienes 7 días de garantía para probar todo. Si no estás satisfecho, te devolvemos el 100% de tu inversión."
+        question: "Existe alguma garantia?",
+        answer: "Sim. Você tem 7 dias de garantia para testar tudo. Se não ficar satisfeito, devolvemos 100% do seu investimento."
     },
     {
-        question: "¿Cómo funciona el soporte?",
-        answer: "Tendrás acceso a nuestro Soporte VIP individual, con atención directa y personalizada."
+        question: "Como funciona o suporte?",
+        answer: "Você terá acesso ao nosso Suporte VIP individual, com atendimento direto e personalizado."
     },
     {
-        question: "¿Qué sucede después de comprar?",
-        answer: "Recibes un correo electrónico automático de Kiwify con acceso inmediato al ebook. Es simple y rápido."
+        question: "O que acontece depois de comprar?",
+        answer: "Você recebe um e-mail automático da Kiwify com acesso imediato ao ebook. É simples e rápido."
     },
     {
-        question: "¿Necesito invertir en máquinas costosas?",
-        answer: "No. Solo necesitarás: ✔ Una plancha ✔ Una impresora común ✔ Papel específico (te enseño cuál usar en el ebook)."
+        question: "Preciso investir em máquinas caras?",
+        answer: "Não. Você só precisará de: ✔ Um ferro de passar ✔ Uma impressora comum ✔ Papel específico (eu ensino qual usar no ebook)."
     },
     {
-        question: "¿En cuántos dispositivos puedo usar los archivos?",
-        answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
+        question: "Em quantos dispositivos posso usar os arquivos?",
+        answer: "Depois de baixar os arquivos, você pode copiá-los e compartilhá-los em todos os seus dispositivos."
     },
     {
-        question: "¿Por cuánto tiempo y cuántas veces puedo descargar las plantillas?",
-        answer: "Podrás acceder a los archivos cuando quieras, sin límites de tiempo o acceso. Entendemos que, después de la compra, el archivo es tuyo y no hay límites de tiempo. ¡El acceso es vitalicio!"
+        question: "Por quanto tempo e quantas vezes posso baixar os templates?",
+        answer: "Você poderá acessar os arquivos quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o arquivo é seu e não há limites de tempo. O acesso é vitalício!"
     },
     {
-        question: "¿Necesito algún programa especial para abrir los archivos?",
-        answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
+        question: "Preciso de algum programa especial para abrir os arquivos?",
+        answer: "Você só precisa de um leitor de PDF para abrir e imprimir os arquivos. Atualmente, todos os dispositivos (PC, Android, iOS) suportam este formato."
     }
 ];
 function Faq() {
@@ -844,7 +844,7 @@ function Faq() {
                                     lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
-                                " Preguntas Frecuentes"
+                                " Perguntas Frequentes"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
@@ -853,7 +853,7 @@ function Faq() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-muted-foreground mt-2",
-                            children: "Aclara todas tus dudas"
+                            children: "Tire todas as suas dúvidas"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
                             lineNumber: 59,
@@ -930,7 +930,7 @@ function Footer() {
             className: "container mx-auto px-4 text-center",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-sm text-muted-foreground",
-                children: "© 2025 Magic Print. Todos los derechos reservados."
+                children: "© 2025 Magic Print. Todos os direitos reservados."
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/Footer.tsx",
                 lineNumber: 5,
@@ -1027,7 +1027,7 @@ function Guarantee() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2",
-                                    children: "¡PRODUCTO CON RIESGO CERO!"
+                                    children: "PRODUTO COM RISCO ZERO!"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
                                     lineNumber: 20,
@@ -1036,13 +1036,13 @@ function Guarantee() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-2xl md:text-3xl font-bold mb-4",
                                     children: [
-                                        "EL CURSO TIENE GARANTÍA ",
+                                        "O CURSO TEM GARANTIA ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 21,
-                                            columnNumber: 97
+                                            columnNumber: 94
                                         }, this),
-                                        "INCONDICIONAL DE 30 DÍAS"
+                                        "INCONDICIONAL DE 30 DIAS"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
@@ -1054,7 +1054,7 @@ function Guarantee() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mb-4",
-                                            children: "Estás protegido por las leyes de protección al consumidor."
+                                            children: "Você está protegido pelas leis de proteção ao consumidor."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 23,
@@ -1063,15 +1063,15 @@ function Guarantee() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mb-4",
                                             children: [
-                                                "Si por alguna razón crees que no es para ti o no te adaptas, solo tienes que contactarnos (Email: contato@cartoesdecorativos.shop) ",
+                                                "Se por algum motivo você achar que não é para você ou não se adaptar, basta entrar em contato conosco (E-mail: contato@cartoesdecorativos.shop) ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                    children: "dentro del plazo de 30 días"
+                                                    children: "dentro do prazo de 30 dias"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
                                                     lineNumber: 24,
-                                                    columnNumber: 176
+                                                    columnNumber: 189
                                                 }, this),
-                                                " y solicitar el reembolso total de tu inversión."
+                                                " e solicitar o reembolso total do seu investimento."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
@@ -1079,7 +1079,7 @@ function Guarantee() {
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Recibirás de vuelta cada centavo que pagaste."
+                                            children: "Você receberá de volta cada centavo que pagou."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 25,
@@ -1113,14 +1113,14 @@ function Guarantee() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-2xl md:text-3xl font-bold mb-6",
                     children: [
-                        "¡HAZ CLIC EN EL BOTÓN DE ABAJO PARA ASEGURAR ",
+                        "CLIQUE NO BOTÃO ABAIXO PARA GARANTIR ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                             className: "text-destructive",
-                            children: "EL CURSO CON 89% DE DESCUENTO!"
+                            children: "O CURSO COM 89% DE DESCONTO!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                             lineNumber: 33,
-                            columnNumber: 62
+                            columnNumber: 54
                         }, this)
                     ]
                 }, void 0, true, {
@@ -1136,7 +1136,7 @@ function Guarantee() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
                             className: "cta-button shadow-lg text-center h-auto whitespace-normal",
-                            children: "LIBERA TU ACCESO AL CURSO"
+                            children: "LIBERE SEU ACESSO AO CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                             lineNumber: 38,
@@ -1154,7 +1154,7 @@ function Guarantee() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     src: "https://i.imgur.com/vx1HmTp.png",
-                    alt: "Compra segura, métodos de pago",
+                    alt: "Compra segura, métodos de pagamento",
                     width: 500,
                     height: 100,
                     className: "mx-auto max-w-full h-auto",

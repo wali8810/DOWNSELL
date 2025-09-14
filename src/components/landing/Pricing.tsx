@@ -7,34 +7,34 @@ import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
   "<b>Curso Completo: Magic Print</b>",
-  "<b>Certificado Incluido</b>",
-  "<b>Acceso vitalicio</b>",
-  "<b>30 Días de Garantía</b>",
+  "<b>Certificado Incluso</b>",
+  "<b>Acesso vitalício</b>",
+  "<b>30 Dias de Garantia</b>",
 ];
 
 const planoCompletoBonus = [
-    { text: "<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>", icon: "check" },
-    { text: "<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>", icon: "check" },
-    { text: "<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>", icon: "check" },
-    { text: "<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>", icon: "check" },
-    { text: "<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>", icon: "gift" },
-    { text: "<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>", icon: "gift" }
+    { text: "<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>", icon: "check" },
+    { text: "<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>", icon: "check" },
+    { text: "<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>", icon: "check" },
+    { text: "<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>", icon: "check" },
+    { text: "<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
+    { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
 ]
 
 const planoBasicoFeatures = {
   included: [
     "Curso Completo: Magic Print",
-    "Certificado Incluido",
-    "1 Año de Acceso",
-    "30 Días de Garantía"
+    "Certificado Incluso",
+    "1 Ano de Acesso",
+    "30 Dias de Garantia"
   ],
   notIncluded: [
-    '<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>',
-    '<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>',
-    '<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>',
-    '<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>',
-    '<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>',
-    '<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>',
+    '<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
+    '<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
+    '<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
+    '<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
+    '<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
+    '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
   ]
 }
 
@@ -80,7 +80,7 @@ export function Pricing() {
     <section id="plans" className="py-16 md:py-24 bg-[#00110F]">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ELIGE LA MEJOR OFERTA PARA TI</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA VOCÊ</h2>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
@@ -90,10 +90,10 @@ export function Pricing() {
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-6 md:p-8 w-full">
                 <div className="text-center mb-6">
                    <div className="bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
-                    <h3 className="text-xl font-bold uppercase">Plan Básico:</h3>
+                    <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
-                   <p className="font-bold text-lg uppercase text-black">Pago único</p>
-                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">$7.270</p>
+                   <p className="font-bold text-lg uppercase text-black">Pagamento único</p>
+                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$7,27</p>
                 </div>
                 <div className="flex-grow">
                   <ul className="text-left space-y-3 my-4 text-gray-600 text-sm md:text-base">
@@ -118,7 +118,7 @@ export function Pricing() {
                 <div className="mt-auto">
                    <a href="https://pay.kirvano.com/674c2e55-9ad9-430b-9b45-70cdd72a63a5" rel="noopener noreferrer" className="block w-full">
                       <Button size="lg" className="w-full text-lg py-6 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg">
-                        ¡QUIERO ESTA OPCIÓN!
+                        QUERO ESTA OPÇÃO!
                       </Button>
                    </a>
                 </div>
@@ -131,7 +131,7 @@ export function Pricing() {
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-6 md:p-8 w-full relative animate-pulse-yellow"
             >
                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-yellow-400 hover:bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg whitespace-nowrap">Mejor vendido</Badge>
+                  <Badge className="bg-yellow-400 hover:bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg whitespace-nowrap">Mais vendido</Badge>
               </div>
               
               <div className="text-center mb-4 mt-6">
@@ -143,9 +143,9 @@ export function Pricing() {
                     <StarIcon />
                 </div>
                 <div className="bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block">
-                  <h3 className="text-xl font-bold uppercase">Plan completo:</h3>
+                  <h3 className="text-xl font-bold uppercase">Plano completo:</h3>
                 </div>
-                <p className="font-bold text-lg text-black uppercase">(MEJOR OFERTA)</p>
+                <p className="font-bold text-lg text-black uppercase">(MELHOR OFERTA)</p>
               </div>
               
               <Image src="https://i.imgur.com/I8fDFCF.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle" priority/>
@@ -166,14 +166,14 @@ export function Pricing() {
               </ul>
 
               <div className="text-center my-4">
-                <p className="text-red-500 line-through text-lg">Valor Total: $59.900</p>
-                <p className="uppercase font-bold text-black text-sm">HOY PAGO ÚNICO...</p>
+                <p className="text-red-500 line-through text-lg">Valor Total: R$59,90</p>
+                <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
                 <motion.p 
                     whileInView={{ rotate: [0, -1.5, 1.5, -1.5, 1.5, 0] }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                     viewport={{ once: true, amount: 0.8 }}
                     className="text-5xl md:text-6xl font-extrabold text-green-500">
-                    $18.000
+                    R$18,00
                 </motion.p>
               </div>
 
@@ -181,10 +181,10 @@ export function Pricing() {
                  <div className="flex justify-center flex-col items-center gap-4">
                   <a href="https://pay.kirvano.com/cf061551-9c71-486b-b0f1-47c8002b42ff" rel="noopener noreferrer" className="block w-full">
                      <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green">
-                        ¡SÍ! ¡QUIERO ESTA SÚPER OFERTA!
+                        SIM! QUERO ESTA SUPER OFERTA!
                       </button>
                    </a>
-                   <p className="text-sm font-bold text-gray-700 text-center">ATENCIÓN: <span className="font-normal">La Promoción es <u className="font-bold">LIMITADA</u> y Terminará Pronto.</span></p>
+                   <p className="text-sm font-bold text-gray-700 text-center">ATENÇÃO: <span className="font-normal">A Promoção é <u className="font-bold">LIMITADA</u> e Acabará em Breve.</span></p>
                 </div>
               </div>
             </div>

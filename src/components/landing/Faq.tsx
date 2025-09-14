@@ -3,48 +3,48 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "¿Qué es el ebook 'Personalizando con Plancha'?",
-    answer: "Es una guía práctica que enseña a personalizar telas usando una plancha y una impresora común, sin necesidad de experiencia o máquinas costosas."
+    question: "O que é o ebook 'Personalizando com Ferro de Passar'?",
+    answer: "É um guia prático que ensina a personalizar tecidos usando um ferro e uma impressora comum, sem necessidade de experiência ou máquinas caras."
   },
   {
-    question: "¿Necesito tener experiencia?",
-    answer: "No. El método fue creado para principiantes. Cualquier persona puede aplicarlo."
+    question: "Preciso ter experiência?",
+    answer: "Não. O método foi criado para iniciantes. Qualquer pessoa pode aplicá-lo."
   },
   {
-    question: "¿Cuánto tiempo necesito dedicar por día?",
-    answer: "De 30 a 60 minutos por día son suficientes para empezar a practicar y crear tus primeras piezas."
+    question: "Quanto tempo preciso dedicar por dia?",
+    answer: "De 30 a 60 minutos por dia são suficientes para começar a praticar e criar suas primeiras peças."
   },
   {
-    question: "¿Por cuánto tiempo tengo acceso al ebook?",
-    answer: "Acceso vitalicio. Puedes acceder cuando quieras, leer online o descargar el material."
+    question: "Por quanto tempo tenho acesso ao ebook?",
+    answer: "Acesso vitalício. Você pode acessar quando quiser, ler online ou baixar o material."
   },
   {
-    question: "¿Hay alguna garantía?",
-    answer: "Sí. Tienes 7 días de garantía para probar todo. Si no estás satisfecho, te devolvemos el 100% de tu inversión."
+    question: "Existe alguma garantia?",
+    answer: "Sim. Você tem 7 dias de garantia para testar tudo. Se não ficar satisfeito, devolvemos 100% do seu investimento."
   },
   {
-    question: "¿Cómo funciona el soporte?",
-    answer: "Tendrás acceso a nuestro Soporte VIP individual, con atención directa y personalizada."
+    question: "Como funciona o suporte?",
+    answer: "Você terá acesso ao nosso Suporte VIP individual, com atendimento direto e personalizado."
   },
   {
-    question: "¿Qué sucede después de comprar?",
-    answer: "Recibes un correo electrónico automático de Kiwify con acceso inmediato al ebook. Es simple y rápido."
+    question: "O que acontece depois de comprar?",
+    answer: "Você recebe um e-mail automático da Kiwify com acesso imediato ao ebook. É simples e rápido."
   },
   {
-    question: "¿Necesito invertir en máquinas costosas?",
-    answer: "No. Solo necesitarás: ✔ Una plancha ✔ Una impresora común ✔ Papel específico (te enseño cuál usar en el ebook)."
+    question: "Preciso investir em máquinas caras?",
+    answer: "Não. Você só precisará de: ✔ Um ferro de passar ✔ Uma impressora comum ✔ Papel específico (eu ensino qual usar no ebook)."
   },
   {
-    question: "¿En cuántos dispositivos puedo usar los archivos?",
-    answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
+    question: "Em quantos dispositivos posso usar os arquivos?",
+    answer: "Depois de baixar os arquivos, você pode copiá-los e compartilhá-los em todos os seus dispositivos."
   },
   {
-    question: "¿Por cuánto tiempo y cuántas veces puedo descargar las plantillas?",
-    answer: "Podrás acceder a los archivos cuando quieras, sin límites de tiempo o acceso. Entendemos que, después de la compra, el archivo es tuyo y no hay límites de tiempo. ¡El acceso es vitalicio!"
+    question: "Por quanto tempo e quantas vezes posso baixar os templates?",
+    answer: "Você poderá acessar os arquivos quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o arquivo é seu e não há limites de tempo. O acesso é vitalício!"
   },
   {
-    question: "¿Necesito algún programa especial para abrir los archivos?",
-    answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
+    question: "Preciso de algum programa especial para abrir os arquivos?",
+    answer: "Você só precisa de um leitor de PDF para abrir e imprimir os arquivos. Atualmente, todos os dispositivos (PC, Android, iOS) suportam este formato."
   }
 ];
 
@@ -54,9 +54,9 @@ export function Faq() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">
-            <span role="img" aria-label="question mark">❓</span> Preguntas Frecuentes
+            <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
-          <p className="text-muted-foreground mt-2">Aclara todas tus dudas</p>
+          <p className="text-muted-foreground mt-2">Tire todas as suas dúvidas</p>
         </div>
         <Accordion type="single" collapsible className="w-full bg-black text-yellow-400">
           {faqItems.map((item, index) => (

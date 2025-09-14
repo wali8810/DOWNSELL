@@ -136,50 +136,50 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 const planoCompletoFeatures = [
     "<b>Curso Completo: Magic Print</b>",
-    "<b>Certificado Incluido</b>",
-    "<b>Acceso vitalicio</b>",
-    "<b>30 Días de Garantía</b>"
+    "<b>Certificado Incluso</b>",
+    "<b>Acesso vitalício</b>",
+    "<b>30 Dias de Garantia</b>"
 ];
 const planoCompletoBonus = [
     {
-        text: "<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>",
+        text: "<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>",
         icon: "check"
     },
     {
-        text: "<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>",
+        text: "<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>",
         icon: "check"
     },
     {
-        text: "<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>",
+        text: "<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>",
         icon: "check"
     },
     {
-        text: "<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>",
+        text: "<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>",
         icon: "check"
     },
     {
-        text: "<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>",
+        text: "<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>",
         icon: "gift"
     },
     {
-        text: "<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>",
+        text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>",
         icon: "gift"
     }
 ];
 const planoBasicoFeatures = {
     included: [
         "Curso Completo: Magic Print",
-        "Certificado Incluido",
-        "1 Año de Acceso",
-        "30 Días de Garantía"
+        "Certificado Incluso",
+        "1 Ano de Acesso",
+        "30 Dias de Garantia"
     ],
     notIncluded: [
-        '<b>BONO #01: KIT DE ESTAMPAS LISTAS</b><br/><i>100 DISEÑOS PROBADOS PARA USAR ¡AHORA MISMO!</i>',
-        '<b>BONO #02: MINI GUÍA DE PRECIOS INTELIGENTES</b>',
-        '<b>BONO #03: CHECKLIST DE IMPRESIÓN PERFECTA</b>',
-        '<b>BONO #04: GUÍA RÁPIDA DE APLICACIÓN CON PLANCHA</b>',
-        '<b>Grupo de Alumnos:</b> <i>Espacio exclusivo para soporte, intercambio de consejos y experiencias.</i>',
-        '<b>Soporte VIP:</b> <i>Acompañamiento individual vía WhatsApp por 90 días para acelerar tus resultados.</i>'
+        '<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
+        '<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
+        '<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
+        '<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
+        '<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
+        '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>'
     ]
 };
 const StarIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -266,7 +266,7 @@ function Pricing() {
                     className: "text-center max-w-3xl mx-auto mb-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white",
-                        children: "ELIGE LA MEJOR OFERTA PARA TI"
+                        children: "ESCOLHA A MELHOR OFERTA PARA VOCÊ"
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Pricing.tsx",
                         lineNumber: 83,
@@ -292,7 +292,7 @@ function Pricing() {
                                                 className: "bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-bold uppercase",
-                                                    children: "Plan Básico:"
+                                                    children: "Plano Básico:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Pricing.tsx",
                                                     lineNumber: 93,
@@ -305,7 +305,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "font-bold text-lg uppercase text-black",
-                                                children: "Pago único"
+                                                children: "Pagamento único"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 95,
@@ -313,7 +313,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-5xl md:text-6xl font-extrabold text-green-500",
-                                                children: "$7.270"
+                                                children: "R$7,27"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 96,
@@ -411,7 +411,7 @@ function Pricing() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                 size: "lg",
                                                 className: "w-full text-lg py-6 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg",
-                                                children: "¡QUIERO ESTA OPCIÓN!"
+                                                children: "QUERO ESTA OPÇÃO!"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 120,
@@ -447,7 +447,7 @@ function Pricing() {
                                         className: "absolute -top-4 left-1/2 -translate-x-1/2",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
                                             className: "bg-yellow-400 hover:bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg whitespace-nowrap",
-                                            children: "Mejor vendido"
+                                            children: "Mais vendido"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Pricing.tsx",
                                             lineNumber: 134,
@@ -499,7 +499,7 @@ function Pricing() {
                                                 className: "bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-bold uppercase",
-                                                    children: "Plan completo:"
+                                                    children: "Plano completo:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Pricing.tsx",
                                                     lineNumber: 146,
@@ -512,7 +512,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "font-bold text-lg text-black uppercase",
-                                                children: "(MEJOR OFERTA)"
+                                                children: "(MELHOR OFERTA)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 148,
@@ -601,7 +601,7 @@ function Pricing() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-red-500 line-through text-lg",
-                                                children: "Valor Total: $59.900"
+                                                children: "Valor Total: R$59,90"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 169,
@@ -609,7 +609,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "uppercase font-bold text-black text-sm",
-                                                children: "HOY PAGO ÚNICO..."
+                                                children: "HOJE PAGAMENTO ÚNICO..."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 170,
@@ -635,7 +635,7 @@ function Pricing() {
                                                     amount: 0.8
                                                 },
                                                 className: "text-5xl md:text-6xl font-extrabold text-green-500",
-                                                children: "$18.000"
+                                                children: "R$18,00"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 171,
@@ -658,7 +658,7 @@ function Pricing() {
                                                     className: "block w-full",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                         className: "w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green",
-                                                        children: "¡SÍ! ¡QUIERO ESTA SÚPER OFERTA!"
+                                                        children: "SIM! QUERO ESTA SUPER OFERTA!"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/Pricing.tsx",
                                                         lineNumber: 183,
@@ -672,25 +672,25 @@ function Pricing() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm font-bold text-gray-700 text-center",
                                                     children: [
-                                                        "ATENCIÓN: ",
+                                                        "ATENÇÃO: ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "font-normal",
                                                             children: [
-                                                                "La Promoción es ",
+                                                                "A Promoção é ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
                                                                     className: "font-bold",
                                                                     children: "LIMITADA"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/Pricing.tsx",
                                                                     lineNumber: 187,
-                                                                    columnNumber: 135
+                                                                    columnNumber: 131
                                                                 }, this),
-                                                                " y Terminará Pronto."
+                                                                " e Acabará em Breve."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/Pricing.tsx",
                                                             lineNumber: 187,
-                                                            columnNumber: 89
+                                                            columnNumber: 88
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
@@ -1173,36 +1173,36 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$car
 ;
 ;
 const forWhomItems = [
-    "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
-    "Para quienes sueñan con tener un negocio rentable, que no dependa de la ciudad o región donde viven.",
-    "Para quienes quieren aprovechar la tendencia que más crece en 2025: los productos personalizados con plancha.",
-    "Para quienes quieren transformar papel en dinero y obtener ganancias entre $800 y $1.400 por mes (aproximadamente, según tu inversión y tiempo)."
+    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim ter liberdade de tempo.",
+    "Para quem sonha em ter um negócio lucrativo, que não dependa da cidade ou região onde mora.",
+    "Para quem quer aproveitar a tendência que mais cresce em 2025: os produtos personalizados com ferro de passar.",
+    "Para quem quer transformar papel em dinheiro e obter lucros entre R$800 e R$1.400 por mês (aproximadamente, dependendo do seu investimento e tempo)."
 ];
 const whatYouGetItems = [
     {
         icon: "🎯",
-        title: "DE PRINCIPIANTE A AVANÇADO",
-        description: "Recibirás la guía para crear productos personalizados increíbles y convertirte en la profesional mejor paga de tu zona."
+        title: "DE INICIANTE A AVANÇADO",
+        description: "Você receberá o guia para criar produtos personalizados incríveis e se tornar a profissional mais bem paga da sua região."
     },
     {
         icon: "💰",
-        title: "GUÍA DE PRECIO",
-        description: "Consejos valiosos para evitar gastos que parecen “ventajosos” pero que reducen tu ganancia."
+        title: "GUIA DE PREÇOS",
+        description: "Dicas valiosas para evitar gastos que parecem “vantajosos”, mas que reduzem seu lucro."
     },
     {
         icon: "💎",
-        title: "SOPORTE INDIVIDUAL",
-        description: "Mi contacto personal para aclarar dudas y brindarte consejos personalizados."
+        title: "SUPORTE INDIVIDUAL",
+        description: "Meu contato pessoal para tirar dúvidas e dar dicas personalizadas."
     },
     {
         icon: "🚀",
-        title: "GRUPO DE ALUMNAS",
-        description: "Grupo exclusivo para intercambio de tips y experiencias con otras emprendedoras."
+        title: "GRUPO DE ALUNAS",
+        description: "Grupo exclusivo para troca de dicas e experiências com outras empreendedoras."
     },
     {
         icon: "🧠",
-        title: "GUÍA DE MATERIALES",
-        description: "Cómo comenzar tu negocio usando materiales económicos que generan alta rentabilidad."
+        title: "GUIA DE MATERIAIS",
+        description: "Como começar seu negócio usando materiais econômicos que geram alta lucratividade."
     }
 ];
 const carouselImages = [
@@ -1260,16 +1260,16 @@ function ForWhom() {
                                     lineHeight: '1.1'
                                 },
                                 children: [
-                                    "Cómo crear ",
+                                    "Como criar ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-green-500 px-2",
-                                        children: "productos personalizados que se vendan en 48 horas"
+                                        children: "produtos personalizados que vendem em 48 horas"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 73,
                                         columnNumber: 28
                                     }, this),
-                                    " usando solo una impresora normal y una plancha"
+                                    " usando apenas uma impressora comum e um ferro de passar"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1318,7 +1318,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-bold text-red-500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("s", {
-                                    children: "DE $59.900"
+                                    children: "DE R$59,90"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 92,
@@ -1331,7 +1331,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-xl md:text-2xl font-bold uppercase mt-2 text-black",
-                                children: "POR SOLO"
+                                children: "POR APENAS"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 93,
@@ -1339,7 +1339,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-6xl md:text-7xl font-extrabold text-green-600 mt-1",
-                                children: "$18.000"
+                                children: "R$18,00"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 94,
@@ -1347,7 +1347,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl md:text-3xl font-bold text-black mt-4",
-                                children: "¡RIESGO CERO!"
+                                children: "RISCO ZERO!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 95,
@@ -1359,7 +1359,7 @@ function ForWhom() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                     size: "lg",
                                     className: "bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 rounded-lg shadow-lg animate-pulse-green",
-                                    children: "QUIERO APROVECHAR"
+                                    children: "QUERO APROVEITAR"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 97,
@@ -1402,7 +1402,7 @@ function ForWhom() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide",
-                                children: "¿PARA QUIÉN ES EL MÉTODO MAGIC PRINT?"
+                                children: "PARA QUEM É O MÉTODO MAGIC PRINT?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 109,
@@ -1445,7 +1445,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8",
-                                children: "MIRA LO QUE RECIBIRÁS:"
+                                children: "VEJA O QUE VOCÊ VAI RECEBER:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 123,
@@ -1498,7 +1498,7 @@ function ForWhom() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "font-bold underline text-lg mb-4",
-                                        children: "Productos que puedes empezar a hacer hoy:"
+                                        children: "Produtos que você pode começar a fazer hoje:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 137,
@@ -1525,7 +1525,7 @@ function ForWhom() {
                                                             className: "aspect-square",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 src: src,
-                                                                alt: `Example image ${index + 1}`,
+                                                                alt: `Imagem de exemplo ${index + 1}`,
                                                                 width: 400,
                                                                 height: 400,
                                                                 className: "w-full h-full object-cover rounded-lg",
@@ -1573,7 +1573,7 @@ function ForWhom() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                         size: "lg",
                                         className: "bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg",
-                                        children: "¡QUIERO APROVECHAR!"
+                                        children: "QUERO APROVEITAR!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 174,
@@ -1592,15 +1592,15 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 mb-8 text-sm md:text-base",
                                 children: [
-                                    "Siguiendo este curso, ",
+                                    "Seguindo este curso, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        children: "NO necesitas:"
+                                        children: "VOCÊ NÃO PRECISA de:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 180,
-                                        columnNumber: 102
+                                        columnNumber: 101
                                     }, this),
-                                    " experiencia previa, materiales caros ni pasar horas trabajando."
+                                    " experiência prévia, materiais caros nem passar horas trabalhando."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1720,7 +1720,7 @@ function SalesNotification() {
                             lineNumber: 62,
                             columnNumber: 11
                         }, this),
-                        " acaba de comprar hace ",
+                        " acabou de comprar há ",
                         timeAgo,
                         " minutos"
                     ]

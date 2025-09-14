@@ -4,31 +4,31 @@ import Image from "next/image";
 const bonusData = [
   {
     bonusNumber: "#01",
-    title: "Kit de Estampas Listas: 100 diseños probados para usar ¡ahora mismo!",
+    title: "Kit de Estampas Prontas: 100 designs testados para usar agora mesmo!",
     image: "https://imgur.com/ggAJSGi.png",
     alt: "Bônus de Kit de Estampas",
-    price: "$47.000",
+    price: "R$47,00",
   },
   {
     bonusNumber: "#02",
-    title: "Mini Guía de Precios Inteligentes",
+    title: "Mini Guia de Preços Inteligentes",
     image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
-    price: "$37.000",
+    price: "R$37,00",
   },
   {
     bonusNumber: "#03",
-    title: "Checklist de Impresión Perfecta",
+    title: "Checklist de Impressão Perfeita",
     image: "https://imgur.com/Q5sChOg.png",
     alt: "Bônus guia de inspiração",
-    price: "$57.000",
+    price: "R$57,00",
   },
     {
     bonusNumber: "#04",
-    title: "Guía Rápida de Aplicación con Plancha",
+    title: "Guia Rápido de Aplicação com Ferro de Passar",
     image: "https://imgur.com/P07oK5g.png",
     alt: "Bônus aplicação com prancha",
-    price: "$27.000",
+    price: "R$27,00",
   },
 ];
 
@@ -38,18 +38,18 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonuses-section">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
-            BONO POR <br />
-            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMERA VISITA</u>...
+            BÔNUS POR <br />
+            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              4 bonos exclusivos
+              4 bônus exclusivos
             </span>{" "}
-            para quienes compren el CURSO EN ESTA PÁGINA
+            para quem comprar o CURSO NESTA PÁGINA
           </h3>
           <h4 className="text-xl md:text-2xl font-bold uppercase text-destructive font-montserrat">
             <span style={{ color: "#FF0845" }}>
-              (<u>¡TERMINA HOY!</u>)
+              (<u>ACABA HOJE!</u>)
             </span>
           </h4>
         </div>
@@ -74,7 +74,7 @@ export function Bonuses() {
               )}
                 <div className="w-full text-center space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold font-montserrat text-black">
-                    BONO {bonus.bonusNumber}:
+                    BÔNUS {bonus.bonusNumber}:
                   </h3>
                   <h4 className="text-lg md:text-xl font-semibold font-montserrat text-orange-500 min-h-[3em]">
                     {bonus.title.toUpperCase()}
