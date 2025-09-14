@@ -44,11 +44,11 @@ const whatYouGetItems = [
 ]
 
 const carouselImages = [
-    "https://imgur.com/UKAI3ZD.png",
-    "https://imgur.com/kouuIKY.png",
-    "https://imgur.com/RNfHvRD.png",
-    "https://imgur.com/OrZF0j3.png",
-    "https://imgur.com/yEr86vr.png"
+    "https://imgur.com/fK03XH9",
+    "https://imgur.com/g4ToCuB",
+    "https://imgur.com/teZxX0B",
+    "https://imgur.com/3ludoKY",
+    "https://imgur.com/x3Hd5WC"
 ]
 
 const CheckIcon = () => (
@@ -74,7 +74,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://i.imgur.com/I8fDFCF.png"
+                        src="https://imgur.com/DJUDH2b"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
