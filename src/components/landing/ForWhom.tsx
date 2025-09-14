@@ -107,7 +107,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
-                            PARA QUEM É O MÉTODO MAGIC PRINT?
+                            PARA QUEM É O MÉTODO ESTAMPA MÁGICA?
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                             {forWhomItems.map((item, index) => (

@@ -68,7 +68,7 @@ export function Testimonials() {
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
-                  <p>Imagine ganhar até <strong style={{color: '#4fc700'}}>R$1.400 por mês</strong> criando cartões decorativos da sua casa. Com meu método Magic Print, você não precisa investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais.</p>
+                  <p>Imagine ganhar até <strong style={{color: '#4fc700'}}>R$1.400 por mês</strong> criando cartões decorativos da sua casa. Com meu método Estampa Mágica, você não precisa investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais.</p>
                   <p>Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a América Latina e qualquer pessoa pode aprender, mesmo sem experiência prévia.</p>
                   <p>Com o método, você receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo.</p>
                   <p><strong>Uma dica estratégica:</strong> os cartões para chá de bebê e revelação de gênero são dos mais procurados e vendem muito rápido, então são um excelente ponto de partida para gerar renda imediata.</p>
