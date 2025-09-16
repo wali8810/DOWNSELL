@@ -1053,7 +1053,7 @@ const forWhomItems = [
     "Para quem deseja trabalhar a partir de casa, dedicando apenas algumas horas por semana e, ainda assim, ter liberdade de tempo.",
     "Para quem sonha em ter um negócio lucrativo, que não dependa da cidade ou região onde mora.",
     "Para quem quer aproveitar a tendência que mais cresce em 2025: os produtos personalizados com ferro de engomar.",
-    "Para quem quer transformar papel em dinheiro e obter lucros entre 400€ e 700€ por mês (aproximadamente, dependendo do seu investimento e tempo)."
+    "Para quem quer transformar papel em dinheiro e obter lucros entre 1500€ a 2000€ por mês (aproximadamente, dependendo do seu investimento e tempo)."
 ];
 const whatYouGetItems = [
     {
