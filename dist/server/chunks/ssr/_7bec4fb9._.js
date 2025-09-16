@@ -538,7 +538,7 @@ function Testimonials() {
                                                 style: {
                                                     color: '#4fc700'
                                                 },
-                                                children: "700€ por mês"
+                                                children: "1500€ por mês"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
                                                 lineNumber: 70,
