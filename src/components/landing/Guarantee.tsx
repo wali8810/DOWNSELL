@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -20,9 +19,9 @@ export function Guarantee() {
                     <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">PRODUTO COM RISCO ZERO!</h3>
                     <h4 className="text-2xl md:text-3xl font-bold mb-4">O CURSO TEM GARANTIA <br/>INCONDICIONAL DE 30 DIAS</h4>
                     <div className="max-w-2xl mx-auto text-muted-foreground text-lg">
-                        <p className="mb-4">Você está protegido pelas leis de proteção ao consumidor.</p>
-                        <p className="mb-4">Se por algum motivo você achar que não é para você ou não se adaptar, basta entrar em contato conosco (E-mail: contato@cartoesdecorativos.shop) <b>dentro do prazo de 30 dias</b> e solicitar o reembolso total do seu investimento.</p>
-                        <p>Você receberá de volta cada centavo que pagou.</p>
+                        <p className="mb-4">Está protegido pelas leis de proteção ao consumidor.</p>
+                        <p className="mb-4">Se por algum motivo achar que não é para si ou não se adaptar, basta entrar em contacto connosco (E-mail: contato@cartoesdecorativos.shop) <b>dentro do prazo de 30 dias</b> e solicitar o reembolso total do seu investimento.</p>
+                        <p>Receberá de volta cada cêntimo que pagou.</p>
                     </div>
                 </div>
             </div>

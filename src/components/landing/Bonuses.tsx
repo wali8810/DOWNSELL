@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 const bonusData = [
@@ -6,29 +5,29 @@ const bonusData = [
     bonusNumber: "#01",
     title: "Kit de Estampas Prontas: 100 designs testados para usar agora mesmo!",
     image: "https://i.imgur.com/ggAJSGi.png",
-    alt: "Bônus de Kit de Estampas",
-    price: "R$47,00",
+    alt: "Bónus de Kit de Estampas",
+    price: "10€",
   },
   {
     bonusNumber: "#02",
     title: "Mini Guia de Preços Inteligentes",
     image: "https://i.imgur.com/hdbzMRu.png",
-    alt: "Bônus manual de vendas",
-    price: "R$37,00",
+    alt: "Bónus manual de vendas",
+    price: "8€",
   },
   {
     bonusNumber: "#03",
     title: "Checklist de Impressão Perfeita",
     image: "https://i.imgur.com/Q5sChOg.png",
-    alt: "Bônus guia de inspiração",
-    price: "R$57,00",
+    alt: "Bónus guia de inspiração",
+    price: "12€",
   },
     {
     bonusNumber: "#04",
-    title: "Guia Rápido de Aplicação com Ferro de Passar",
+    title: "Guia Rápido de Aplicação com Ferro de Engomar",
     image: "https://i.imgur.com/P07oK5g.png",
-    alt: "Bônus aplicação com prancha",
-    price: "R$27,00",
+    alt: "Bónus aplicação com prancha",
+    price: "6€",
   },
 ];
 
@@ -38,12 +37,12 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonuses-section">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
-            BÔNUS POR <br />
+            BÓNUS POR <br />
             <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              4 bônus exclusivos
+              4 bónus exclusivos
             </span>{" "}
             para quem comprar o CURSO NESTA PÁGINA
           </h3>
@@ -74,7 +73,7 @@ export function Bonuses() {
               )}
                 <div className="w-full text-center space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold font-montserrat text-black">
-                    BÔNUS {bonus.bonusNumber}:
+                    BÓNUS {bonus.bonusNumber}:
                   </h3>
                   <h4 className="text-lg md:text-xl font-semibold font-montserrat text-orange-500 min-h-[3em]">
                     {bonus.title.toUpperCase()}

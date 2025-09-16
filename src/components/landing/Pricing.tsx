@@ -13,12 +13,12 @@ const planoCompletoFeatures = [
 ];
 
 const planoCompletoBonus = [
-    { text: "<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>", icon: "check" },
-    { text: "<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>", icon: "check" },
-    { text: "<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>", icon: "check" },
-    { text: "<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>", icon: "check" },
-    { text: "<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
-    { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
+    { text: "<b>BÓNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>", icon: "check" },
+    { text: "<b>BÓNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>", icon: "check" },
+    { text: "<b>BÓNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>", icon: "check" },
+    { text: "<b>BÓNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>", icon: "check" },
+    { text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
+    { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar os seus resultados.</i>", icon: "gift" }
 ]
 
 const planoBasicoFeatures = {
@@ -29,12 +29,12 @@ const planoBasicoFeatures = {
     "30 Dias de Garantia"
   ],
   notIncluded: [
-    '<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
-    '<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
-    '<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
-    '<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
-    '<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
-    '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
+    '<b>BÓNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
+    '<b>BÓNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
+    '<b>BÓNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
+    '<b>BÓNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
+    '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
+    '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar os seus resultados.</i>',
   ]
 }
 
@@ -80,7 +80,7 @@ export function Pricing() {
     <section id="plans" className="py-16 md:py-24 bg-[#00110F]">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA VOCÊ</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA SI</h2>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
@@ -93,7 +93,7 @@ export function Pricing() {
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
                    <p className="font-bold text-lg uppercase text-black">Pagamento único</p>
-                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$7,27</p>
+                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">2€</p>
                 </div>
                 <div className="flex-grow">
                   <ul className="text-left space-y-3 my-4 text-gray-600 text-sm md:text-base">
@@ -166,14 +166,14 @@ export function Pricing() {
               </ul>
 
               <div className="text-center my-4">
-                <p className="text-red-500 line-through text-lg">Valor Total: R$59,90</p>
+                <p className="text-red-500 line-through text-lg">Valor Total: 12€</p>
                 <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
                 <motion.p 
                     whileInView={{ rotate: [0, -1.5, 1.5, -1.5, 1.5, 0] }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                     viewport={{ once: true, amount: 0.8 }}
                     className="text-5xl md:text-6xl font-extrabold text-green-500">
-                    R$18,00
+                    4€
                 </motion.p>
               </div>
 

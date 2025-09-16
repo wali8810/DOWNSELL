@@ -142,27 +142,27 @@ const planoCompletoFeatures = [
 ];
 const planoCompletoBonus = [
     {
-        text: "<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>",
+        text: "<b>BÓNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>",
         icon: "check"
     },
     {
-        text: "<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>",
+        text: "<b>BÓNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>",
         icon: "check"
     },
     {
-        text: "<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>",
+        text: "<b>BÓNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>",
         icon: "check"
     },
     {
-        text: "<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>",
+        text: "<b>BÓNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>",
         icon: "check"
     },
     {
-        text: "<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>",
+        text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>",
         icon: "gift"
     },
     {
-        text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>",
+        text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar os seus resultados.</i>",
         icon: "gift"
     }
 ];
@@ -174,12 +174,12 @@ const planoBasicoFeatures = {
         "30 Dias de Garantia"
     ],
     notIncluded: [
-        '<b>BÔNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
-        '<b>BÔNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
-        '<b>BÔNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
-        '<b>BÔNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
-        '<b>Grupo de Alunas:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
-        '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>'
+        '<b>BÓNUS #01: KIT DE ESTAMPAS PRONTAS</b><br/><i>100 DESIGNS TESTADOS PARA USAR AGORA MESMO!</i>',
+        '<b>BÓNUS #02: MINI GUIA DE PRECIFICAÇÃO INTELIGENTE</b>',
+        '<b>BÓNUS #03: CHECKLIST DE IMPRESSÃO PERFEITA</b>',
+        '<b>BÓNUS #04: GUIA RÁPIDO DE APLICAÇÃO COM FERRO</b>',
+        '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
+        '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar os seus resultados.</i>'
     ]
 };
 const StarIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -266,7 +266,7 @@ function Pricing() {
                     className: "text-center max-w-3xl mx-auto mb-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white",
-                        children: "ESCOLHA A MELHOR OFERTA PARA VOCÊ"
+                        children: "ESCOLHA A MELHOR OFERTA PARA SI"
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Pricing.tsx",
                         lineNumber: 83,
@@ -313,7 +313,7 @@ function Pricing() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-5xl md:text-6xl font-extrabold text-green-500",
-                                                children: "R$7,27"
+                                                children: "2€"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 96,
@@ -601,7 +601,7 @@ function Pricing() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-red-500 line-through text-lg",
-                                                children: "Valor Total: R$59,90"
+                                                children: "Valor Total: 12€"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 169,
@@ -635,7 +635,7 @@ function Pricing() {
                                                     amount: 0.8
                                                 },
                                                 className: "text-5xl md:text-6xl font-extrabold text-green-500",
-                                                children: "R$18,00"
+                                                children: "4€"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 171,
@@ -1173,36 +1173,36 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$car
 ;
 ;
 const forWhomItems = [
-    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim ter liberdade de tempo.",
+    "Para quem deseja trabalhar a partir de casa, dedicando apenas algumas horas por semana e, ainda assim, ter liberdade de tempo.",
     "Para quem sonha em ter um negócio lucrativo, que não dependa da cidade ou região onde mora.",
-    "Para quem quer aproveitar a tendência que mais cresce em 2025: os produtos personalizados com ferro de passar.",
-    "Para quem quer transformar papel em dinheiro e obter lucros entre R$800 e R$1.400 por mês (aproximadamente, dependendo do seu investimento e tempo)."
+    "Para quem quer aproveitar a tendência que mais cresce em 2025: os produtos personalizados com ferro de engomar.",
+    "Para quem quer transformar papel em dinheiro e obter lucros entre 400€ e 700€ por mês (aproximadamente, dependendo do seu investimento e tempo)."
 ];
 const whatYouGetItems = [
     {
         icon: "🎯",
         title: "DE INICIANTE A AVANÇADO",
-        description: "Você receberá o guia para criar produtos personalizados incríveis e se tornar a profissional mais bem paga da sua região."
+        description: "Receberá o guia para criar produtos personalizados incríveis e tornar-se o profissional mais bem pago da sua região."
     },
     {
         icon: "💰",
         title: "GUIA DE PREÇOS",
-        description: "Dicas valiosas para evitar gastos que parecem “vantajosos”, mas que reduzem seu lucro."
+        description: "Dicas valiosas para evitar gastos que parecem “vantajosos”, mas que reduzem o seu lucro."
     },
     {
         icon: "💎",
         title: "SUPORTE INDIVIDUAL",
-        description: "Meu contato pessoal para tirar dúvidas e dar dicas personalizadas."
+        description: "O meu contacto pessoal para tirar dúvidas e dar dicas personalizadas."
     },
     {
         icon: "🚀",
-        title: "GRUPO DE ALUNAS",
+        title: "GRUPO DE ALUNOS",
         description: "Grupo exclusivo para troca de dicas e experiências com outras empreendedoras."
     },
     {
         icon: "🧠",
         title: "GUIA DE MATERIAIS",
-        description: "Como começar seu negócio usando materiais econômicos que geram alta lucratividade."
+        description: "Como começar o seu negócio usando materiais económicos que geram alta lucratividade."
     }
 ];
 const carouselImages = [
@@ -1263,13 +1263,13 @@ function ForWhom() {
                                     "Como criar ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-green-500 px-2",
-                                        children: "produtos personalizados que vendem em 48 horas"
+                                        children: "produtos personalizados que se vendem em 48 horas"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 73,
                                         columnNumber: 28
                                     }, this),
-                                    " usando apenas uma impressora comum e um ferro de passar"
+                                    " usando apenas uma impressora comum e um ferro de engomar"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1280,7 +1280,7 @@ function ForWhom() {
                                 className: "mt-8 flex justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: "https://i.imgur.com/DJUDH2b.png",
-                                    alt: "Mockup do curso e bônus",
+                                    alt: "Mockup do curso e bónus",
                                     width: 608,
                                     height: 405,
                                     className: "max-w-full h-auto",
@@ -1318,7 +1318,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-bold text-red-500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("s", {
-                                    children: "DE R$59,90"
+                                    children: "DE 12€"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 92,
@@ -1339,7 +1339,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-6xl md:text-7xl font-extrabold text-green-600 mt-1",
-                                children: "R$18,00"
+                                children: "4€"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 94,
@@ -1445,7 +1445,7 @@ function ForWhom() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8",
-                                children: "VEJA O QUE VOCÊ VAI RECEBER:"
+                                children: "VEJA O QUE VAI RECEBER:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 123,
@@ -1498,7 +1498,7 @@ function ForWhom() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "font-bold underline text-lg mb-4",
-                                        children: "Produtos que você pode começar a fazer hoje:"
+                                        children: "Produtos que pode começar a fazer hoje:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 137,
@@ -1592,15 +1592,15 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 mb-8 text-sm md:text-base",
                                 children: [
-                                    "Seguindo este curso, ",
+                                    "A seguir este curso, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                        children: "VOCÊ NÃO PRECISA de:"
+                                        children: "NÃO PRECISA de:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 180,
                                         columnNumber: 101
                                     }, this),
-                                    " experiência prévia, materiais caros nem passar horas trabalhando."
+                                    " experiência prévia, materiais caros nem passar horas a trabalhar."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",

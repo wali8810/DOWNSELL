@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
   title: 'Curso de Cartões Decorados',
-  description: 'Ganhe de R$1.200 a R$1.800 por mês criando cartões decorados que se vendem sozinhos.',
+  description: 'Ganhe de 600€ a 900€ por mês a criar cartões decorados que se vendem sozinhos.',
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-PT">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

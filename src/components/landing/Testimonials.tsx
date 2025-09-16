@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -10,12 +9,12 @@ const testimonials = [
   },
   {
     image: "https://i.imgur.com/qxUkZGZ.png",
-    text: "Nunca pensei que alguém pagaria por algo que fiz com um ferro de passar roupa!",
+    text: "Nunca pensei que alguém pagaria por algo que fiz com um ferro de engomar!",
     name: "Maria C.",
   },
     {
     image: "https://i.imgur.com/RrstbbC.png",
-    text: "Comecei sem saber nada e já estou vendendo minhas criações. O curso é incrível!",
+    text: "Comecei sem saber nada e já estou a vender as minhas criações. O curso é incrível!",
     name: "Lúcia M.",
   },
   {
@@ -52,7 +51,7 @@ export function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">DEPOIMENTOS REAIS:</h2>
-           <p className="text-lg mt-4 text-muted-foreground">Elas estão <span className="text-accent underline">transformando sua paixão em lucro.</span></p>
+           <p className="text-lg mt-4 text-muted-foreground">Elas estão a <span className="text-accent underline">transformar a sua paixão em lucro.</span></p>
         </div>
         <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
@@ -68,10 +67,10 @@ export function Testimonials() {
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
-                  <p>Imagine ganhar até <strong style={{color: '#4fc700'}}>R$1.400 por mês</strong> criando cartões decorativos da sua casa. Com meu método Estampa Mágica, você não precisa investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais.</p>
+                  <p>Imagine ganhar até <strong style={{color: '#4fc700'}}>700€ por mês</strong> a criar cartões decorativos a partir de sua casa. Com o meu método Estampa Mágica, não precisa de investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais.</p>
                   <p>Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a América Latina e qualquer pessoa pode aprender, mesmo sem experiência prévia.</p>
-                  <p>Com o método, você receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo.</p>
-                  <p><strong>Uma dica estratégica:</strong> os cartões para chá de bebê e revelação de gênero são dos mais procurados e vendem muito rápido, então são um excelente ponto de partida para gerar renda imediata.</p>
+                  <p>Com o método, receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo.</p>
+                  <p><strong>Uma dica estratégica:</strong> os cartões para chá de bebé e revelação de género são dos mais procurados e vendem muito rápido, sendo um excelente ponto de partida para gerar rendimento imediato.</p>
               </div>
             </div>
 
@@ -87,14 +86,14 @@ export function Testimonials() {
                 className="text-2xl md:text-3xl font-bold mb-4" 
                 style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '1.2', letterSpacing: '-0.9px' }}
               >
-                Quanto Tempo Leva Para Receber Meu Acesso?
+                Quanto Tempo Leva Para Receber o Meu Acesso?
               </h3>
               <div 
                 className="text-muted-foreground text-lg" 
                 style={{ fontFamily: '"Montserrat", Sans-serif' }}
               >
-                  <p>Após confirmar seu pedido, <strong>você receberá automaticamente</strong> no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente.</p>
-                  <p>Todo o material está hospedado em uma <strong>área de membros exclusiva</strong> para alunos, para que você possa acessar com segurança, quando e de onde estiver.</p>
+                  <p>Após confirmar o seu pedido, <strong>receberá automaticamente</strong> no seu e-mail os dados de acesso para login e poderá começar os seus estudos imediatamente.</p>
+                  <p>Todo o material está hospedado numa <strong>área de membros exclusiva</strong> para alunos, para que possa aceder com segurança, quando e de onde estiver.</p>
               </div>
             </div>
         </div>
