@@ -1,9 +1,8 @@
-import type {NextConfig} from 'next';
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
-  distDir: 'dist',
-  /* config options here */
+  distDir: 'out',
+  reactStrictMode: true,
   typescript: {
     ignoreBuildErrors: true,
   },
