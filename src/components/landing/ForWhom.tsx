@@ -32,7 +32,7 @@ export function ForWhom() {
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500">
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                ESPERE! <span className="text-white">O Seu Pedido Está Incompleto.</span>
+                ESPERE! <span className="text-white">A Sua Compra Está Incompleta.</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
                 Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para criar caixas que vendem em 48h por um pagamento único e ridículo de €9,90.

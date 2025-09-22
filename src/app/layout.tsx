@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: '(1) A sua encomenda está quase pronta...',
+  title: '(1) A sua compra está quase pronta...',
   description: 'Adicione o método completo e validado para criar caixas que vendem em 48h por um pagamento único de €9,90.',
 };
 

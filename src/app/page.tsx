@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
        <div className="bg-destructive text-destructive-foreground text-center p-2 text-sm font-bold">
-        ATENÇÃO: A SUA ENCOMENDA AINDA NÃO FOI CONCLUÍDA. LEIA ABAIXO.
+        ATENÇÃO: A SUA COMPRA AINDA NÃO FOI CONCLUÍDA. LEIA ABAIXO.
       </div>
        <CountdownTimer />
       <main className="flex-grow">
