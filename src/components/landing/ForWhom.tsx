@@ -32,7 +32,7 @@ export function ForWhom() {
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20 bg-gray-900">
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                ESPERE! <span className="text-destructive">O seu caminho ainda não terminou...</span>
+                ESPERE! <span className="bg-gradient-to-r from-pink-500 to-orange-400 text-transparent bg-clip-text">O seu caminho ainda não terminou...</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
                 Parabéns pela sua decisão! Agora, deixe-me entregar-lhe pessoalmente o meu método completo para transformar a sua nova habilidade numa fonte de orgulho e lucro. Adicione o curso completo ao seu pedido por um pagamento único e simbólico de apenas €9,90.
