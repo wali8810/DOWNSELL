@@ -24,7 +24,7 @@ export function Pricing() {
   return (
     <section id="plans" className="py-16 md:py-24 bg-[#00110F]">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto bg-white text-black rounded-2xl shadow-2xl border-4 border-yellow-400 p-6 md:p-8 w-full">
+        <div className="max-w-2xl mx-auto bg-white text-black rounded-2xl shadow-2xl border-4 border-yellow-400 p-6 md:p-8 w-full animate-pulse-yellow">
             <div className="text-center mb-6">
                 <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Leva Nesta Oferta Exclusiva:</h2>
             </div>
