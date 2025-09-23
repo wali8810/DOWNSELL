@@ -56,9 +56,6 @@ export function ForWhom() {
                             SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
                         </Button>
                     </a>
-                    <p className="mt-2 text-sm text-white/80">
-                        ✅ Sim, adicione com 1 clique sem precisar de preencher os dados novamente. Compra 100% segura e acesso imediato.
-                    </p>
                 </div>
               </div>
             </section>
