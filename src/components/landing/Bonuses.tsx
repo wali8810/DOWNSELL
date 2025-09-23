@@ -4,7 +4,7 @@ const bonusData = [
   {
     bonusNumber: "#01",
     title: "A Minha Lista Secreta de Fornecedores em Portugal",
-    image: "https://picsum.photos/seed/bonus1/300/300",
+    image: "https://i.imgur.com/anfzjEp.png",
     alt: "Bónus de Lista de Fornecedores",
     price: "19,90€",
     "data-ai-hint": "supplier list document"
@@ -12,7 +12,7 @@ const bonusData = [
   {
     bonusNumber: "#02",
     title: "Moldes Prontos das 5 Medidas Mais Vendidas",
-    image: "https://picsum.photos/seed/bonus2/300/300",
+    image: "https://i.imgur.com/Ya6OuNp.png",
     alt: "Bónus de Moldes Prontos",
     price: "29,90€",
     "data-ai-hint": "box templates mock-up"

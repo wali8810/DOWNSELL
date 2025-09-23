@@ -6,7 +6,7 @@ const whatYouGetItems = [
     {
         icon: "✅",
         title: "TRANSFORMAR",
-        description: "cartão e tecido em Caixas de Luxo para eventos (casamentos, batizados) que os clientes pagam centenas de euros para ter."
+        description: "cartão e tecido em Caixas de Luxo para eventos (casamentos, batizados) que as clientes pagam centenas de euros para ter."
     },
     {
         icon: "✅",
