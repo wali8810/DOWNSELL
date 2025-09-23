@@ -37,20 +37,20 @@ export function ForWhom() {
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
                 Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para criar caixas que vendem em 48h por um pagamento único de €9,90.
                 </p>
-                <div className="mt-8 flex justify-center">
+                <div className="mt-6 flex justify-center">
                     <div>
                         <Image
                             src="https://i.imgur.com/qpMY3qq.png"
                             alt="Mockup do curso Vivendo da Caixa"
                             width={608}
                             height={405}
-                            className="max-w-2xl h-auto mx-auto"
+                            className="max-w-lg h-auto mx-auto"
                             data-ai-hint="course bundle mockup"
                             priority
                         />
                     </div>
                 </div>
-                 <div className="mt-8">
+                 <div className="mt-6">
                     <a href="#plans" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl md:text-2xl h-auto py-4 px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
                             SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
