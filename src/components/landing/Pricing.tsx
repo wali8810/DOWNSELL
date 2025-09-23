@@ -4,8 +4,8 @@ import imageData from '@/app/lib/placeholder-images.json';
 
 const includedFeatures = [
   "O Curso Completo 'Vivendo da Caixa'",
-  "BÓNUS #1: A Minha Lista Secreta de Fornecedores (Valor: €19,90)",
-  "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas (Valor: €29,90)",
+  "BÓNUS #1: A Minha Lista Secreta de Fornecedores",
+  "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas",
   "Acesso vitalício e imediato",
   "Garantia Incondicional de 30 Dias"
 ];
