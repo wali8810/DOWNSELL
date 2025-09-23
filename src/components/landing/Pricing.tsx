@@ -62,7 +62,7 @@ export function Pricing() {
 
             <div className="mt-auto">
                 <div className="flex justify-center flex-col items-center gap-4">
-                <a href="#" rel="noopener noreferrer" className="block w-full">
+                <a href="https://pay.hotmart.com/J102041316Q?checkoutMode=10&bid=1758655455979" rel="noopener noreferrer" className="block w-full">
                     <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
                       SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
                     </button>

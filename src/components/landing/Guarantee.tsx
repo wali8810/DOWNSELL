@@ -32,7 +32,7 @@ export function Guarantee() {
             </h2>
 
             <div className="mb-4">
-                <a href="#plans" className="inline-block">
+                <a href="https://pay.hotmart.com/J102041316Q?checkoutMode=10&bid=1758655455979" className="inline-block">
                   <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal animate-pulse-green leading-tight text-lg md:text-xl py-3 px-6 md:py-4">
                     SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
                   </Button>

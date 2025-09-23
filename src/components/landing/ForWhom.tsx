@@ -53,7 +53,7 @@ export function ForWhom() {
                     </div>
                 </div>
                  <div className="mt-6">
-                    <a href="#plans" className="inline-block">
+                    <a href="https://pay.hotmart.com/J102041316Q?checkoutMode=10&bid=1758655455979" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-3 px-6 md:py-4 md:px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
                             SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
                         </Button>
