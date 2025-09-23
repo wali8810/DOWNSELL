@@ -1,3 +1,6 @@
+"use client"
+
+import * as React from "react"
 import Image from "next/image";
 import imageData from '@/app/lib/placeholder-images.json';
 import {
@@ -7,6 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
 
 const creations = [
   {
@@ -28,6 +32,10 @@ const creations = [
 ];
 
 export function WhatYouWillMake() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  )
+
   return (
     <section className="bg-secondary py-16 md:py-24">
       <div className="container mx-auto px-4">
@@ -42,11 +50,14 @@ export function WhatYouWillMake() {
 
         <div className="max-w-4xl mx-auto">
           <Carousel
+            plugins={[plugin.current]}
             opts={{
               align: "start",
               loop: true,
             }}
             className="w-full"
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
               {creations.map((creation, index) => (
