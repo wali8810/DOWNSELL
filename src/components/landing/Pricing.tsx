@@ -30,7 +30,7 @@ export function Pricing() {
                 <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Leva Nesta Oferta Exclusiva:</h2>
             </div>
 
-            <div>
+            <div className="flex justify-center">
                 <Image
                     src="https://i.imgur.com/rOdUlLf.png"
                     alt="Mockup do curso Vivendo da Caixa"
