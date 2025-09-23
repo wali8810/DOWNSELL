@@ -93,6 +93,19 @@
     }
   }
 
+  .animate-pulse-pink {
+    animation: pulse-pink 2.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse-pink {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(236, 72, 153, 0);
+    }
+  }
+
   .cta-button {
     text-underline-offset: 0.25ch;
     display: inline-flex;
