@@ -22,18 +22,16 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ image, text, name, hint }: { image: string, text: string, name: string, hint: string }) => (
-    <div className="relative mt-12">
-        <div className="absolute -top-12 left-1/2 -translate-x-1/2">
-            <Image 
-                src={image}
-                alt={`Depoimento de ${name}`}
-                width={100}
-                height={100}
-                className="rounded-full border-4 border-white object-cover"
-                data-ai-hint={hint}
-            />
-        </div>
-        <div className="bg-[#5c2c2c] text-white rounded-xl p-6 pt-16 text-center shadow-lg">
+    <div className="flex flex-col items-center">
+        <Image 
+            src={image}
+            alt={`Depoimento de ${name}`}
+            width={100}
+            height={100}
+            className="rounded-full border-4 border-white object-cover z-10 -mb-12"
+            data-ai-hint={hint}
+        />
+        <div className="bg-[#5c2c2c] text-white rounded-xl p-6 pt-16 text-center shadow-lg w-full">
             <p className="text-lg italic mb-4">"{text}"</p>
             <p className="font-bold text-yellow-400">{name}</p>
         </div>
