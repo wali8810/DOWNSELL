@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import imageData from '@/app/lib/placeholder-images.json';
 
 const includedFeatures = [
   "O Curso Completo 'Vivendo da Caixa' (Valor Real: €47,00)",
-  "BÓNUS #1: A Minha Lista Secreta de Fornecedores em Portugal (Valor: €19,90)",
+  "BÓNUS #1: A Minha Lista Secreta de Fornecedores (Valor: €19,90)",
   "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas (Valor: €29,90)",
   "Acesso vitalício e imediato",
   "Garantia Incondicional de 30 Dias"
@@ -22,6 +23,8 @@ const CheckIcon = () => (
 
 
 export function Pricing() {
+  const courseMockup = imageData.courseMockup;
+
   return (
     <section id="plans" className="py-16 md:py-24 bg-[#00110F]">
       <div className="container mx-auto px-4">
@@ -32,11 +35,11 @@ export function Pricing() {
 
             <div className="flex justify-center">
                 <Image
-                    src="https://i.imgur.com/qpMY3qq.png"
-                    alt="Mockup do curso Vivendo da Caixa"
-                    width={400}
-                    height={267}
-                    data-ai-hint="course bundle mockup"
+                    src={courseMockup.src}
+                    alt={courseMockup.alt}
+                    width={courseMockup.width}
+                    height={courseMockup.height}
+                    data-ai-hint={courseMockup.hint}
                 />
             </div>
             

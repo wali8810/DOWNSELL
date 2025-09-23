@@ -1,27 +1,24 @@
 import Image from "next/image";
+import imageData from '@/app/lib/placeholder-images.json';
 
 const bonusData = [
   {
     bonusNumber: "#01",
     title: "A Minha Lista Secreta de Fornecedores",
-    image: "https://i.imgur.com/anfzjEp.png",
-    alt: "Bónus de Lista de Fornecedores",
+    image: imageData.supplierList,
     price: "19,90€",
-    "data-ai-hint": "supplier list document"
   },
   {
     bonusNumber: "#02",
     title: "Moldes Prontos das 5 Medidas Mais Vendidas",
-    image: "https://i.imgur.com/Ya6OuNp.png",
-    alt: "Bónus de Moldes Prontos",
+    image: imageData.boxTemplates,
     price: "29,90€",
-    "data-ai-hint": "box templates mock-up"
   },
 ];
 
 export function Bonuses() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 md:py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonuses-section">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
@@ -48,13 +45,12 @@ export function Bonuses() {
               {bonus.image && (
                 <div className="w-full flex items-center justify-center mb-4">
                     <Image
-                      src={bonus.image}
-                      alt={bonus.alt}
-                      width={300}
-                      height={300}
+                      src={bonus.image.src}
+                      alt={bonus.image.alt}
+                      width={bonus.image.width}
+                      height={bonus.image.height}
                       className="w-auto h-auto max-w-full rounded-lg"
-                      data-ai-hint={bonus['data-ai-hint']}
-                      priority
+                      data-ai-hint={bonus.image.hint}
                     />
                 </div>
               )}

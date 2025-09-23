@@ -1,38 +1,36 @@
 import Image from "next/image";
+import imageData from '@/app/lib/placeholder-images.json';
 
 const testimonials = [
   {
-    image: "https://i.imgur.com/ItpWTli.png",
+    image: imageData.testimonial1,
     text: "Vendi 20 caixinhas no fim de semana — recuperei o investimento logo na primeira encomenda.",
     name: "Ana P.",
-    "data-ai-hint": "woman avatar"
   },
   {
-    image: "https://i.imgur.com/2HhcYh8.png",
+    image: imageData.testimonial2,
     text: "As medidas certas mudaram tudo. Agora aceito encomendas grandes sem medo de errar!",
     name: "Mariana F.",
-     "data-ai-hint": "woman avatar"
   },
     {
-    image: "https://i.imgur.com/kKBQA4B.png",
+    image: imageData.testimonial3,
     text: "Simples, rápido e com um acabamento que parece de loja. As minhas clientes adoram.",
     name: "Sofia R.",
-     "data-ai-hint": "woman avatar"
   },
 ];
 
-const TestimonialCard = ({ image, text, name, hint }: { image: string, text: string, name: string, hint: string }) => (
+const TestimonialCard = ({ image, text, name }: { image: typeof imageData.testimonial1, text: string, name: string }) => (
     <div className="flex flex-col items-center">
         <Image 
-            src={image}
+            src={image.src}
             alt={`Depoimento de ${name}`}
-            width={100}
-            height={100}
-            className="rounded-full border-4 border-white object-cover z-10 -mb-12"
-            data-ai-hint={hint}
+            width={image.width}
+            height={image.height}
+            className="rounded-full border-4 border-white object-cover"
+            data-ai-hint={image.hint}
         />
-        <div className="bg-[#5c2c2c] text-white rounded-xl p-6 pt-16 text-center shadow-lg w-full">
-            <p className="text-lg italic mb-4">"{text}"</p>
+        <div className="bg-[#5c2c2c] text-white rounded-xl p-6 text-center shadow-lg w-full -mt-12">
+            <p className="text-lg italic mb-4 pt-12">"{text}"</p>
             <p className="font-bold text-yellow-400">{name}</p>
         </div>
     </div>
@@ -54,7 +52,6 @@ export function Testimonials() {
                         image={testimonial.image}
                         text={testimonial.text}
                         name={testimonial.name}
-                        hint={testimonial['data-ai-hint']}
                     />
                 ))}
             </div>

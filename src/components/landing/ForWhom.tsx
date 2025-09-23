@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import imageData from '@/app/lib/placeholder-images.json';
 
 const whatYouGetItems = [
     {
@@ -26,12 +27,13 @@ const whatYouGetItems = [
 ]
 
 export function ForWhom() {
+    const courseMockup = imageData.courseMockup;
 
     return (
         <>
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500">
               <div className="relative container mx-auto px-4 text-center z-10">
-                <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
+                <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white font-montserrat" style={{ letterSpacing: '-0.9px', lineHeight: '1.1' }}>
                   <span className="bg-green-500 text-white px-2 rounded">ESPERE! A SUA COMPRA ESTÁ INCOMPLETA.</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
@@ -40,19 +42,19 @@ export function ForWhom() {
                 <div className="mt-6 flex justify-center">
                     <div>
                         <Image
-                            src="https://i.imgur.com/qpMY3qq.png"
-                            alt="Mockup do curso Vivendo da Caixa"
-                            width={608}
-                            height={405}
+                            src={courseMockup.src}
+                            alt={courseMockup.alt}
+                            width={courseMockup.width}
+                            height={courseMockup.height}
                             className="max-w-lg h-auto mx-auto"
-                            data-ai-hint="course bundle mockup"
+                            data-ai-hint={courseMockup.hint}
                             priority
                         />
                     </div>
                 </div>
                  <div className="mt-6">
                     <a href="#plans" className="inline-block">
-                        <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl md:text-2xl h-auto py-4 px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
+                        <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-3 px-6 md:py-4 md:px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
                             SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
                         </Button>
                     </a>
