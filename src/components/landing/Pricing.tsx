@@ -3,7 +3,7 @@ import Image from "next/image";
 import imageData from '@/app/lib/placeholder-images.json';
 
 const includedFeatures = [
-  "O Curso Completo 'Vivendo da Caixa' (Valor Real: €47,00)",
+  "O Curso Completo 'Vivendo da Caixa'",
   "BÓNUS #1: A Minha Lista Secreta de Fornecedores (Valor: €19,90)",
   "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas (Valor: €29,90)",
   "Acesso vitalício e imediato",
