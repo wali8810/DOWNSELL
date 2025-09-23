@@ -55,7 +55,7 @@ export function Pricing() {
             <div className="text-center my-6">
               <p className="text-red-500 line-through text-xl">Valor Total: €96,80</p>
               <p className="uppercase font-bold text-black text-md mt-2">O SEU PREÇO HOJE: APENAS</p>
-              <p className="text-6xl md:text-7xl font-extrabold text-green-500">
+              <p className="text-6xl md:text-7xl font-extrabold text-green-500 animate-gentle-pulse">
                   €9,90
               </p>
             </div>

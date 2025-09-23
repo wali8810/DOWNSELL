@@ -105,6 +105,19 @@
       box-shadow: 0 0 0 10px rgba(236, 72, 153, 0);
     }
   }
+  
+  .animate-gentle-pulse {
+    animation: gentle-pulse 2.5s ease-in-out infinite;
+  }
+
+  @keyframes gentle-pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
 
   .cta-button {
     text-underline-offset: 0.25ch;
