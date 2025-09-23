@@ -35,7 +35,7 @@ export function ForWhom() {
                   <span className="bg-green-500 text-white px-2 rounded">ESPERE! A SUA COMPRA ESTÁ INCOMPLETA.</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
-                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para criar caixas que vendem em 48h por um pagamento único de <span className="underline bg-green-500 text-white px-1 rounded-sm">€9,90</span>.
+                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para <span className="bg-green-500 text-white px-1 rounded-sm">criar caixas que vendem em 48h por um pagamento único de €9,90</span>.
                 </p>
                 <div className="mt-6 flex justify-center">
                     <div>
