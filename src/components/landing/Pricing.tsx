@@ -3,7 +3,7 @@ import Image from "next/image";
 import imageData from '@/app/lib/placeholder-images.json';
 
 const includedFeatures = [
-  "O Curso Completo 'Vivendo da Caixa'",
+  "O Curso Completo 'Caixas Lucrativas'",
   "BÓNUS #1: A Minha Lista Secreta de Fornecedores",
   "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas",
   "Acesso vitalício e imediato",
