@@ -53,9 +53,9 @@ export function CountdownTimer() {
         Oferta especial <span className="underline">só nesta página</span>. Se sair, não terá acesso novamente a este preço.
       </p>
       {timeLeft > 0 ? (
-        <div className="mt-1">
-          <span className="text-white/80 text-xs">A oferta expira em: </span>
-          <div className="inline-block bg-white/10 text-white font-bold rounded px-2 py-1 text-sm">
+        <div className="mt-2 flex items-center justify-center gap-2">
+          <span className="text-white/80 text-sm font-medium">A oferta expira em: </span>
+          <div className="inline-block bg-yellow-400 text-black font-bold rounded px-3 py-1 text-lg animate-pulse-yellow">
             <span>
               {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
             </span>
