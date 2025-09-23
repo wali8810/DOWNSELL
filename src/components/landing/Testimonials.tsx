@@ -24,9 +24,9 @@ const TestimonialCard = ({ image, text, name }: { image: typeof imageData.testim
         <Image 
             src={image.src}
             alt={`Depoimento de ${name}`}
-            width={image.width}
-            height={image.height}
-            className="rounded-full border-4 border-white object-cover"
+            width={100}
+            height={100}
+            className="rounded-full border-4 border-white object-cover w-[100px] h-[100px]"
             data-ai-hint={image.hint}
         />
         <div className="bg-[#5c2c2c] text-white rounded-xl p-6 text-center shadow-lg w-full -mt-12">

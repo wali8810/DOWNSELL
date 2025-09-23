@@ -40,13 +40,13 @@ export function ForWhom() {
                 Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para <span className="bg-green-500 text-white px-1 rounded-sm">criar caixas que vendem em 48h por um pagamento único de €9,90</span>.
                 </p>
                 <div className="mt-6 flex justify-center">
-                    <div>
+                    <div className="w-full max-w-lg">
                         <Image
                             src={courseMockup.src}
                             alt={courseMockup.alt}
                             width={courseMockup.width}
                             height={courseMockup.height}
-                            className="max-w-lg h-auto mx-auto"
+                            className="w-full h-auto mx-auto"
                             data-ai-hint={courseMockup.hint}
                             priority
                         />
