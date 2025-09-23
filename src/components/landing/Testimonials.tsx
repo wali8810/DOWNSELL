@@ -20,13 +20,13 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ image, text, name }: { image: typeof imageData.testimonial1, text: string, name: string }) => (
-    <div className="flex flex-col items-center">
+    <div className="relative flex flex-col items-center">
         <Image 
             src={image.src}
             alt={`Depoimento de ${name}`}
             width={100}
             height={100}
-            className="rounded-full border-4 border-white object-cover w-[100px] h-[100px]"
+            className="rounded-full border-4 border-white object-cover w-[100px] h-[100px] z-10"
             data-ai-hint={image.hint}
         />
         <div className="bg-[#5c2c2c] text-white rounded-xl p-6 text-center shadow-lg w-full -mt-12">
