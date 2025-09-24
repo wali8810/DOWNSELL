@@ -65,6 +65,22 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
+        <Script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js" strategy="lazyOnload" />
+        <Script id="hotmart-sales-funnel-script" strategy="lazyOnload">
+          {`
+            if (typeof checkoutElements !== 'undefined') {
+              checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');
+            } else {
+              document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                  if (typeof checkoutElements !== 'undefined') {
+                     checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');
+                  }
+                }, 500);
+              });
+            }
+          `}
+        </Script>
       </body>
     </html>
   );
