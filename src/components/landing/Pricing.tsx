@@ -28,7 +28,7 @@ export function Pricing() {
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto bg-white text-black rounded-2xl shadow-2xl border-4 border-yellow-400 p-6 md:p-8 w-full animate-pulse-yellow">
             <div className="text-center mb-6">
-                <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Leva Nesta Oferta Exclusiva:</h2>
+                <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">A sua Última Oportunidade:</h2>
             </div>
 
             <div className="flex justify-center">
@@ -51,16 +51,16 @@ export function Pricing() {
             </ul>
 
             <div className="text-center my-6">
-              <p className="text-red-500 line-through text-xl">Valor Total: €47,00</p>
-              <p className="uppercase font-bold text-black text-md mt-2">O SEU PREÇO HOJE: APENAS</p>
+              <p className="text-red-500 line-through text-xl">Preço Original: €47,00</p>
+              <p className="uppercase font-bold text-black text-md mt-2">A SUA OFERTA FINAL: APENAS</p>
               <p className="text-6xl md:text-7xl font-extrabold text-green-500 animate-gentle-pulse">
-                  €9,90
+                  €7
               </p>
             </div>
 
             <div className="mt-auto">
                 <div id="hotmart-sales-funnel"></div>
-                <p className="text-sm font-bold text-gray-700 text-center mt-4">ATENÇÃO: <span className="font-normal">Esta oferta <u className="font-bold">expira</u> assim que sair desta página.</span></p>
+                <p className="text-sm font-bold text-gray-700 text-center mt-4">ATENÇÃO: <span className="font-normal">Esta é uma oferta única. Se sair desta página, <u className="font-bold">perde o acesso</u> a este preço para sempre.</span></p>
             </div>
         </div>
       </div>

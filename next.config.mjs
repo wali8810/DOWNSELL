@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
+  output: "export",
   trailingSlash: true,
-  assetPrefix: "./",
   images: {
     unoptimized: true,
   },
+  distDir: 'dist'
 };
 
 export default nextConfig;

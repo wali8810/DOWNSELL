@@ -4,17 +4,17 @@ import imageData from '@/app/lib/placeholder-images.json';
 const testimonials = [
   {
     image: imageData.testimonial1,
-    text: "Vendi 20 caixinhas no fim de semana — recuperei o investimento logo na primeira encomenda.",
+    text: "Com o método, recuperei o baixo investimento logo na primeira encomenda que fiz. Incrível!",
     name: "Ana P.",
   },
   {
     image: imageData.testimonial2,
-    text: "As medidas certas mudaram tudo. Agora aceito encomendas grandes sem medo de errar!",
+    text: "As medidas certas mudaram tudo. Agora aceito encomendas grandes sem medo de errar e com mais lucro!",
     name: "Mariana F.",
   },
     {
     image: imageData.testimonial3,
-    text: "Simples, rápido e com um acabamento que parece de loja. As minhas clientes adoram.",
+    text: "É muito simples e rápido. O acabamento parece de uma profissional, e as minhas clientes adoram o resultado.",
     name: "Sofia R.",
   },
 ];

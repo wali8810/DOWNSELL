@@ -5,8 +5,8 @@ import { Toaster } from "@/components/ui/toaster"
 import { Poppins, Montserrat } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: '(1) A sua compra está quase pronta...',
-  description: 'Adicione o método completo e validado para criar caixas que vendem em 48h por um pagamento único de €9,90.',
+  title: 'Espere! Uma última oportunidade para si...',
+  description: 'Adicione o método completo e validado para criar caixas que vendem por um preço que não se vai repetir.',
 };
 
 const poppins = Poppins({

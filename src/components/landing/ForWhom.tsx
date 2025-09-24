@@ -34,10 +34,10 @@ export function ForWhom() {
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500">
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white font-montserrat" style={{ letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                  <span className="bg-green-500 text-white px-2 rounded">ESPERE! A SUA COMPRA ESTÁ INCOMPLETA.</span>
+                  <span className="bg-yellow-400 text-black px-2 rounded">ESPERE! ANTES DE IR...</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
-                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para <span className="bg-green-500 text-white px-1 rounded-sm">criar caixas que vendem em 48h por um pagamento único de €9,90</span>.
+                Percebi que o valor inicial não era o ideal para si. Por isso, preparei uma <span className="bg-green-500 text-white px-1 rounded-sm">oferta única e final de apenas €7</span> para ter acesso ao mesmo método.
                 </p>
                 <div className="mt-6 flex justify-center">
                     <div className="w-full max-w-lg">
@@ -55,7 +55,7 @@ export function ForWhom() {
                  <div className="mt-6">
                     <a href="#plans" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-3 px-6 md:py-4 md:px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
-                            SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
+                            SIM! QUERO APROVEITAR ESTA OPORTUNIDADE POR APENAS €7!
                         </Button>
                     </a>
                 </div>
