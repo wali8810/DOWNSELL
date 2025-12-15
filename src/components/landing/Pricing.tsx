@@ -54,7 +54,7 @@ export function Pricing() {
               <p className="text-red-500 line-through text-xl">Preço Original: €47,00</p>
               <p className="uppercase font-bold text-black text-md mt-2">A SUA OFERTA FINAL: APENAS</p>
               <p className="text-6xl md:text-7xl font-extrabold text-green-500 animate-gentle-pulse">
-                  €7
+                  €10
               </p>
             </div>
 

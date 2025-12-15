@@ -37,7 +37,7 @@ export function ForWhom() {
                   <span className="bg-yellow-400 text-black px-2 rounded">ESPERE! ANTES DE IR...</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
-                Quero mesmo que tenha sucesso, e acredito que o preço não deve ser um obstáculo. Por isso, preparei uma <span className="bg-green-500 text-white px-1 rounded-sm">condição especial e única</span>: terá acesso ao mesmo método completo por apenas €7.
+                Quero mesmo que tenha sucesso, e acredito que o preço não deve ser um obstáculo. Por isso, preparei uma <span className="bg-green-500 text-white px-1 rounded-sm">condição especial e única</span>: terá acesso ao mesmo método completo por apenas €10.
                 </p>
                 <div className="mt-6 flex justify-center">
                     <div className="w-full max-w-lg">
@@ -55,7 +55,7 @@ export function ForWhom() {
                  <div className="mt-6">
                     <a href="#plans" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-3 px-6 md:py-4 md:px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
-                            SIM! QUERO APROVEITAR ESTA OPORTUNIDADE POR APENAS €7!
+                            SIM! QUERO APROVEITAR ESTA OPORTUNIDADE POR APENAS €10!
                         </Button>
                     </a>
                 </div>
